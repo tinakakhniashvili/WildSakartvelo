@@ -1,0 +1,32 @@
+{
+  "source": "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Features/Journal/JournalView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "common.itemUnavailable",
+        "location": {
+          "startingColumn": 40,
+          "startingLine": 263
+        }
+      },
+      {
+        "comment": "",
+        "key": "common.itemUnavailable",
+        "location": {
+          "startingColumn": 40,
+          "startingLine": 269
+        }
+      },
+      {
+        "comment": "",
+        "key": "%@. %@",
+        "location": {
+          "startingColumn": 33,
+          "startingLine": 252
+        }
+      }
+    ]
+  },
+  "version": 1
+}

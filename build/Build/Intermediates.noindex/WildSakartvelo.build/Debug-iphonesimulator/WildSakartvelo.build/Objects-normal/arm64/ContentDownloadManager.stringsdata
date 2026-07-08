@@ -1,0 +1,48 @@
+{
+  "source": "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Core/Services/ContentDownloadManager.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "downloads.error.cancelled",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 13
+        }
+      },
+      {
+        "comment": "",
+        "key": "downloads.error.invalidFile",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 15
+        }
+      },
+      {
+        "comment": "",
+        "key": "downloads.error.missingBundleResource",
+        "location": {
+          "startingColumn": 53,
+          "startingLine": 17
+        }
+      },
+      {
+        "comment": "",
+        "key": "downloads.error.network",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 19
+        }
+      },
+      {
+        "comment": "",
+        "key": "downloads.error.storage",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 21
+        }
+      }
+    ]
+  },
+  "version": 1
+}

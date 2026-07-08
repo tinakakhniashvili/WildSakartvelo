@@ -1,0 +1,57 @@
+{
+  "source": "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Features/Missions/MissionContainerView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "audio.playNarration",
+        "location": {
+          "startingColumn": 50,
+          "startingLine": 82
+        }
+      },
+      {
+        "comment": "",
+        "key": "action.continue",
+        "location": {
+          "startingColumn": 52,
+          "startingLine": 207
+        }
+      },
+      {
+        "comment": "",
+        "key": "action.submit",
+        "location": {
+          "startingColumn": 52,
+          "startingLine": 222
+        }
+      },
+      {
+        "comment": "",
+        "key": "mission.emptyActivities",
+        "location": {
+          "startingColumn": 40,
+          "startingLine": 159
+        }
+      },
+      {
+        "comment": "",
+        "key": "mission.malformedActivity",
+        "location": {
+          "startingColumn": 40,
+          "startingLine": 169
+        }
+      },
+      {
+        "comment": "",
+        "key": "mission.malformedActivity.description",
+        "location": {
+          "startingColumn": 36,
+          "startingLine": 175
+        },
+        "value": "Activity %@ is missing the data needed to render %@."
+      }
+    ]
+  },
+  "version": 1
+}

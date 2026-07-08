@@ -1,0 +1,72 @@
+{
+  "source": "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Features/Profiles/CreateProfileView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "profile.create.title",
+        "location": {
+          "startingColumn": 48,
+          "startingLine": 45
+        }
+      },
+      {
+        "comment": "",
+        "key": "profile.limit.description",
+        "location": {
+          "startingColumn": 48,
+          "startingLine": 27
+        }
+      },
+      {
+        "comment": "",
+        "key": "profile.create",
+        "location": {
+          "startingColumn": 60,
+          "startingLine": 32
+        }
+      },
+      {
+        "comment": "",
+        "key": "action.cancel",
+        "location": {
+          "startingColumn": 46,
+          "startingLine": 49
+        }
+      },
+      {
+        "comment": "",
+        "key": "profile.nickname",
+        "location": {
+          "startingColumn": 36,
+          "startingLine": 64
+        }
+      },
+      {
+        "comment": "",
+        "key": "profile.nickname.placeholder",
+        "location": {
+          "startingColumn": 41,
+          "startingLine": 68
+        }
+      },
+      {
+        "comment": "",
+        "key": "profile.avatar",
+        "location": {
+          "startingColumn": 36,
+          "startingLine": 77
+        }
+      },
+      {
+        "comment": "",
+        "key": "profile.learningLevel",
+        "location": {
+          "startingColumn": 36,
+          "startingLine": 87
+        }
+      }
+    ]
+  },
+  "version": 1
+}

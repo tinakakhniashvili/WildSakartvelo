@@ -1,0 +1,6 @@
+{
+  "images" : [
+    { "filename" : "yellow_iris.png", "idiom" : "universal", "scale" : "1x" }
+  ],
+  "info" : { "author" : "xcode", "version" : 1 }
+}

@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>action.cancel</key>
+	<string>Cancel</string>
+	<key>action.close</key>
+	<string>Close</string>
+	<key>action.continue</key>
+	<string>Continue</string>
+	<key>action.continueMission</key>
+	<string>Continue Mission</string>
+	<key>action.getStarted</key>
+	<string>Get Started</string>
+	<key>action.next</key>
+	<string>Next</string>
+	<key>action.playAgain</key>
+	<string>Play Again</string>
+	<key>action.retry</key>
+	<string>Retry</string>
+	<key>action.save</key>
+	<string>Save</string>
+	<key>action.skip</key>
+	<string>Skip</string>
+	<key>action.startMission</key>
+	<string>Start Mission</string>
+	<key>action.submit</key>
+	<string>Submit</string>
+	<key>animal.section.diet</key>
+	<string>Diet</string>
+	<key>animal.section.fact</key>
+	<string>Surprising Fact</string>
+	<key>animal.section.footprint</key>
+	<string>Footprint</string>
+	<key>animal.section.habitat</key>
+	<string>Habitat</string>
+	<key>animal.section.size</key>
+	<string>Size</string>
+	<key>animal.section.summary</key>
+	<string>Summary</string>
+	<key>animal.sound.disabled</key>
+	<string>Animal sounds are turned off in Settings.</string>
+	<key>animal.sound.play</key>
+	<string>Play Animal Sound</string>
+	<key>animal.sound.title</key>
+	<string>Animal Sound</string>
+	<key>animal.sound.unavailable</key>
+	<string>No sound available for this animal yet.</string>
+	<key>app.title</key>
+	<string>Wild Sakartvelo</string>
+	<key>audio.playNarration</key>
+	<string>Play narration</string>
+	<key>badge.detail.description</key>
+	<string>This badge was earned through exploration and mission progress.</string>
+	<key>badge.detail.id</key>
+	<string>Badge ID: %@</string>
+	<key>badge.title.firstMission</key>
+	<string>First Mission</string>
+	<key>classification.accessibility.category</key>
+	<string>Category %@</string>
+	<key>classification.accessibility.select</key>
+	<string>Select habitat for %@</string>
+	<key>classification.picker.placeholder</key>
+	<string>Choose habitat</string>
+	<key>classification.picker.title</key>
+	<string>Habitat for %@</string>
+	<key>common.emptyState</key>
+	<string>No items available yet.</string>
+	<key>common.item</key>
+	<string>item</string>
+	<key>common.itemUnavailable</key>
+	<string>Item unavailable</string>
+	<key>conservation.common</key>
+	<string>Common</string>
+	<key>conservation.common.description</key>
+	<string>This animal is commonly found.</string>
+	<key>conservation.endangered</key>
+	<string>Endangered</string>
+	<key>conservation.endangered.description</key>
+	<string>This animal needs special protection.</string>
+	<key>conservation.protected</key>
+	<string>Protected</string>
+	<key>conservation.protected.description</key>
+	<string>This animal is protected in some areas.</string>
+	<key>conservation.unknown</key>
+	<string>Unknown</string>
+	<key>conservation.unknown.description</key>
+	<string>This animal's status is not yet available.</string>
+	<key>content.animals</key>
+	<string>Animals</string>
+	<key>content.missions</key>
+	<string>Missions</string>
+	<key>content.plant</key>
+	<string>Plant</string>
+	<key>content.plants</key>
+	<string>Plants</string>
+	<key>difficulty.advanced</key>
+	<string>Advanced</string>
+	<key>difficulty.beginner</key>
+	<string>Beginner</string>
+	<key>difficulty.intermediate</key>
+	<string>Intermediate</string>
+	<key>downloads.action.cancel</key>
+	<string>Cancel</string>
+	<key>downloads.action.delete</key>
+	<string>Delete</string>
+	<key>downloads.action.download</key>
+	<string>Download</string>
+	<key>downloads.action.retry</key>
+	<string>Retry</string>
+	<key>downloads.action.update</key>
+	<string>Update</string>
+	<key>downloads.delete.message</key>
+	<string>Missions and progress will remain. Images and audio in this pack may need to be downloaded again.</string>
+	<key>downloads.delete.title</key>
+	<string>Delete content pack?</string>
+	<key>downloads.description</key>
+	<string>Download optional ecosystem audio and images for offline use. Missions and saved progress stay on this device.</string>
+	<key>downloads.error.cancelled</key>
+	<string>Download was cancelled.</string>
+	<key>downloads.error.invalidFile</key>
+	<string>This content pack has an unsafe file name.</string>
+	<key>downloads.error.missingBundleResource</key>
+	<string>Bundled development file is missing: %@.</string>
+	<key>downloads.error.network</key>
+	<string>Network error. Check the connection and try again.</string>
+	<key>downloads.error.storage</key>
+	<string>Not enough storage is available for this download.</string>
+	<key>downloads.progress.accessibility</key>
+	<string>Download progress</string>
+	<key>downloads.section.packs</key>
+	<string>Ecosystem Packs</string>
+	<key>downloads.settings.summary</key>
+	<string>%d downloaded, %@</string>
+	<key>downloads.status.downloaded</key>
+	<string>Downloaded</string>
+	<key>downloads.status.downloading</key>
+	<string>Downloading</string>
+	<key>downloads.status.failed</key>
+	<string>Needs more practice</string>
+	<key>downloads.status.notDownloaded</key>
+	<string>Not downloaded yet</string>
+	<key>downloads.status.updateAvailable</key>
+	<string>Update Available</string>
+	<key>downloads.title</key>
+	<string>Offline Content</string>
+	<key>ecosystem.progress.completed</key>
+	<string>%lld of %lld missions completed</string>
+	<key>error.contentLoad.message</key>
+	<string>Content could not be loaded. Please try again.</string>
+	<key>error.contentLoad.title</key>
+	<string>Content could not be loaded</string>
+	<key>error.downloads.save</key>
+	<string>Offline content status could not be saved.</string>
+	<key>error.profiles.load</key>
+	<string>Profiles could not be loaded.</string>
+	<key>error.profiles.save</key>
+	<string>Profile changes could not be saved.</string>
+	<key>error.progress.save</key>
+	<string>Progress could not be saved.</string>
+	<key>error.settings.save</key>
+	<string>Settings could not be saved.</string>
+	<key>explore.chooseEcosystem</key>
+	<string>Choose an ecosystem</string>
+	<key>explore.description</key>
+	<string>Explore the nature of Sakartvelo through forests, mountains, wetlands, and coastlines.</string>
+	<key>explore.empty.animals</key>
+	<string>No animals discovered yet.</string>
+	<key>explore.empty.description</key>
+	<string>Local ecosystem content loaded, but no ecosystems were found.</string>
+	<key>explore.empty.missions</key>
+	<string>No missions available yet.</string>
+	<key>explore.empty.plants</key>
+	<string>No plants discovered yet.</string>
+	<key>explore.empty.title</key>
+	<string>No ecosystems available</string>
+	<key>explore.welcome</key>
+	<string>Welcome, Explorer!</string>
+	<key>habitPlacement.emptyZone</key>
+	<string>No items placed here yet.</string>
+	<key>habitatPlacement.emptyZone</key>
+	<string>No items placed here yet.</string>
+	<key>habitatPlacement.noSelection</key>
+	<string>No habitat selected</string>
+	<key>habitatPlacement.picker.placeholder</key>
+	<string>Choose habitat</string>
+	<key>journal.badge.subtitle</key>
+	<string>Earned through exploration</string>
+	<key>journal.description</key>
+	<string>Track what has been discovered.</string>
+	<key>journal.empty.all</key>
+	<string>Your journal is empty</string>
+	<key>journal.empty.all.description</key>
+	<string>Complete missions to fill your journal.</string>
+	<key>journal.empty.animals</key>
+	<string>No animals discovered yet.</string>
+	<key>journal.empty.animals.description</key>
+	<string>Complete missions that unlock animals.</string>
+	<key>journal.empty.badges</key>
+	<string>No badges earned yet.</string>
+	<key>journal.empty.badges.description</key>
+	<string>Complete missions to earn badges.</string>
+	<key>journal.empty.plants</key>
+	<string>No plants discovered yet.</string>
+	<key>journal.empty.plants.description</key>
+	<string>Complete missions that unlock plants.</string>
+	<key>journal.filter.all</key>
+	<string>All</string>
+	<key>journal.filter.animals</key>
+	<string>Animals</string>
+	<key>journal.filter.badges</key>
+	<string>Badges</string>
+	<key>journal.filter.plants</key>
+	<string>Plants</string>
+	<key>journal.filter.title</key>
+	<string>Journal filter</string>
+	<key>journal.item.animal</key>
+	<string>Animal</string>
+	<key>journal.item.badge</key>
+	<string>Badge</string>
+	<key>journal.item.plant</key>
+	<string>Plant</string>
+	<key>journal.progress</key>
+	<string>%lld%% discovery progress</string>
+	<key>journal.remaining.animals</key>
+	<string>Undiscovered animals</string>
+	<key>journal.remaining.animals.subtitle</key>
+	<string>%lld left to find</string>
+	<key>journal.remaining.plants</key>
+	<string>Undiscovered plants</string>
+	<key>journal.remaining.plants.subtitle</key>
+	<string>%lld left to find</string>
+	<key>journal.remaining.title</key>
+	<string>Still undiscovered: %lld</string>
+	<key>journal.summary.accessibility</key>
+	<string>Animals %1$lld of %2$lld. Plants %3$lld of %4$lld. Badges %5$lld.</string>
+	<key>journal.summary.animals</key>
+	<string>Animals: %1$lld of %2$lld</string>
+	<key>journal.summary.badges</key>
+	<string>Badges: %lld</string>
+	<key>journal.summary.plants</key>
+	<string>Plants: %1$lld of %2$lld</string>
+	<key>learningLevel.explorerOne</key>
+	<string>Explorer 1</string>
+	<key>learningLevel.explorerOne.description</key>
+	<string>More images, less text and simpler activities.</string>
+	<key>learningLevel.explorerThree</key>
+	<string>Explorer 3</string>
+	<key>learningLevel.explorerThree.description</key>
+	<string>More detailed facts, classifications and multi-step missions.</string>
+	<key>learningLevel.explorerTwo</key>
+	<string>Explorer 2</string>
+	<key>learningLevel.explorerTwo.description</key>
+	<string>Short reading, habitat facts and basic English words.</string>
+	<key>learningTopic.animalIdentification</key>
+	<string>Animal identification</string>
+	<key>learningTopic.environmentalResponsibility</key>
+	<string>Environmental responsibility</string>
+	<key>learningTopic.foodChains</key>
+	<string>Food chains</string>
+	<key>learningTopic.general</key>
+	<string>General exploration</string>
+	<key>learningTopic.habitats</key>
+	<string>Habitats</string>
+	<key>learningTopic.observation</key>
+	<string>Observation</string>
+	<key>learningTopic.plants</key>
+	<string>Plants</string>
+	<key>loading.content</key>
+	<string>Loading content...</string>
+	<key>matching.accessibility.pair</key>
+	<string>Pairs this item with the selected animal.</string>
+	<key>matching.accessibility.paired</key>
+	<string>%@ paired with %@.</string>
+	<key>matching.accessibility.pairedWith</key>
+	<string>Paired with %@</string>
+	<key>matching.accessibility.removePair</key>
+	<string>Remove pair for %@</string>
+	<key>matching.accessibility.removed</key>
+	<string>Pair removed for %@.</string>
+	<key>matching.accessibility.select</key>
+	<string>Selects this item for matching.</string>
+	<key>matching.action.removePair</key>
+	<string>Remove pair</string>
+	<key>matching.column.left</key>
+	<string>Animals</string>
+	<key>matching.column.right</key>
+	<string>Footprints</string>
+	<key>mission.detail.activities</key>
+	<string>Activities</string>
+	<key>mission.detail.difficulty</key>
+	<string>Difficulty</string>
+	<key>mission.detail.estimatedTime</key>
+	<string>Estimated Time</string>
+	<key>mission.detail.minutes</key>
+	<string>%lld minutes</string>
+	<key>mission.detail.reward</key>
+	<string>Reward</string>
+	<key>mission.emptyActivities</key>
+	<string>This mission has no activities yet.</string>
+	<key>mission.locked</key>
+	<string>Mission Locked</string>
+	<key>mission.locked.description</key>
+	<string>Complete earlier discoveries to unlock this mission.</string>
+	<key>mission.malformedActivity</key>
+	<string>Malformed Activity</string>
+	<key>mission.malformedActivity.description</key>
+	<string>Activity %@ is missing the data needed to render %@.</string>
+	<key>mission.result.newEcosystem</key>
+	<string>New Ecosystem Unlocked</string>
+	<key>mission.result.title</key>
+	<string>Mission Complete</string>
+	<key>mission.result.totalAttempts</key>
+	<string>Total Attempts</string>
+	<key>mission.row.meta</key>
+	<string>%@ • %lld min</string>
+	<key>mission.status.available</key>
+	<string>Available</string>
+	<key>mission.status.completed</key>
+	<string>Completed</string>
+	<key>mission.status.inProgress</key>
+	<string>In Progress</string>
+	<key>mission.status.locked</key>
+	<string>Locked</string>
+	<key>mission.title</key>
+	<string>Mission</string>
+	<key>parent.completedMissions.empty.description</key>
+	<string>Completed missions will appear here after exploration.</string>
+	<key>parent.completedMissions.empty.title</key>
+	<string>No completed missions yet</string>
+	<key>parent.completedMissions.status.completed</key>
+	<string>Completed</string>
+	<key>parent.completedMissions.title</key>
+	<string>Completed missions</string>
+	<key>parent.currentMission.activity</key>
+	<string>Activity %1$lld of %2$lld</string>
+	<key>parent.currentMission.attempts</key>
+	<string>Total attempts: %lld</string>
+	<key>parent.currentMission.status</key>
+	<string>In Progress</string>
+	<key>parent.dashboard.title</key>
+	<string>Parent Dashboard</string>
+	<key>parent.deleteProfile.confirm</key>
+	<string>Delete Profile</string>
+	<key>parent.deleteProfile.message</key>
+	<string>This will delete this profile and its saved progress. Other profiles will not be changed.</string>
+	<key>parent.deleteProfile.title</key>
+	<string>Delete this profile?</string>
+	<key>parent.editProfile.title</key>
+	<string>Edit Profile</string>
+	<key>parent.empty.description</key>
+	<string>Completed missions and learning topics will appear here in a later step.</string>
+	<key>parent.empty.title</key>
+	<string>Progress is not available yet</string>
+	<key>parent.gate.holdButton</key>
+	<string>Hold to enter</string>
+	<key>parent.gate.holdButton.hint</key>
+	<string>Keep holding for three seconds. Releasing early cancels access.</string>
+	<key>parent.gate.instructions</key>
+	<string>Press and hold to enter the parent area.</string>
+	<key>parent.gate.notice</key>
+	<string>This check helps prevent accidental child access. It is not secure authentication.</string>
+	<key>parent.gate.progress.label</key>
+	<string>Hold progress</string>
+	<key>parent.gate.progress.value</key>
+	<string>%lld percent</string>
+	<key>parent.gate.title</key>
+	<string>Parent area</string>
+	<key>parent.gate.voiceOverAction</key>
+	<string>Enter parent area</string>
+	<key>parent.learningTopics.empty.description</key>
+	<string>Learning topics will appear as missions are completed.</string>
+	<key>parent.learningTopics.empty.title</key>
+	<string>No topics explored yet</string>
+	<key>parent.learningTopics.recentlyExplored</key>
+	<string>Recently explored in %lld mission(s)</string>
+	<key>parent.learningTopics.title</key>
+	<string>Learning topics</string>
+	<key>parent.management.deleteProfile</key>
+	<string>Delete profile</string>
+	<key>parent.management.editProfile</key>
+	<string>Edit nickname, avatar, and level</string>
+	<key>parent.management.resetProgress</key>
+	<string>Reset progress</string>
+	<key>parent.management.switchProfile</key>
+	<string>Switch profile</string>
+	<key>parent.management.title</key>
+	<string>Profile management</string>
+	<key>parent.noProfile.description</key>
+	<string>Choose or create a child profile to view parent information.</string>
+	<key>parent.noProfile.title</key>
+	<string>No profile selected</string>
+	<key>parent.progress.animals</key>
+	<string>Animal discoveries</string>
+	<key>parent.progress.count</key>
+	<string>%1$lld of %2$lld</string>
+	<key>parent.progress.missions</key>
+	<string>Completed missions</string>
+	<key>parent.progress.overall</key>
+	<string>Overall progress: %lld%%</string>
+	<key>parent.progress.overall.label</key>
+	<string>Overall progress</string>
+	<key>parent.progress.plants</key>
+	<string>Plant discoveries</string>
+	<key>parent.progress.title</key>
+	<string>Progress overview</string>
+	<key>parent.resetProgress.confirm</key>
+	<string>Reset Progress</string>
+	<key>parent.resetProgress.message</key>
+	<string>This keeps the profile but removes mission progress, rewards, and journal discoveries for this profile only.</string>
+	<key>parent.resetProgress.title</key>
+	<string>Reset this profile's progress?</string>
+	<key>parent.stat.animals</key>
+	<string>Animals</string>
+	<key>parent.stat.badges</key>
+	<string>Badges</string>
+	<key>parent.stat.completedMissions</key>
+	<string>Missions</string>
+	<key>parent.stat.plants</key>
+	<string>Plants</string>
+	<key>parent.title</key>
+	<string>Parent</string>
+	<key>plant.section.description</key>
+	<string>Description</string>
+	<key>plant.section.ecosystems</key>
+	<string>Ecosystems</string>
+	<key>plant.section.ecosystems.empty</key>
+	<string>No ecosystems available yet.</string>
+	<key>plant.section.fact</key>
+	<string>Surprising Fact</string>
+	<key>profile.add</key>
+	<string>Add Profile</string>
+	<key>profile.avatar</key>
+	<string>Avatar</string>
+	<key>profile.create</key>
+	<string>Create Profile</string>
+	<key>profile.create.title</key>
+	<string>Create Profile</string>
+	<key>profile.learningLevel</key>
+	<string>Learning Level</string>
+	<key>profile.limit.description</key>
+	<string>You can create up to four child profiles.</string>
+	<key>profile.limit.reached</key>
+	<string>Profile limit reached. You can create up to four profiles.</string>
+	<key>profile.nickname</key>
+	<string>Nickname</string>
+	<key>profile.nickname.placeholder</key>
+	<string>Nini</string>
+	<key>profile.selection.description</key>
+	<string>Choose a child profile to keep discoveries and mission progress separate.</string>
+	<key>profile.selection.empty.description</key>
+	<string>Each child gets their own missions, discoveries and badges.</string>
+	<key>profile.selection.empty.title</key>
+	<string>Create a profile</string>
+	<key>profile.selection.title</key>
+	<string>Profiles</string>
+	<key>settings.about.application</key>
+	<string>Application</string>
+	<key>settings.about.description</key>
+	<string>A nature exploration app foundation for learning about Sakartvelo.</string>
+	<key>settings.about.version</key>
+	<string>Version</string>
+	<key>settings.accessibility.description</key>
+	<string>Adjust text, contrast, motion, and subtitles for easier reading and navigation.</string>
+	<key>settings.action.replayOnboarding</key>
+	<string>Replay Onboarding</string>
+	<key>settings.action.switchProfile</key>
+	<string>Switch Profile</string>
+	<key>settings.language</key>
+	<string>Language</string>
+	<key>settings.profile.learningLevel</key>
+	<string>Learning level</string>
+	<key>settings.profile.nickname</key>
+	<string>Nickname</string>
+	<key>settings.section.about</key>
+	<string>About</string>
+	<key>settings.section.accessibility</key>
+	<string>Accessibility</string>
+	<key>settings.section.general</key>
+	<string>General</string>
+	<key>settings.section.language</key>
+	<string>Language</string>
+	<key>settings.section.profile</key>
+	<string>Profile</string>
+	<key>settings.title</key>
+	<string>Settings</string>
+	<key>settings.toggle.highContrast</key>
+	<string>High Contrast</string>
+	<key>settings.toggle.largerText</key>
+	<string>Larger text</string>
+	<key>settings.toggle.narration</key>
+	<string>Narration</string>
+	<key>settings.toggle.reducedMotion</key>
+	<string>Reduced motion</string>
+	<key>settings.toggle.soundEffects</key>
+	<string>Sound effects</string>
+	<key>settings.toggle.subtitles</key>
+	<string>Subtitles</string>
+	<key>tab.explore</key>
+	<string>Explore</string>
+	<key>tab.journal</key>
+	<string>Journal</string>
+	<key>tab.parent</key>
+	<string>Parent</string>
+	<key>tab.settings</key>
+	<string>Settings</string>
+</dict>
+</plist>

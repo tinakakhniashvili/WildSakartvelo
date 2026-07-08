@@ -1,0 +1,49 @@
+{
+  "source": "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Features/Missions/MissionRowView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "mission.row.meta",
+        "location": {
+          "startingColumn": 40,
+          "startingLine": 31
+        },
+        "value": "%@ • %lld min"
+      },
+      {
+        "comment": "",
+        "key": "mission.status.locked",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 70
+        }
+      },
+      {
+        "comment": "",
+        "key": "mission.status.available",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 72
+        }
+      },
+      {
+        "comment": "",
+        "key": "mission.status.inProgress",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 74
+        }
+      },
+      {
+        "comment": "",
+        "key": "mission.status.completed",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 76
+        }
+      }
+    ]
+  },
+  "version": 1
+}

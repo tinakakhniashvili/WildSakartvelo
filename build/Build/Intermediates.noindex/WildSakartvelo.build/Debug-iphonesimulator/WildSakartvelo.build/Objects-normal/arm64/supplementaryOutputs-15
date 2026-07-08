@@ -1,0 +1,18 @@
+"/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Features/Profiles/LearningLevelSelectionView.swift":
+  const-values: "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/LearningLevelSelectionView.swiftconstvalues"
+  object: "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/LearningLevelSelectionView.o"
+  swift-dependencies: "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/LearningLevelSelectionView.swiftdeps"
+  diagnostics: "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/LearningLevelSelectionView.dia"
+  dependencies: "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/LearningLevelSelectionView.d"
+"/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Features/Profiles/ProfileCardView.swift":
+  const-values: "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/ProfileCardView.swiftconstvalues"
+  dependencies: "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/ProfileCardView.d"
+  diagnostics: "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/ProfileCardView.dia"
+  object: "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/ProfileCardView.o"
+  swift-dependencies: "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/ProfileCardView.swiftdeps"
+"/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Features/Onboarding/OnboardingView.swift":
+  object: "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/OnboardingView.o"
+  const-values: "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/OnboardingView.swiftconstvalues"
+  dependencies: "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/OnboardingView.d"
+  swift-dependencies: "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/OnboardingView.swiftdeps"
+  diagnostics: "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/OnboardingView.dia"

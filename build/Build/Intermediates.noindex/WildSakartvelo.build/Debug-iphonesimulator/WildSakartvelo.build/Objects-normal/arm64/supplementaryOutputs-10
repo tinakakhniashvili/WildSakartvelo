@@ -1,0 +1,24 @@
+"/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Features/Explore/EcosystemDetailView.swift":
+  object: "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/EcosystemDetailView.o"
+  swift-dependencies: "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/EcosystemDetailView.swiftdeps"
+  const-values: "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/EcosystemDetailView.swiftconstvalues"
+  dependencies: "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/EcosystemDetailView.d"
+  diagnostics: "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/EcosystemDetailView.dia"
+"/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Features/Explore/EcosystemCardView.swift":
+  dependencies: "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/EcosystemCardView.d"
+  swift-dependencies: "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/EcosystemCardView.swiftdeps"
+  object: "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/EcosystemCardView.o"
+  diagnostics: "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/EcosystemCardView.dia"
+  const-values: "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/EcosystemCardView.swiftconstvalues"
+"/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Features/Missions/MatchingActivityView.swift":
+  const-values: "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/MatchingActivityView.swiftconstvalues"
+  object: "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/MatchingActivityView.o"
+  swift-dependencies: "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/MatchingActivityView.swiftdeps"
+  dependencies: "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/MatchingActivityView.d"
+  diagnostics: "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/MatchingActivityView.dia"
+"/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Features/Missions/MissionResultView.swift":
+  swift-dependencies: "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/MissionResultView.swiftdeps"
+  dependencies: "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/MissionResultView.d"
+  const-values: "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/MissionResultView.swiftconstvalues"
+  object: "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/MissionResultView.o"
+  diagnostics: "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/MissionResultView.dia"

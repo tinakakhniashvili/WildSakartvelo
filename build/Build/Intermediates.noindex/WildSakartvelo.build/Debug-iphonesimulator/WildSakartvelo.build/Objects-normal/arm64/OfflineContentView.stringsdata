@@ -1,0 +1,64 @@
+{
+  "source": "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Features/Downloads/OfflineContentView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "downloads.title",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 34
+        }
+      },
+      {
+        "comment": "",
+        "key": "downloads.delete.title",
+        "location": {
+          "startingColumn": 13,
+          "startingLine": 36
+        }
+      },
+      {
+        "comment": "",
+        "key": "downloads.section.packs",
+        "location": {
+          "startingColumn": 21,
+          "startingLine": 18
+        }
+      },
+      {
+        "comment": "",
+        "key": "downloads.description",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 13
+        }
+      },
+      {
+        "comment": "",
+        "key": "downloads.action.delete",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 43
+        }
+      },
+      {
+        "comment": "",
+        "key": "downloads.action.cancel",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 47
+        }
+      },
+      {
+        "comment": "",
+        "key": "downloads.delete.message",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 51
+        }
+      }
+    ]
+  },
+  "version": 1
+}

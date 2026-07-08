@@ -1,0 +1,18 @@
+"/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Features/Parent/CompletedMissionsView.swift":
+  object: "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/CompletedMissionsView.o"
+  diagnostics: "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/CompletedMissionsView.dia"
+  swift-dependencies: "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/CompletedMissionsView.swiftdeps"
+  dependencies: "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/CompletedMissionsView.d"
+  const-values: "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/CompletedMissionsView.swiftconstvalues"
+"/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Core/Extensions/DifficultyLevel+Display.swift":
+  dependencies: "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/DifficultyLevel+Display.d"
+  const-values: "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/DifficultyLevel+Display.swiftconstvalues"
+  diagnostics: "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/DifficultyLevel+Display.dia"
+  object: "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/DifficultyLevel+Display.o"
+  swift-dependencies: "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/DifficultyLevel+Display.swiftdeps"
+"/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Features/Animals/AnimalDetailView.swift":
+  object: "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/AnimalDetailView.o"
+  const-values: "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/AnimalDetailView.swiftconstvalues"
+  swift-dependencies: "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/AnimalDetailView.swiftdeps"
+  diagnostics: "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/AnimalDetailView.dia"
+  dependencies: "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/AnimalDetailView.d"

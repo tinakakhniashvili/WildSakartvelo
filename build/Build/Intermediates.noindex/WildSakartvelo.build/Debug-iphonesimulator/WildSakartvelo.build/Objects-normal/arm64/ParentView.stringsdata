@@ -1,0 +1,16 @@
+{
+  "source": "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Features/Parent/ParentView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "parent.title",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 18
+        }
+      }
+    ]
+  },
+  "version": 1
+}

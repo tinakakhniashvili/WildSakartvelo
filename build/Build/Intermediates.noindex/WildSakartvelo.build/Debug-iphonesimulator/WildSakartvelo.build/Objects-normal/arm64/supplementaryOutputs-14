@@ -1,0 +1,24 @@
+"/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Core/Components/ContentImageView.swift":
+  diagnostics: "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/ContentImageView.dia"
+  const-values: "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/ContentImageView.swiftconstvalues"
+  dependencies: "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/ContentImageView.d"
+  swift-dependencies: "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/ContentImageView.swiftdeps"
+  object: "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/ContentImageView.o"
+"/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Features/Missions/MultipleChoiceActivityView.swift":
+  const-values: "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/MultipleChoiceActivityView.swiftconstvalues"
+  swift-dependencies: "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/MultipleChoiceActivityView.swiftdeps"
+  dependencies: "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/MultipleChoiceActivityView.d"
+  object: "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/MultipleChoiceActivityView.o"
+  diagnostics: "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/MultipleChoiceActivityView.dia"
+"/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Features/Journal/JournalGridView.swift":
+  swift-dependencies: "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/JournalGridView.swiftdeps"
+  const-values: "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/JournalGridView.swiftconstvalues"
+  object: "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/JournalGridView.o"
+  diagnostics: "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/JournalGridView.dia"
+  dependencies: "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/JournalGridView.d"
+"/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Core/Components/PrimaryButton.swift":
+  dependencies: "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/PrimaryButton.d"
+  object: "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/PrimaryButton.o"
+  diagnostics: "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/PrimaryButton.dia"
+  swift-dependencies: "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/PrimaryButton.swiftdeps"
+  const-values: "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/PrimaryButton.swiftconstvalues"

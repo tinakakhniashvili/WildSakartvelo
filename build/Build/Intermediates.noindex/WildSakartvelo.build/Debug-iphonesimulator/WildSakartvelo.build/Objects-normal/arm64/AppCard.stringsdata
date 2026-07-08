@@ -1,0 +1,24 @@
+{
+  "source": "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Core/Components/AppCard.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Card Title",
+        "location": {
+          "startingColumn": 1,
+          "startingLine": 20
+        }
+      },
+      {
+        "comment": "",
+        "key": "Reusable content container.",
+        "location": {
+          "startingColumn": 1,
+          "startingLine": 20
+        }
+      }
+    ]
+  },
+  "version": 1
+}

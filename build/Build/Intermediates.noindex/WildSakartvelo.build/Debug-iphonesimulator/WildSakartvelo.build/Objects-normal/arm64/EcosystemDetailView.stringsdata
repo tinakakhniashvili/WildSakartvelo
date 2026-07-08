@@ -1,0 +1,96 @@
+{
+  "source": "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Features/Explore/EcosystemDetailView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "content.animals",
+        "location": {
+          "startingColumn": 52,
+          "startingLine": 55
+        }
+      },
+      {
+        "comment": "",
+        "key": "content.plants",
+        "location": {
+          "startingColumn": 52,
+          "startingLine": 56
+        }
+      },
+      {
+        "comment": "",
+        "key": "content.missions",
+        "location": {
+          "startingColumn": 52,
+          "startingLine": 57
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 64
+        }
+      },
+      {
+        "comment": "",
+        "key": "content.animals",
+        "location": {
+          "startingColumn": 36,
+          "startingLine": 77
+        }
+      },
+      {
+        "comment": "",
+        "key": "explore.empty.animals",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 204
+        }
+      },
+      {
+        "comment": "",
+        "key": "explore.empty.plants",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 206
+        }
+      },
+      {
+        "comment": "",
+        "key": "explore.empty.missions",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 208
+        }
+      },
+      {
+        "comment": "",
+        "key": "content.plants",
+        "location": {
+          "startingColumn": 36,
+          "startingLine": 102
+        }
+      },
+      {
+        "comment": "",
+        "key": "content.missions",
+        "location": {
+          "startingColumn": 36,
+          "startingLine": 127
+        }
+      },
+      {
+        "comment": "",
+        "key": "common.emptyState",
+        "location": {
+          "startingColumn": 48,
+          "startingLine": 178
+        }
+      }
+    ]
+  },
+  "version": 1
+}

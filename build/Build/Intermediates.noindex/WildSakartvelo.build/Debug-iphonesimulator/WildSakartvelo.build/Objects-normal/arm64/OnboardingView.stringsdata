@@ -1,0 +1,40 @@
+{
+  "source": "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Features/Onboarding/OnboardingView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "action.getStarted",
+        "location": {
+          "startingColumn": 65,
+          "startingLine": 45
+        }
+      },
+      {
+        "comment": "",
+        "key": "action.next",
+        "location": {
+          "startingColumn": 106,
+          "startingLine": 45
+        }
+      },
+      {
+        "comment": "",
+        "key": "action.skip",
+        "location": {
+          "startingColumn": 42,
+          "startingLine": 20
+        }
+      },
+      {
+        "comment": "",
+        "key": "audio.playNarration",
+        "location": {
+          "startingColumn": 50,
+          "startingLine": 100
+        }
+      }
+    ]
+  },
+  "version": 1
+}

@@ -1,0 +1,72 @@
+{
+  "source": "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Features/Profiles/ProfileSelectionView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "profile.selection.title",
+        "location": {
+          "startingColumn": 48,
+          "startingLine": 25
+        }
+      },
+      {
+        "comment": "",
+        "key": "profile.selection.empty.title",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 50
+        }
+      },
+      {
+        "comment": "",
+        "key": "profile.selection.empty.description",
+        "location": {
+          "startingColumn": 44,
+          "startingLine": 51
+        }
+      },
+      {
+        "comment": "",
+        "key": "app.title",
+        "location": {
+          "startingColumn": 36,
+          "startingLine": 35
+        }
+      },
+      {
+        "comment": "",
+        "key": "profile.selection.description",
+        "location": {
+          "startingColumn": 36,
+          "startingLine": 40
+        }
+      },
+      {
+        "comment": "",
+        "key": "profile.create",
+        "location": {
+          "startingColumn": 80,
+          "startingLine": 71
+        }
+      },
+      {
+        "comment": "",
+        "key": "profile.add",
+        "location": {
+          "startingColumn": 118,
+          "startingLine": 71
+        }
+      },
+      {
+        "comment": "",
+        "key": "profile.limit.reached",
+        "location": {
+          "startingColumn": 40,
+          "startingLine": 78
+        }
+      }
+    ]
+  },
+  "version": 1
+}

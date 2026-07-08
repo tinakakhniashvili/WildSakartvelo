@@ -1,0 +1,53 @@
+[
+  {
+    "id": "borjomi-forest-media",
+    "ecosystemID": "borjomi-forest",
+    "title": "Borjomi Forest Media",
+    "version": 1,
+    "estimatedSizeBytes": 980000,
+    "remoteBaseURL": null,
+    "resourceFiles": [
+      "welcome_narration.m4a",
+      "identify_animal_instruction.m4a",
+      "match_animal_footprints_instruction.m4a"
+    ]
+  },
+  {
+    "id": "caucasus-mountains-media",
+    "ecosystemID": "caucasus-mountains",
+    "title": "Caucasus Mountains Media",
+    "version": 1,
+    "estimatedSizeBytes": 1200000,
+    "remoteBaseURL": null,
+    "resourceFiles": [
+      "caucasian_tur_sound.m4a",
+      "habitat_classification_instruction.m4a",
+      "habitat_placement_instruction.m4a"
+    ]
+  },
+  {
+    "id": "kolkheti-wetlands-media",
+    "ecosystemID": "kolkheti-wetlands",
+    "title": "Kolkheti Wetlands Media",
+    "version": 1,
+    "estimatedSizeBytes": 950000,
+    "remoteBaseURL": null,
+    "resourceFiles": [
+      "food_chain_sequence_instruction.m4a",
+      "welcome_narration.m4a"
+    ]
+  },
+  {
+    "id": "black-sea-coast-media",
+    "ecosystemID": "black-sea-coast",
+    "title": "Black Sea Coast Media",
+    "version": 1,
+    "estimatedSizeBytes": 1100000,
+    "remoteBaseURL": null,
+    "resourceFiles": [
+      "welcome_narration.m4a",
+      "identify_animal_instruction.m4a",
+      "food_chain_sequence_instruction.m4a"
+    ]
+  }
+]

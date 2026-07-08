@@ -1,0 +1,104 @@
+{
+  "source": "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/App/AppState.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "error.contentLoad.message",
+        "location": {
+          "startingColumn": 53,
+          "startingLine": 66
+        }
+      },
+      {
+        "comment": "",
+        "key": "error.profiles.load",
+        "location": {
+          "startingColumn": 53,
+          "startingLine": 86
+        }
+      },
+      {
+        "comment": "",
+        "key": "error.profiles.load",
+        "location": {
+          "startingColumn": 53,
+          "startingLine": 131
+        }
+      },
+      {
+        "comment": "",
+        "key": "error.profiles.save",
+        "location": {
+          "startingColumn": 53,
+          "startingLine": 111
+        }
+      },
+      {
+        "comment": "",
+        "key": "error.profiles.save",
+        "location": {
+          "startingColumn": 53,
+          "startingLine": 161
+        }
+      },
+      {
+        "comment": "",
+        "key": "error.profiles.save",
+        "location": {
+          "startingColumn": 53,
+          "startingLine": 176
+        }
+      },
+      {
+        "comment": "",
+        "key": "error.progress.save",
+        "location": {
+          "startingColumn": 53,
+          "startingLine": 187
+        }
+      },
+      {
+        "comment": "",
+        "key": "error.progress.save",
+        "location": {
+          "startingColumn": 53,
+          "startingLine": 203
+        }
+      },
+      {
+        "comment": "",
+        "key": "error.progress.save",
+        "location": {
+          "startingColumn": 53,
+          "startingLine": 214
+        }
+      },
+      {
+        "comment": "",
+        "key": "error.progress.save",
+        "location": {
+          "startingColumn": 53,
+          "startingLine": 225
+        }
+      },
+      {
+        "comment": "",
+        "key": "error.settings.save",
+        "location": {
+          "startingColumn": 53,
+          "startingLine": 418
+        }
+      },
+      {
+        "comment": "",
+        "key": "error.downloads.save",
+        "location": {
+          "startingColumn": 53,
+          "startingLine": 440
+        }
+      }
+    ]
+  },
+  "version": 1
+}

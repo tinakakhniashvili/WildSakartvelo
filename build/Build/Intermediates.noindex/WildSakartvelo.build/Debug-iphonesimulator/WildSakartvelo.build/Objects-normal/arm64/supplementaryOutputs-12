@@ -1,0 +1,24 @@
+"/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Features/Explore/EcosystemProgressView.swift":
+  const-values: "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/EcosystemProgressView.swiftconstvalues"
+  object: "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/EcosystemProgressView.o"
+  diagnostics: "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/EcosystemProgressView.dia"
+  swift-dependencies: "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/EcosystemProgressView.swiftdeps"
+  dependencies: "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/EcosystemProgressView.d"
+"/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Core/Components/AppCard.swift":
+  diagnostics: "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/AppCard.dia"
+  const-values: "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/AppCard.swiftconstvalues"
+  dependencies: "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/AppCard.d"
+  swift-dependencies: "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/AppCard.swiftdeps"
+  object: "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/AppCard.o"
+"/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Features/Profiles/ProfileSelectionView.swift":
+  dependencies: "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/ProfileSelectionView.d"
+  diagnostics: "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/ProfileSelectionView.dia"
+  object: "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/ProfileSelectionView.o"
+  swift-dependencies: "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/ProfileSelectionView.swiftdeps"
+  const-values: "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/ProfileSelectionView.swiftconstvalues"
+"/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Core/Components/EmptyStateView.swift":
+  const-values: "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/EmptyStateView.swiftconstvalues"
+  object: "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/EmptyStateView.o"
+  swift-dependencies: "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/EmptyStateView.swiftdeps"
+  dependencies: "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/EmptyStateView.d"
+  diagnostics: "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/EmptyStateView.dia"

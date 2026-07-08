@@ -1,0 +1,17 @@
+{
+  "source": "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Features/Profiles/ProfileCardView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "profile.lastUsed",
+        "location": {
+          "startingColumn": 48,
+          "startingLine": 28
+        },
+        "value": "Last used %@"
+      }
+    ]
+  },
+  "version": 1
+}

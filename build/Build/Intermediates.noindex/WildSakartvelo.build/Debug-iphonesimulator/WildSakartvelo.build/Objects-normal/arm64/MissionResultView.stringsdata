@@ -1,0 +1,48 @@
+{
+  "source": "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Features/Missions/MissionResultView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "action.close",
+        "location": {
+          "startingColumn": 52,
+          "startingLine": 57
+        }
+      },
+      {
+        "comment": "",
+        "key": "mission.result.title",
+        "location": {
+          "startingColumn": 40,
+          "startingLine": 17
+        }
+      },
+      {
+        "comment": "",
+        "key": "mission.detail.reward",
+        "location": {
+          "startingColumn": 60,
+          "startingLine": 48
+        }
+      },
+      {
+        "comment": "",
+        "key": "mission.result.totalAttempts",
+        "location": {
+          "startingColumn": 50,
+          "startingLine": 51
+        }
+      },
+      {
+        "comment": "",
+        "key": "mission.result.newEcosystem",
+        "location": {
+          "startingColumn": 56,
+          "startingLine": 38
+        }
+      }
+    ]
+  },
+  "version": 1
+}

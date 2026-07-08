@@ -1,0 +1,43 @@
+{
+  "source": "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Features/Explore/EcosystemCardView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "mission.status.locked",
+        "location": {
+          "startingColumn": 53,
+          "startingLine": 29
+        }
+      },
+      {
+        "comment": "",
+        "key": "explore.accessibility.unlocked",
+        "location": {
+          "startingColumn": 37,
+          "startingLine": 84
+        },
+        "value": "Unlocked"
+      },
+      {
+        "comment": "",
+        "key": "explore.accessibility.progress",
+        "location": {
+          "startingColumn": 37,
+          "startingLine": 85
+        },
+        "value": "Discovery progress available"
+      },
+      {
+        "comment": "",
+        "key": "mission.status.locked",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 87
+        },
+        "value": "Locked"
+      }
+    ]
+  },
+  "version": 1
+}

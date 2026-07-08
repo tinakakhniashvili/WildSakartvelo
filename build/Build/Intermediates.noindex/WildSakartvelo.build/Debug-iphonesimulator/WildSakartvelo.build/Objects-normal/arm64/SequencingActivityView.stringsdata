@@ -1,0 +1,107 @@
+{
+  "source": "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Features/Missions/SequencingActivityView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "sequencing.position",
+        "location": {
+          "startingColumn": 48,
+          "startingLine": 58
+        },
+        "value": "Position %lld"
+      },
+      {
+        "comment": "",
+        "key": "sequencing.accessibility.moveUp",
+        "location": {
+          "startingColumn": 47,
+          "startingLine": 81
+        },
+        "value": "Move %@ up"
+      },
+      {
+        "comment": "",
+        "key": "sequencing.accessibility.moveDown",
+        "location": {
+          "startingColumn": 47,
+          "startingLine": 94
+        },
+        "value": "Move %@ down"
+      },
+      {
+        "comment": "",
+        "key": "sequencing.accessibility.moved",
+        "location": {
+          "startingColumn": 41,
+          "startingLine": 115
+        },
+        "value": "%@ moved to position %lld."
+      },
+      {
+        "comment": "",
+        "key": "sequencing.action.moveUp",
+        "location": {
+          "startingColumn": 53,
+          "startingLine": 74
+        },
+        "value": "Move Up"
+      },
+      {
+        "comment": "",
+        "key": "sequencing.action.moveDown",
+        "location": {
+          "startingColumn": 53,
+          "startingLine": 87
+        },
+        "value": "Move Down"
+      },
+      {
+        "comment": "",
+        "key": "sequencing.accessibility.noMovement",
+        "location": {
+          "startingColumn": 47,
+          "startingLine": 123
+        },
+        "value": "No movement available."
+      },
+      {
+        "comment": "",
+        "key": "sequencing.accessibility.canMoveDown",
+        "location": {
+          "startingColumn": 47,
+          "startingLine": 125
+        },
+        "value": "Can move down."
+      },
+      {
+        "comment": "",
+        "key": "sequencing.accessibility.canMoveUp",
+        "location": {
+          "startingColumn": 47,
+          "startingLine": 127
+        },
+        "value": "Can move up."
+      },
+      {
+        "comment": "",
+        "key": "sequencing.accessibility.canMoveBoth",
+        "location": {
+          "startingColumn": 47,
+          "startingLine": 129
+        },
+        "value": "Can move up or down."
+      },
+      {
+        "comment": "",
+        "key": "sequencing.accessibility.label",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 133
+        },
+        "value": "%@. Position %lld. %@"
+      }
+    ]
+  },
+  "version": 1
+}

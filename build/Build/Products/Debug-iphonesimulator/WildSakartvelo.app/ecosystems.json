@@ -1,0 +1,168 @@
+[
+  {
+    "id": "borjomi-forest",
+    "name": "Borjomi Forest",
+    "localizedName": {
+      "english": "Borjomi Forest",
+      "georgian": "ბორჯომის ტყე"
+    },
+    "subtitle": "Beech valleys, mossy slopes, and clear forest streams",
+    "localizedSubtitle": {
+      "english": "Beech valleys, mossy slopes, and clear forest streams",
+      "georgian": "წიფლის ხეობები, ხავსიანი ფერდობები და სუფთა ტყის ნაკადულები"
+    },
+    "description": "Borjomi Forest is a mixed woodland with cool streams, broadleaf trees, and many animals that depend on shelter, seeds, bark, and fallen leaves.",
+    "localizedDescription": {
+      "english": "Borjomi Forest is a mixed woodland with cool streams, broadleaf trees, and many animals that depend on shelter, seeds, bark, and fallen leaves.",
+      "georgian": "ბორჯომის ტყე შერეული ტყეა ცივი ნაკადულებით, ფართოფოთლოვანი ხეებითა და მრავალი ცხოველით, რომლებიც თავშესაფარს, თესლებს, ქერქსა და დაცვენილ ფოთლებს ეყრდნობიან."
+    },
+    "imageName": "borjomi_forest",
+    "theme": "forest",
+    "animalIDs": [
+      "brown-bear",
+      "roe-deer",
+      "wild-boar",
+      "eurasian-lynx",
+      "red-squirrel",
+      "great-spotted-woodpecker"
+    ],
+    "plantIDs": [
+      "oriental-beech",
+      "caucasian-fir",
+      "common-ivy"
+    ],
+    "missionIDs": [
+      "forest-tracks-and-clues",
+      "spring-stream-keepers",
+      "under-the-canopy",
+      "forest-food-web",
+      "protected-woodland-paths"
+    ],
+    "isInitiallyUnlocked": true
+  },
+  {
+    "id": "caucasus-mountains",
+    "name": "Caucasus Mountains",
+    "localizedName": {
+      "english": "Caucasus Mountains",
+      "georgian": "კავკასიონის მთები"
+    },
+    "subtitle": "High ridges, alpine meadows, and rocky cliffs",
+    "localizedSubtitle": {
+      "english": "High ridges, alpine meadows, and rocky cliffs",
+      "georgian": "მაღალი ქედები, ალპური მდელოები და კლდოვანი ფერდობები"
+    },
+    "description": "The Caucasus Mountains are home to wildlife and plants adapted to cold wind, steep slopes, and short alpine summers.",
+    "localizedDescription": {
+      "english": "The Caucasus Mountains are home to wildlife and plants adapted to cold wind, steep slopes, and short alpine summers.",
+      "georgian": "კავკასიონის მთებში ბინადრობენ ცივ ქარს, ციცაბო ფერდობებსა და მოკლე ალპურ ზაფხულს შეგუებული ცხოველები და მცენარეები."
+    },
+    "imageName": "caucasus_mountains",
+    "theme": "mountain",
+    "animalIDs": [
+      "brown-bear",
+      "caucasian-tur",
+      "golden-eagle",
+      "red-fox",
+      "alpine-chough",
+      "caucasian-black-grouse",
+      "chamois",
+      "eurasian-lynx"
+    ],
+    "plantIDs": [
+      "caucasian-rhododendron",
+      "alpine-bellflower",
+      "mountain-thyme"
+    ],
+    "missionIDs": [
+      "rocky-ridge-residents",
+      "safe-mountain-observer",
+      "high-meadow-plants",
+      "above-the-tree-line",
+      "mountain-conservation-choices"
+    ],
+    "isInitiallyUnlocked": false
+  },
+  {
+    "id": "kolkheti-wetlands",
+    "name": "Kolkheti Wetlands",
+    "localizedName": {
+      "english": "Kolkheti Wetlands",
+      "georgian": "კოლხეთის ჭარბტენიანი ტერიტორიები"
+    },
+    "subtitle": "Reeds, calm water, and sheltered marsh edges",
+    "localizedSubtitle": {
+      "english": "Reeds, calm water, and sheltered marsh edges",
+      "georgian": "ლერწმები, მშვიდი წყალი და დაცული ჭაობის კიდეები"
+    },
+    "description": "Kolkheti Wetlands shelter birds, amphibians, and plants that depend on slow water, soft mud, and reed beds.",
+    "localizedDescription": {
+      "english": "Kolkheti Wetlands shelter birds, amphibians, and plants that depend on slow water, soft mud, and reed beds.",
+      "georgian": "კოლხეთის ჭარბტენიანი ტერიტორიები თავშესაფარს აძლევს ფრინველებს, ამფიბიებსა და მცენარეებს, რომლებსაც ნელი წყალი, რბილი ტალახი და ლერწმების მასივი სჭირდებათ."
+    },
+    "imageName": "kolkheti_wetlands",
+    "theme": "wetland",
+    "animalIDs": [
+      "marsh-frog",
+      "eurasian-otter",
+      "grey-heron",
+      "great-egret",
+      "reed-warbler",
+      "eurasian-marsh-harrier"
+    ],
+    "plantIDs": [
+      "common-reed",
+      "yellow-iris",
+      "white-water-lily"
+    ],
+    "missionIDs": [
+      "reedbed-visitors",
+      "slow-water-survey",
+      "wetland-plants",
+      "leave-no-trace-at-the-marsh",
+      "food-in-the-marsh"
+    ],
+    "isInitiallyUnlocked": false
+  },
+  {
+    "id": "black-sea-coast",
+    "name": "Black Sea Coast",
+    "localizedName": {
+      "english": "Black Sea Coast",
+      "georgian": "შავი ზღვის სანაპირო"
+    },
+    "subtitle": "Shorebirds, dunes, tidal water, and coastal plants",
+    "localizedSubtitle": {
+      "english": "Shorebirds, dunes, tidal water, and coastal plants",
+      "georgian": "სანაპირო ფრინველები, დიუნები, ტალღები და სანაპირო მცენარეები"
+    },
+    "description": "The Black Sea Coast brings together beaches, dunes, shallow water, and coastal woodland where animals move between land and sea.",
+    "localizedDescription": {
+      "english": "The Black Sea Coast brings together beaches, dunes, shallow water, and coastal woodland where animals move between land and sea.",
+      "georgian": "შავი ზღვის სანაპირო აერთიანებს პლაჟებს, დიუნებს, მეჩეჩ წყალსა და სანაპირო ტყეს, სადაც ცხოველები ხმელეთსა და ზღვას შორის გადაადგილდებიან."
+    },
+    "imageName": "black_sea_coast",
+    "theme": "coast",
+    "animalIDs": [
+      "black-sea-bottlenose-dolphin",
+      "great-cormorant",
+      "common-tern",
+      "mediterranean-gull",
+      "loggerhead-sea-turtle",
+      "sand-lizard"
+    ],
+    "plantIDs": [
+      "sea-holly",
+      "beach-grass",
+      "colchic-box-tree"
+    ],
+    "missionIDs": [
+      "shoreline-watch",
+      "dunes-and-tides",
+      "coastline-chain",
+      "waves-and-wildlife",
+      "protect-the-coast"
+    ],
+    "isInitiallyUnlocked": false
+  }
+]

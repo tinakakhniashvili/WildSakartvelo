@@ -1,0 +1,17 @@
+{
+  "source": "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Features/Explore/EcosystemProgressView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "ecosystem.progress.completed",
+        "location": {
+          "startingColumn": 32,
+          "startingLine": 27
+        },
+        "value": "%lld of %lld missions completed"
+      }
+    ]
+  },
+  "version": 1
+}
