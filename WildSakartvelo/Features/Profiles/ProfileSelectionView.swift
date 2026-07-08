@@ -31,22 +31,18 @@ struct ProfileSelectionView: View {
     }
 
     private var header: some View {
-        VStack(alignment: .leading, spacing: AppSpacing.small) {
-            Text(String(localized: "app.title"))
-                .font(AppTypography.largeTitleFont(using: accessibilitySettings))
-                .foregroundStyle(AppColors.primaryText)
-                .fixedSize(horizontal: false, vertical: true)
-
-            Text(String(localized: "profile.selection.description"))
-                .font(AppTypography.bodyFont(using: accessibilitySettings))
-                .foregroundStyle(AppColors.secondaryText)
-                .fixedSize(horizontal: false, vertical: true)
-        }
+        IllustratedHeaderView(
+            title: String(localized: "app.title"),
+            subtitle: String(localized: "profile.selection.description"),
+            imageName: "onboarding_welcome",
+            accentColor: AppColors.forest
+        )
     }
 
     private var emptyProfiles: some View {
         EmptyStateView(
             systemImage: "person.crop.circle.badge.plus",
+            imageName: "avatar_fox_explorer",
             title: String(localized: "profile.selection.empty.title"),
             description: String(localized: "profile.selection.empty.description")
         )
@@ -54,7 +50,13 @@ struct ProfileSelectionView: View {
     }
 
     private var profileList: some View {
-        VStack(spacing: AppSpacing.medium) {
+        VStack(alignment: .leading, spacing: AppSpacing.medium) {
+            KidSectionHeader(
+                title: String(localized: "profile.selection.title"),
+                symbol: "person.2.fill",
+                color: AppColors.water
+            )
+
             ForEach(appState.profiles) { profile in
                 Button {
                     appState.selectProfile(profile)

@@ -146,12 +146,15 @@ struct JournalView: View {
     private var emptyState: some View {
         AppCard {
             HStack(alignment: .top, spacing: AppSpacing.medium) {
-                Image(systemName: "book.closed.fill")
-                    .font(.system(size: 32, weight: .semibold, design: .rounded))
-                    .foregroundStyle(AppColors.forest)
-                    .frame(width: 44, height: 44)
-                    .background(AppColors.forest.opacity(0.1), in: RoundedRectangle(cornerRadius: AppSpacing.small))
-                    .accessibilityHidden(true)
+                ContentImageView(
+                    imageName: "empty_journal",
+                    fallbackSystemImage: "book.closed.fill",
+                    mode: .avatar,
+                    height: 58,
+                    accentColor: AppColors.forest,
+                    accessibilityDescription: emptyTitle
+                )
+                .frame(width: 64, height: 58)
 
                 VStack(alignment: .leading, spacing: AppSpacing.extraSmall) {
                     Text(emptyTitle)

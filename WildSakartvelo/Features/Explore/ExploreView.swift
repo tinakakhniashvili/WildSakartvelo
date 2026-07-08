@@ -59,31 +59,12 @@ struct ExploreView: View {
     }
 
     private var welcomeContent: some View {
-        AppCard(variant: .elevated) {
-            HStack(alignment: .center, spacing: AppSpacing.medium) {
-                ExploreThumbnail(
-                    imageName: "app_logo",
-                    fallbackSystemImage: "leaf.fill",
-                    accentColor: AppColors.forest,
-                    accessibilityDescription: String.localized("app.title", for: appState.currentLanguage),
-                    width: 78,
-                    height: 78
-                )
-
-                VStack(alignment: .leading, spacing: AppSpacing.small) {
-                    Text(String.localized("explore.welcome", for: appState.currentLanguage))
-                        .font(AppTypography.largeTitleFont(using: accessibilitySettings))
-                        .foregroundStyle(AppColors.primaryText)
-                        .fixedSize(horizontal: false, vertical: true)
-
-                    Text(String.localized("explore.description", for: appState.currentLanguage))
-                        .font(AppTypography.bodyFont(using: accessibilitySettings))
-                        .foregroundStyle(AppColors.secondaryText)
-                        .fixedSize(horizontal: false, vertical: true)
-                }
-                .frame(maxWidth: .infinity, alignment: .leading)
-            }
-        }
+        IllustratedHeaderView(
+            title: String.localized("explore.welcome", for: appState.currentLanguage),
+            subtitle: String.localized("explore.description", for: appState.currentLanguage),
+            imageName: "app_logo",
+            accentColor: AppColors.forest
+        )
     }
 
     @ViewBuilder
@@ -96,9 +77,11 @@ struct ExploreView: View {
             )
         } else {
             VStack(alignment: .leading, spacing: AppSpacing.medium) {
-                Text(String.localized("explore.chooseEcosystem", for: appState.currentLanguage))
-                    .font(AppTypography.screenTitleFont(using: accessibilitySettings))
-                    .foregroundStyle(AppColors.primaryText)
+                KidSectionHeader(
+                    title: String.localized("explore.chooseEcosystem", for: appState.currentLanguage),
+                    symbol: "map.fill",
+                    color: AppColors.forest
+                )
 
                 ForEach(catalogue.ecosystems) { ecosystem in
                     let isUnlocked = unlockService.isEcosystemUnlocked(ecosystem, progress: appState.userProgress)
@@ -203,10 +186,7 @@ struct ExploreView: View {
     }
 
     private func dashboardSectionTitle(_ title: String) -> some View {
-        Text(title)
-            .font(AppTypography.screenTitleFont(using: accessibilitySettings))
-            .foregroundStyle(AppColors.primaryText)
-            .fixedSize(horizontal: false, vertical: true)
+        KidSectionHeader(title: title, symbol: "sparkle.magnifyingglass", color: AppColors.water)
     }
 
     private func destination(for discovery: DailyDiscovery) -> AnyView? {

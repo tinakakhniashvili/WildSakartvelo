@@ -26,6 +26,7 @@ struct AppCard<Content: View>: View {
                     .stroke(borderColor, lineWidth: accessibilitySettings.highContrastEnabled ? 1.5 : 1)
             }
             .shadow(color: shadow.color, radius: shadow.radius, x: 0, y: shadow.y)
+            .contentShape(RoundedRectangle(cornerRadius: AppRadius.largeCard))
     }
 
     private var background: Color {
@@ -33,13 +34,13 @@ struct AppCard<Content: View>: View {
         case .standard, .elevated:
             return AppColors.surface
         case .selected:
-            return AppColors.forest.opacity(0.12)
+            return AppColors.forest.opacity(0.10)
         case .locked:
             return AppColors.lockedFill(using: accessibilitySettings)
         case .success:
-            return AppColors.success.opacity(0.12)
+            return AppColors.success.opacity(0.10)
         case .warning:
-            return AppColors.warning.opacity(0.14)
+            return AppColors.warning.opacity(0.12)
         }
     }
 

@@ -72,6 +72,7 @@ struct MissionIntroView: View {
         ScrollView {
             VStack(alignment: .leading, spacing: AppSpacing.large) {
                 header
+                TokoGuideView(message: TokoMessageService().message(for: .firstMission, language: language))
                 details
                 reward
                 if isUnlocked {
@@ -88,27 +89,44 @@ struct MissionIntroView: View {
     }
 
     private var header: some View {
-        VStack(alignment: .leading, spacing: AppSpacing.small) {
-            Text(mission.displayTitle(for: language))
-                .font(AppTypography.largeTitleFont(using: accessibilitySettings))
-                .foregroundStyle(AppColors.primaryText)
-                .fixedSize(horizontal: false, vertical: true)
+        VStack(alignment: .leading, spacing: AppSpacing.medium) {
+            ContentImageView(
+                imageName: "mission_adventure",
+                fallbackSystemImage: "map.fill",
+                mode: .hero,
+                height: 190,
+                accentColor: AppColors.forest,
+                accessibilityDescription: mission.displayTitle(for: language)
+            )
 
-            Text(mission.displaySubtitle(for: language))
-                .font(AppTypography.cardTitleFont(using: accessibilitySettings))
-                .foregroundStyle(AppColors.forest)
-                .fixedSize(horizontal: false, vertical: true)
+            VStack(alignment: .leading, spacing: AppSpacing.small) {
+                Text(mission.displayTitle(for: language))
+                    .font(AppTypography.largeTitleFont(using: accessibilitySettings))
+                    .foregroundStyle(AppColors.primaryText)
+                    .fixedSize(horizontal: false, vertical: true)
 
-            Text(mission.displayIntroduction(for: language))
-                .font(AppTypography.bodyFont(using: accessibilitySettings))
-                .foregroundStyle(AppColors.secondaryText)
-                .fixedSize(horizontal: false, vertical: true)
+                Text(mission.displaySubtitle(for: language))
+                    .font(AppTypography.cardTitleFont(using: accessibilitySettings))
+                    .foregroundStyle(AppColors.forest)
+                    .fixedSize(horizontal: false, vertical: true)
+
+                Text(mission.displayIntroduction(for: language))
+                    .font(AppTypography.bodyFont(using: accessibilitySettings))
+                    .foregroundStyle(AppColors.secondaryText)
+                    .fixedSize(horizontal: false, vertical: true)
+            }
         }
     }
 
     private var details: some View {
         AppCard {
             VStack(alignment: .leading, spacing: AppSpacing.medium) {
+                KidSectionHeader(
+                    title: language == .georgian ? "მისიის ჩანთა" : "Mission Pack",
+                    symbol: "backpack.fill",
+                    color: AppColors.forest
+                )
+
                 detailRow(
                     icon: mission.difficulty.systemImage,
                     title: String.localized("mission.detail.difficulty", for: language),
@@ -129,12 +147,29 @@ struct MissionIntroView: View {
     }
 
     private var reward: some View {
-        AppCard {
-            detailRow(
-                icon: "gift.fill",
-                title: String.localized("mission.detail.reward", for: language),
-                value: mission.reward.displayTitle(for: language)
-            )
+        AppCard(variant: .warning) {
+            HStack(spacing: AppSpacing.medium) {
+                ContentImageView(
+                    imageName: "badge_discovery",
+                    fallbackSystemImage: "gift.fill",
+                    mode: .avatar,
+                    height: 56,
+                    accentColor: AppColors.sunshine,
+                    accessibilityDescription: mission.reward.displayTitle(for: language)
+                )
+                .frame(width: 56, height: 56)
+
+                VStack(alignment: .leading, spacing: AppSpacing.extraSmall) {
+                    Text(String.localized("mission.detail.reward", for: language))
+                        .font(AppTypography.captionFont(using: accessibilitySettings))
+                        .foregroundStyle(AppColors.secondaryText)
+
+                    Text(mission.reward.displayTitle(for: language))
+                        .font(AppTypography.cardTitleFont(using: accessibilitySettings))
+                        .foregroundStyle(AppColors.primaryText)
+                        .fixedSize(horizontal: false, vertical: true)
+                }
+            }
         }
     }
 

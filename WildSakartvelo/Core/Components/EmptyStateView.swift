@@ -2,6 +2,7 @@ import SwiftUI
 
 struct EmptyStateView: View {
     let systemImage: String
+    let imageName: String?
     let title: String
     let description: String
     let buttonTitle: String?
@@ -9,12 +10,14 @@ struct EmptyStateView: View {
 
     init(
         systemImage: String,
+        imageName: String? = nil,
         title: String,
         description: String,
         buttonTitle: String? = nil,
         buttonAction: (() -> Void)? = nil
     ) {
         self.systemImage = systemImage
+        self.imageName = imageName
         self.title = title
         self.description = description
         self.buttonTitle = buttonTitle
@@ -23,10 +26,22 @@ struct EmptyStateView: View {
 
     var body: some View {
         VStack(spacing: AppSpacing.medium) {
-            Image(systemName: systemImage)
-                .font(.system(size: 56, weight: .semibold, design: .rounded))
-                .foregroundStyle(AppColors.forest)
-                .accessibilityHidden(true)
+            if let imageName {
+                ContentImageView(
+                    imageName: imageName,
+                    fallbackSystemImage: systemImage,
+                    mode: .avatar,
+                    height: 104,
+                    accentColor: AppColors.forest,
+                    accessibilityDescription: title
+                )
+                .frame(width: 118, height: 104)
+            } else {
+                Image(systemName: systemImage)
+                    .font(.system(size: 56, weight: .semibold, design: .rounded))
+                    .foregroundStyle(AppColors.forest)
+                    .accessibilityHidden(true)
+            }
 
             VStack(spacing: AppSpacing.small) {
                 Text(title)
