@@ -17,6 +17,22 @@ struct ProgressCalculator {
         return Double(progress.discoveredAnimalIDs.count + progress.discoveredPlantIDs.count) / Double(total)
     }
 
+    func geographyCompletion(catalogue: ContentCatalogue, progress: UserProgress) -> Double {
+        let total = catalogue.regions.count + catalogue.geographyLandmarks.count + catalogue.geographyMissions.count
+        guard total > 0 else { return 0 }
+        let completed = progress.geographyProgress.discoveredRegionIDs.count
+            + progress.geographyProgress.discoveredLandmarkIDs.count
+            + progress.geographyProgress.completedGeographyMissionIDs.count
+        return Double(completed) / Double(total)
+    }
+
+    func completedActivityCount(catalogue: ContentCatalogue, progress: UserProgress) -> Int {
+        catalogue.missions.reduce(0) { count, mission in
+            guard progress.completedMissionIDs.contains(mission.id) else { return count }
+            return count + mission.activityIDs.count
+        }
+    }
+
     func challengeValue(for challenge: ExplorerChallenge, catalogue: ContentCatalogue, progress: UserProgress) -> Int {
         switch challenge.type {
         case .completeMissions:

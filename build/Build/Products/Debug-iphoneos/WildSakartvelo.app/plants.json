@@ -1,0 +1,230 @@
+[
+  {
+    "id": "oriental-beech",
+    "georgianName": "აღმოსავლური წიფელი",
+    "englishName": "Oriental Beech",
+    "description": "A tall broadleaf tree that forms deep, shady forests in western and central Georgia.",
+    "localizedDescription": {
+      "english": "A tall broadleaf tree that forms deep, shady forests in western and central Georgia.",
+      "georgian": "მაღალი ფართოფოთლოვანი ხე, რომელიც საქართველოს დასავლეთსა და ცენტრში ღრმა, ჩრდილიან ტყეებს ქმნის."
+    },
+    "imageName": "oriental_beech",
+    "surprisingFact": "Its thick canopy creates cool shelter for forest animals and seedlings.",
+    "localizedSurprisingFact": {
+      "english": "Its thick canopy creates cool shelter for forest animals and seedlings.",
+      "georgian": "მისი ხშირი ტოტები ტყის ცხოველებსა და ნერგებს გრილ თავშესაფარს უქმნის."
+    },
+    "ecosystemIDs": [
+      "borjomi-forest"
+    ]
+  },
+  {
+    "id": "caucasian-fir",
+    "georgianName": "კავკასიური სოჭი",
+    "englishName": "Caucasian Fir",
+    "description": "An evergreen mountain tree that grows in cool, moist forest slopes.",
+    "localizedDescription": {
+      "english": "An evergreen mountain tree that grows in cool, moist forest slopes.",
+      "georgian": "მარადმწვანე მთის ხე, რომელიც გრილ და ტენიან ტყის ფერდობებზე იზრდება."
+    },
+    "imageName": "caucasian_fir",
+    "surprisingFact": "Its needles stay green through winter, helping forest cover remain stable.",
+    "localizedSurprisingFact": {
+      "english": "Its needles stay green through winter, helping forest cover remain stable.",
+      "georgian": "მისი წიწვები ზამთარშიც მწვანეა და ტყის საფარის სტაბილურობას უწყობს ხელს."
+    },
+    "ecosystemIDs": [
+      "borjomi-forest"
+    ]
+  },
+  {
+    "id": "common-ivy",
+    "georgianName": "სურო",
+    "englishName": "Common Ivy",
+    "description": "A climbing evergreen plant that covers trunks, rocks, and shaded ground.",
+    "localizedDescription": {
+      "english": "A climbing evergreen plant that covers trunks, rocks, and shaded ground.",
+      "georgian": "მცოცავი მარადმწვანე მცენარე, რომელიც ტოტებს, ქვებს და ჩრდილიან მიწას ფარავს."
+    },
+    "imageName": "common_ivy",
+    "surprisingFact": "Its flowers and berries are important for many insects and birds, but the berries are not for children to eat.",
+    "localizedSurprisingFact": {
+      "english": "Its flowers and berries are important for many insects and birds, but the berries are not for children to eat.",
+      "georgian": "მისი ყვავილები და კენკრა ბევრ მწერსა და ფრინველს ეხმარება, მაგრამ კენკრა საჭმელად არ არის."
+    },
+    "ecosystemIDs": [
+      "borjomi-forest"
+    ]
+  },
+  {
+    "id": "caucasian-rhododendron",
+    "georgianName": "დეკა",
+    "englishName": "Caucasian Rhododendron",
+    "description": "A hardy mountain shrub that grows near alpine meadows and slopes in the Caucasus.",
+    "localizedDescription": {
+      "english": "A hardy mountain shrub that grows near alpine meadows and slopes in the Caucasus.",
+      "georgian": "გამძლე მთის ბუჩქი, რომელიც კავკასიონის ალპურ მდელოებსა და ფერდობებზე იზრდება."
+    },
+    "imageName": "caucasus_rhododendron",
+    "surprisingFact": "Its dense patches help protect fragile mountain soil from erosion.",
+    "localizedSurprisingFact": {
+      "english": "Its dense patches help protect fragile mountain soil from erosion.",
+      "georgian": "მისი ხშირი გუნდა მყიფე მთის ნიადაგს ეროზიისგან იცავს."
+    },
+    "ecosystemIDs": [
+      "caucasus-mountains"
+    ]
+  },
+  {
+    "id": "alpine-bellflower",
+    "georgianName": "ალპური ზარი",
+    "englishName": "Alpine Bellflower",
+    "description": "A small mountain flower that grows in rocky meadows and sunny slopes.",
+    "localizedDescription": {
+      "english": "A small mountain flower that grows in rocky meadows and sunny slopes.",
+      "georgian": "პატარა მთის ყვავილი, რომელიც კლდოვან მდელოებსა და მზიან ფერდობებზე იზრდება."
+    },
+    "imageName": "alpine_bellflower",
+    "surprisingFact": "Its flowers give mountain insects a short but important source of nectar.",
+    "localizedSurprisingFact": {
+      "english": "Its flowers give mountain insects a short but important source of nectar.",
+      "georgian": "მისი ყვავილები მთის მწერებს მოკლე, მაგრამ მნიშვნელოვან ნექტარს აძლევს."
+    },
+    "ecosystemIDs": [
+      "caucasus-mountains"
+    ]
+  },
+  {
+    "id": "mountain-thyme",
+    "georgianName": "მთის თიამი",
+    "englishName": "Mountain Thyme",
+    "description": "An aromatic alpine herb that grows in dry sunny places.",
+    "localizedDescription": {
+      "english": "An aromatic alpine herb that grows in dry sunny places.",
+      "georgian": "სურნელოვანი ალპური ბალახი, რომელიც მშრალ და მზიან ადგილებში იზრდება."
+    },
+    "imageName": "mountain_thyme",
+    "surprisingFact": "Small insects and pollinators often visit its tiny flowers.",
+    "localizedSurprisingFact": {
+      "english": "Small insects and pollinators often visit its tiny flowers.",
+      "georgian": "მის პატარა ყვავილებს ხშირად პატარა მწერები და დამამტვერიანებლები სტუმრობენ."
+    },
+    "ecosystemIDs": [
+      "caucasus-mountains"
+    ]
+  },
+  {
+    "id": "common-reed",
+    "georgianName": "ლელქაში",
+    "englishName": "Common Reed",
+    "description": "A tall wetland grass that grows in dense stands along slow water and marsh edges.",
+    "localizedDescription": {
+      "english": "A tall wetland grass that grows in dense stands along slow water and marsh edges.",
+      "georgian": "მაღალი ჭარბტენიანი ბალახი, რომელიც ნელი წყლისა და ჭაობის კიდეებთან მკვრივად იზრდება."
+    },
+    "imageName": "common_reed",
+    "surprisingFact": "Reed beds give many small animals places to hide, nest, and rest.",
+    "localizedSurprisingFact": {
+      "english": "Reed beds give many small animals places to hide, nest, and rest.",
+      "georgian": "ლერწმები ბევრ პატარა ცხოველს აძლევს დასამალ, საბუდარ და დასასვენებელ ადგილებს."
+    },
+    "ecosystemIDs": [
+      "kolkheti-wetlands"
+    ]
+  },
+  {
+    "id": "yellow-iris",
+    "georgianName": "ყვითელი ზამბახი",
+    "englishName": "Yellow Iris",
+    "description": "A bright wetland plant that blooms near ponds and marshy water.",
+    "localizedDescription": {
+      "english": "A bright wetland plant that blooms near ponds and marshy water.",
+      "georgian": "ნათელი ჭარბტენიანი მცენარე, რომელიც ტბორებთან და ჭაობიან წყალთან ყვავის."
+    },
+    "imageName": "yellow_iris",
+    "surprisingFact": "Its flowers add color to marsh edges in spring and early summer.",
+    "localizedSurprisingFact": {
+      "english": "Its flowers add color to marsh edges in spring and early summer.",
+      "georgian": "მისი ყვავილები გაზაფხულსა და ზაფხულის დასაწყისში ჭაობის კიდეებს ფერს მატებს."
+    },
+    "ecosystemIDs": [
+      "kolkheti-wetlands"
+    ]
+  },
+  {
+    "id": "white-water-lily",
+    "georgianName": "თეთრი წყლის შროშანი",
+    "englishName": "White Water Lily",
+    "description": "A floating plant with broad leaves and pale flowers on calm water.",
+    "localizedDescription": {
+      "english": "A floating plant with broad leaves and pale flowers on calm water.",
+      "georgian": "წყალზე მცურავი მცენარე ფართო ფოთლებითა და ღია ფერის ყვავილებით."
+    },
+    "imageName": "white_water_lily",
+    "surprisingFact": "Its leaves shade the water below and create shelter for tiny aquatic life.",
+    "localizedSurprisingFact": {
+      "english": "Its leaves shade the water below and create shelter for tiny aquatic life.",
+      "georgian": "მისი ფოთლები წყალს ჩრდილს აძლევს და პატარა წყლის არსებებს თავშესაფარს უქმნის."
+    },
+    "ecosystemIDs": [
+      "kolkheti-wetlands"
+    ]
+  },
+  {
+    "id": "sea-holly",
+    "georgianName": "ზღვის ეკალა",
+    "englishName": "Sea Holly",
+    "description": "A tough coastal plant with spiky leaves that grows in sandy places.",
+    "localizedDescription": {
+      "english": "A tough coastal plant with spiky leaves that grows in sandy places.",
+      "georgian": "გამძლე სანაპირო მცენარე ეკლიანი ფოთლებით, რომელიც ქვიშიან ადგილებში იზრდება."
+    },
+    "imageName": "sea_holly",
+    "surprisingFact": "Its roots help steady loose sand on the coast.",
+    "localizedSurprisingFact": {
+      "english": "Its roots help steady loose sand on the coast.",
+      "georgian": "მისი ფესვები სანაპიროზე ფხვიერ ქვიშას ამაგრებს."
+    },
+    "ecosystemIDs": [
+      "black-sea-coast"
+    ]
+  },
+  {
+    "id": "beach-grass",
+    "georgianName": "დიუნის ბალახი",
+    "englishName": "Beach Grass",
+    "description": "A dune plant that helps hold sand in place and builds coastal ridges.",
+    "localizedDescription": {
+      "english": "A dune plant that helps hold sand in place and builds coastal ridges.",
+      "georgian": "დიუნის მცენარე, რომელიც ქვიშას აკავებს და სანაპირო ქედების შექმნას ეხმარება."
+    },
+    "imageName": "beach_grass",
+    "surprisingFact": "Beach grass can survive wind, salt, and shifting sand.",
+    "localizedSurprisingFact": {
+      "english": "Beach grass can survive wind, salt, and shifting sand.",
+      "georgian": "დიუნის ბალახი უძლებს ქარს, მარილს და მოძრავ ქვიშას."
+    },
+    "ecosystemIDs": [
+      "black-sea-coast"
+    ]
+  },
+  {
+    "id": "colchic-box-tree",
+    "georgianName": "კოლხური ბზა",
+    "englishName": "Colchic Box Tree",
+    "description": "An evergreen coastal woodland tree and shrub that grows slowly in moist lowlands.",
+    "localizedDescription": {
+      "english": "An evergreen coastal woodland tree and shrub that grows slowly in moist lowlands.",
+      "georgian": "მარადმწვანე სანაპირო ტყის ხე და ბუჩქი, რომელიც ნესტიან დაბლობებში ნელა იზრდება."
+    },
+    "imageName": "colchic_box_tree",
+    "surprisingFact": "Box trees can form dense green cover in sheltered coastal forests.",
+    "localizedSurprisingFact": {
+      "english": "Box trees can form dense green cover in sheltered coastal forests.",
+      "georgian": "ბზას შეუძლია დაცულ სანაპირო ტყეებში ხშირი მწვანე საფარი შექმნას."
+    },
+    "ecosystemIDs": [
+      "black-sea-coast"
+    ]
+  }
+]

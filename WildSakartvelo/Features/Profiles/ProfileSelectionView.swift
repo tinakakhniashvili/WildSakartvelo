@@ -22,7 +22,7 @@ struct ProfileSelectionView: View {
                 .padding(AppSpacing.medium)
             }
             .background(AppColors.background)
-            .navigationTitle(String(localized: "profile.selection.title"))
+            .navigationTitle(String.localized("profile.selection.title", for: appState.currentLanguage))
             .sheet(isPresented: $isShowingCreateProfile) {
                 CreateProfileView()
                     .environmentObject(appState)
@@ -32,8 +32,8 @@ struct ProfileSelectionView: View {
 
     private var header: some View {
         IllustratedHeaderView(
-            title: String(localized: "app.title"),
-            subtitle: String(localized: "profile.selection.description"),
+            title: String.localized("app.title", for: appState.currentLanguage),
+            subtitle: String.localized("profile.selection.description", for: appState.currentLanguage),
             imageName: "onboarding_welcome",
             accentColor: AppColors.forest
         )
@@ -43,8 +43,8 @@ struct ProfileSelectionView: View {
         EmptyStateView(
             systemImage: "person.crop.circle.badge.plus",
             imageName: "avatar_fox_explorer",
-            title: String(localized: "profile.selection.empty.title"),
-            description: String(localized: "profile.selection.empty.description")
+            title: String.localized("profile.selection.empty.title", for: appState.currentLanguage),
+            description: String.localized("profile.selection.empty.description", for: appState.currentLanguage)
         )
         .padding(.vertical, AppSpacing.large)
     }
@@ -52,7 +52,7 @@ struct ProfileSelectionView: View {
     private var profileList: some View {
         VStack(alignment: .leading, spacing: AppSpacing.medium) {
             KidSectionHeader(
-                title: String(localized: "profile.selection.title"),
+                title: String.localized("profile.selection.title", for: appState.currentLanguage),
                 symbol: "person.2.fill",
                 color: AppColors.water
             )
@@ -61,7 +61,7 @@ struct ProfileSelectionView: View {
                 Button {
                     appState.selectProfile(profile)
                 } label: {
-                    ProfileCardView(profile: profile)
+                    ProfileCardView(profile: profile, language: appState.currentLanguage)
                 }
                 .buttonStyle(.plain)
             }
@@ -70,14 +70,14 @@ struct ProfileSelectionView: View {
 
     private var addProfileButton: some View {
         VStack(alignment: .leading, spacing: AppSpacing.small) {
-            PrimaryButton(title: appState.profiles.isEmpty ? String(localized: "profile.create") : String(localized: "profile.add")) {
+            PrimaryButton(title: appState.profiles.isEmpty ? String.localized("profile.create", for: appState.currentLanguage) : String.localized("profile.add", for: appState.currentLanguage)) {
                 isShowingCreateProfile = true
             }
             .disabled(!appState.canCreateProfile)
             .accessibilityIdentifier("profile.createButton")
 
             if !appState.canCreateProfile {
-                Text(String(localized: "profile.limit.reached"))
+                Text(String.localized("profile.limit.reached", for: appState.currentLanguage))
                     .font(AppTypography.bodyFont(using: accessibilitySettings))
                     .foregroundStyle(AppColors.secondaryText)
             }

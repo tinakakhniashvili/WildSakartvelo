@@ -11,6 +11,11 @@ final class MockContentService: ContentProviding {
     var dailyDiscoveries: [DailyDiscovery]
     var explorerChallenges: [ExplorerChallenge]
     var observationActivities: [ObservationActivity]
+    var regions: [GeorgiaRegion]
+    var cities: [GeorgianCity]
+    var geographyLandmarks: [GeographyLandmark]
+    var geographyMissions: [GeographyMission]
+    var geographyActivities: [GeographyActivity]
 
     init(
         ecosystems: [Ecosystem] = [TestFixtures.ecosystem()],
@@ -21,7 +26,12 @@ final class MockContentService: ContentProviding {
         contentPacks: [ContentPack] = [.sample],
         dailyDiscoveries: [DailyDiscovery] = [TestFixtures.dailyDiscovery()],
         explorerChallenges: [ExplorerChallenge] = [TestFixtures.challenge()],
-        observationActivities: [ObservationActivity] = [TestFixtures.observation()]
+        observationActivities: [ObservationActivity] = [TestFixtures.observation()],
+        regions: [GeorgiaRegion] = [TestFixtures.region()],
+        cities: [GeorgianCity] = [TestFixtures.city()],
+        geographyLandmarks: [GeographyLandmark] = [TestFixtures.landmark()],
+        geographyMissions: [GeographyMission] = [TestFixtures.geographyMission()],
+        geographyActivities: [GeographyActivity] = [TestFixtures.geographyActivity()]
     ) {
         self.ecosystems = ecosystems
         self.animals = animals
@@ -32,6 +42,11 @@ final class MockContentService: ContentProviding {
         self.dailyDiscoveries = dailyDiscoveries
         self.explorerChallenges = explorerChallenges
         self.observationActivities = observationActivities
+        self.regions = regions
+        self.cities = cities
+        self.geographyLandmarks = geographyLandmarks
+        self.geographyMissions = geographyMissions
+        self.geographyActivities = geographyActivities
     }
 
     func loadEcosystems() throws -> [Ecosystem] { ecosystems }
@@ -43,6 +58,11 @@ final class MockContentService: ContentProviding {
     func loadDailyDiscoveries() throws -> [DailyDiscovery] { dailyDiscoveries }
     func loadExplorerChallenges() throws -> [ExplorerChallenge] { explorerChallenges }
     func loadObservationActivities() throws -> [ObservationActivity] { observationActivities }
+    func loadRegions() throws -> [GeorgiaRegion] { regions }
+    func loadCities() throws -> [GeorgianCity] { cities }
+    func loadGeographyLandmarks() throws -> [GeographyLandmark] { geographyLandmarks }
+    func loadGeographyMissions() throws -> [GeographyMission] { geographyMissions }
+    func loadGeographyActivities() throws -> [GeographyActivity] { geographyActivities }
 }
 
 final class MockProgressStore: ProgressStoring {

@@ -3828,6 +3828,12 @@
             "state" : "new",
             "value" : "Last used %@"
           }
+        },
+        "ka" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ბოლოს გამოყენებულია %@"
+          }
         }
       }
     },

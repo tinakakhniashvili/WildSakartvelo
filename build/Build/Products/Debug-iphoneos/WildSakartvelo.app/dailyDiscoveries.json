@@ -1,0 +1,202 @@
+[
+  {
+    "id": "tur-steep-slopes",
+    "title": { "english": "Cliff Climbers", "georgian": "კლდის მცოცავები" },
+    "description": { "english": "Caucasian turs use strong hooves to move safely on steep mountain slopes.", "georgian": "ჯიხვებს ძლიერი ჩლიქები ეხმარება ციცაბო მთის ფერდობებზე უსაფრთხოდ გადაადგილებაში." },
+    "imageName": "caucasian_tur",
+    "relatedAnimalID": "caucasian-tur",
+    "relatedPlantID": null,
+    "relatedEcosystemID": "caucasus-mountains",
+    "factType": "animalFact"
+  },
+  {
+    "id": "wetlands-bird-shelter",
+    "title": { "english": "Wetland Rest Stops", "georgian": "ჭარბტენიანი დასასვენებელი ადგილები" },
+    "description": { "english": "Wetlands give birds quiet places to rest, feed, and nest.", "georgian": "ჭარბტენიანი ადგილები ფრინველებს დასასვენებელ, საკვებ და ბუდობის მშვიდ სივრცეს აძლევს." },
+    "imageName": "kolkheti_wetlands_cover",
+    "relatedAnimalID": "grey-heron",
+    "relatedPlantID": null,
+    "relatedEcosystemID": "kolkheti-wetlands",
+    "factType": "ecosystemFact"
+  },
+  {
+    "id": "do-not-feed-wildlife",
+    "title": { "english": "Wild Food Stays Wild", "georgian": "ველური საკვები ველურია" },
+    "description": { "english": "Feeding wild animals can make them sick or less careful around people.", "georgian": "ველური ცხოველების გამოკვებამ ისინი შეიძლება ავად გახადოს ან ადამიანებთან უყურადღებო გახადოს." },
+    "imageName": "red_fox",
+    "relatedAnimalID": "red-fox",
+    "relatedPlantID": null,
+    "relatedEcosystemID": null,
+    "factType": "environmentTip"
+  },
+  {
+    "id": "animal-tracks",
+    "title": { "english": "Track Clues", "georgian": "ნაკვალევის ნიშნები" },
+    "description": { "english": "Hooves, paws, and webbed feet leave different shapes in soft ground.", "georgian": "ჩლიქები, თათები და აპკიანი ფეხები რბილ მიწაზე განსხვავებულ ფორმებს ტოვებს." },
+    "imageName": "empty_journal",
+    "relatedAnimalID": "brown-bear",
+    "relatedPlantID": null,
+    "relatedEcosystemID": null,
+    "factType": "observationTip"
+  },
+  {
+    "id": "fallen-leaves",
+    "title": { "english": "Leaves Feed Forests", "georgian": "ფოთლები ტყეს კვებავს" },
+    "description": { "english": "Fallen leaves become soft soil that helps new plants grow.", "georgian": "დაცემული ფოთლები რბილ ნიადაგად იქცევა და ახალ მცენარეებს ზრდაში ეხმარება." },
+    "imageName": "oriental_beech",
+    "relatedAnimalID": null,
+    "relatedPlantID": "oriental-beech",
+    "relatedEcosystemID": "borjomi-forest",
+    "factType": "plantFact"
+  },
+  {
+    "id": "dolphin-breath",
+    "title": { "english": "Sea Breathers", "georgian": "ზღვის მსუნთქავები" },
+    "description": { "english": "Dolphins breathe air, so they rise to the surface between dives.", "georgian": "დელფინები ჰაერს სუნთქავენ, ამიტომ ჩაყვინთვებს შორის ზედაპირზე ამოდიან." },
+    "imageName": "black_sea_bottlenose_dolphin",
+    "relatedAnimalID": "black-sea-bottlenose-dolphin",
+    "relatedPlantID": null,
+    "relatedEcosystemID": "black-sea-coast",
+    "factType": "animalFact"
+  },
+  {
+    "id": "reeds-filter-water",
+    "title": { "english": "Reed Filters", "georgian": "ლერწმის ფილტრები" },
+    "description": { "english": "Reeds slow water and help trap mud before it reaches open water.", "georgian": "ლერწამი წყალს ანელებს და ტალახს ღია წყალამდე მისვლამდე აკავებს." },
+    "imageName": "common_reed",
+    "relatedAnimalID": null,
+    "relatedPlantID": "common-reed",
+    "relatedEcosystemID": "kolkheti-wetlands",
+    "factType": "plantFact"
+  },
+  {
+    "id": "observe-from-distance",
+    "title": { "english": "Safe Watching", "georgian": "უსაფრთხო დაკვირვება" },
+    "description": { "english": "Use your eyes and ears. Stay far from nests, dens, and unknown plants.", "georgian": "გამოიყენე თვალები და ყურები. შორს იყავი ბუდეებისგან, სოროებისგან და უცნობი მცენარეებისგან." },
+    "imageName": "mission_adventure",
+    "relatedAnimalID": null,
+    "relatedPlantID": null,
+    "relatedEcosystemID": null,
+    "factType": "observationTip"
+  },
+  {
+    "id": "mountain-flowers",
+    "title": { "english": "Tiny Mountain Flowers", "georgian": "პატარა მთის ყვავილები" },
+    "description": { "english": "Small alpine flowers grow low to avoid cold wind.", "georgian": "პატარა ალპური ყვავილები დაბლა იზრდება, რომ ცივ ქარს მოერიდოს." },
+    "imageName": "alpine_bellflower",
+    "relatedAnimalID": null,
+    "relatedPlantID": "alpine-bellflower",
+    "relatedEcosystemID": "caucasus-mountains",
+    "factType": "plantFact"
+  },
+  {
+    "id": "forest-layers",
+    "title": { "english": "Forest Layers", "georgian": "ტყის ფენები" },
+    "description": { "english": "Birds, squirrels, insects, and fungi use different forest layers.", "georgian": "ფრინველები, ციყვები, მწერები და სოკოები ტყის სხვადასხვა ფენას იყენებენ." },
+    "imageName": "borjomi_forest_cover",
+    "relatedAnimalID": "red-squirrel",
+    "relatedPlantID": null,
+    "relatedEcosystemID": "borjomi-forest",
+    "factType": "ecosystemFact"
+  },
+  {
+    "id": "heron-stillness",
+    "title": { "english": "Patient Hunters", "georgian": "მომთმენი მონადირეები" },
+    "description": { "english": "Herons stand very still so fish and frogs do not notice them.", "georgian": "ყანჩები ძალიან უძრავად დგანან, რომ თევზებმა და ბაყაყებმა ვერ შეამჩნიონ." },
+    "imageName": "grey_heron",
+    "relatedAnimalID": "grey-heron",
+    "relatedPlantID": null,
+    "relatedEcosystemID": "kolkheti-wetlands",
+    "factType": "animalFact"
+  },
+  {
+    "id": "sea-turtle-sand",
+    "title": { "english": "Sandy Nurseries", "georgian": "ქვიშიანი სანერგეები" },
+    "description": { "english": "Sea turtles need quiet beaches for nesting.", "georgian": "ზღვის კუებს ბუდობისთვის მშვიდი სანაპირო სჭირდებათ." },
+    "imageName": "loggerhead_sea_turtle",
+    "relatedAnimalID": "loggerhead-sea-turtle",
+    "relatedPlantID": null,
+    "relatedEcosystemID": "black-sea-coast",
+    "factType": "animalFact"
+  },
+  {
+    "id": "plant-without-picking",
+    "title": { "english": "Look, Do Not Pick", "georgian": "დააკვირდი, არ მოწყვიტო" },
+    "description": { "english": "You can compare leaf shapes without picking plants.", "georgian": "ფოთლების ფორმების შედარება მცენარეების მოწყვეტის გარეშეც შეგიძლია." },
+    "imageName": "common_ivy",
+    "relatedAnimalID": null,
+    "relatedPlantID": "common-ivy",
+    "relatedEcosystemID": null,
+    "factType": "observationTip"
+  },
+  {
+    "id": "otter-water",
+    "title": { "english": "Clean Water Clues", "georgian": "სუფთა წყლის ნიშნები" },
+    "description": { "english": "Otters need healthy rivers and wetlands with enough fish.", "georgian": "წავებს ჯანმრთელი მდინარეები და თევზით მდიდარი ჭარბტენიანი ადგილები სჭირდებათ." },
+    "imageName": "eurasian_otter",
+    "relatedAnimalID": "eurasian-otter",
+    "relatedPlantID": null,
+    "relatedEcosystemID": "kolkheti-wetlands",
+    "factType": "animalFact"
+  },
+  {
+    "id": "listen-first",
+    "title": { "english": "Listen First", "georgian": "ჯერ მოუსმინე" },
+    "description": { "english": "Many animals are easier to hear than see.", "georgian": "ბევრი ცხოველის გაგონება დანახვაზე უფრო ადვილია." },
+    "imageName": "reed_warbler",
+    "relatedAnimalID": "reed-warbler",
+    "relatedPlantID": null,
+    "relatedEcosystemID": null,
+    "factType": "observationTip"
+  },
+  {
+    "id": "beach-grass",
+    "title": { "english": "Grass Holds Sand", "georgian": "ბალახი ქვიშას აკავებს" },
+    "description": { "english": "Beach grass helps dunes stay in place during wind.", "georgian": "სანაპიროს ბალახი ქარს დროს დიუნებს ადგილზე დარჩენაში ეხმარება." },
+    "imageName": "beach_grass",
+    "relatedAnimalID": null,
+    "relatedPlantID": "beach-grass",
+    "relatedEcosystemID": "black-sea-coast",
+    "factType": "plantFact"
+  },
+  {
+    "id": "eagle-wings",
+    "title": { "english": "Wide Wings", "georgian": "ფართო ფრთები" },
+    "description": { "english": "Golden eagles use warm rising air to glide over mountains.", "georgian": "ბექობის არწივები თბილ ამომავალ ჰაერს მთებზე სასრიალოდ იყენებენ." },
+    "imageName": "golden_eagle",
+    "relatedAnimalID": "golden-eagle",
+    "relatedPlantID": null,
+    "relatedEcosystemID": "caucasus-mountains",
+    "factType": "animalFact"
+  },
+  {
+    "id": "colors-count",
+    "title": { "english": "Count Nature Colors", "georgian": "დათვალე ბუნების ფერები" },
+    "description": { "english": "From one safe spot, count how many natural colors you can see.", "georgian": "უსაფრთხო ადგილიდან დათვალე, რამდენ ბუნებრივ ფერს ხედავ." },
+    "imageName": "onboarding_safety",
+    "relatedAnimalID": null,
+    "relatedPlantID": null,
+    "relatedEcosystemID": null,
+    "factType": "observationTip"
+  },
+  {
+    "id": "box-tree-shelter",
+    "title": { "english": "Evergreen Shelter", "georgian": "მარადმწვანე თავშესაფარი" },
+    "description": { "english": "Box trees keep leaves through winter and shelter small forest life.", "georgian": "ბზა ზამთარშიც ინარჩუნებს ფოთლებს და პატარა ტყის ბინადრებს აფარებს." },
+    "imageName": "colchic_box_tree",
+    "relatedAnimalID": null,
+    "relatedPlantID": "colchic-box-tree",
+    "relatedEcosystemID": "borjomi-forest",
+    "factType": "plantFact"
+  },
+  {
+    "id": "leave-no-trace",
+    "title": { "english": "Leave No Trace", "georgian": "კვალი არ დატოვო" },
+    "description": { "english": "Take memories home, but leave rocks, flowers, nests, and tracks where they are.", "georgian": "სახლში მოგონებები წაიღე, ქვები, ყვავილები, ბუდეები და ნაკვალევი კი ადგილზე დატოვე." },
+    "imageName": "parent_area",
+    "relatedAnimalID": null,
+    "relatedPlantID": null,
+    "relatedEcosystemID": null,
+    "factType": "environmentTip"
+  }
+]

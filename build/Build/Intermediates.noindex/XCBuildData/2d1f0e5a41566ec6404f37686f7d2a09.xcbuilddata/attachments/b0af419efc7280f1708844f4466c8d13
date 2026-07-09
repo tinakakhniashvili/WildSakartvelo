@@ -1,0 +1,128 @@
+{
+  "" : {
+    "diagnostics" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartveloTests.build/Objects-normal/arm64/WildSakartveloTests-master.dia",
+    "emit-module-dependencies" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartveloTests.build/Objects-normal/arm64/WildSakartveloTests-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartveloTests.build/Objects-normal/arm64/WildSakartveloTests-master-emit-module.dia",
+    "swift-dependencies" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartveloTests.build/Objects-normal/arm64/WildSakartveloTests-master.swiftdeps"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartveloTests/ContentPackStoreTests.swift" : {
+    "const-values" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartveloTests.build/Objects-normal/arm64/ContentPackStoreTests.swiftconstvalues",
+    "dependencies" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartveloTests.build/Objects-normal/arm64/ContentPackStoreTests.d",
+    "diagnostics" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartveloTests.build/Objects-normal/arm64/ContentPackStoreTests.dia",
+    "index-unit-output-path" : "/WildSakartvelo.build/Debug-iphonesimulator/WildSakartveloTests.build/Objects-normal/arm64/ContentPackStoreTests.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartveloTests.build/Objects-normal/arm64/ContentPackStoreTests.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartveloTests.build/Objects-normal/arm64/ContentPackStoreTests.o",
+    "swift-dependencies" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartveloTests.build/Objects-normal/arm64/ContentPackStoreTests.swiftdeps",
+    "swiftmodule" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartveloTests.build/Objects-normal/arm64/ContentPackStoreTests~partial.swiftmodule"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartveloTests/ContentValidationTests.swift" : {
+    "const-values" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartveloTests.build/Objects-normal/arm64/ContentValidationTests.swiftconstvalues",
+    "dependencies" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartveloTests.build/Objects-normal/arm64/ContentValidationTests.d",
+    "diagnostics" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartveloTests.build/Objects-normal/arm64/ContentValidationTests.dia",
+    "index-unit-output-path" : "/WildSakartvelo.build/Debug-iphonesimulator/WildSakartveloTests.build/Objects-normal/arm64/ContentValidationTests.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartveloTests.build/Objects-normal/arm64/ContentValidationTests.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartveloTests.build/Objects-normal/arm64/ContentValidationTests.o",
+    "swift-dependencies" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartveloTests.build/Objects-normal/arm64/ContentValidationTests.swiftdeps",
+    "swiftmodule" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartveloTests.build/Objects-normal/arm64/ContentValidationTests~partial.swiftmodule"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartveloTests/ExplorerExpansionTests.swift" : {
+    "const-values" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartveloTests.build/Objects-normal/arm64/ExplorerExpansionTests.swiftconstvalues",
+    "dependencies" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartveloTests.build/Objects-normal/arm64/ExplorerExpansionTests.d",
+    "diagnostics" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartveloTests.build/Objects-normal/arm64/ExplorerExpansionTests.dia",
+    "index-unit-output-path" : "/WildSakartvelo.build/Debug-iphonesimulator/WildSakartveloTests.build/Objects-normal/arm64/ExplorerExpansionTests.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartveloTests.build/Objects-normal/arm64/ExplorerExpansionTests.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartveloTests.build/Objects-normal/arm64/ExplorerExpansionTests.o",
+    "swift-dependencies" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartveloTests.build/Objects-normal/arm64/ExplorerExpansionTests.swiftdeps",
+    "swiftmodule" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartveloTests.build/Objects-normal/arm64/ExplorerExpansionTests~partial.swiftmodule"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartveloTests/GeographyFeatureTests.swift" : {
+    "const-values" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartveloTests.build/Objects-normal/arm64/GeographyFeatureTests.swiftconstvalues",
+    "dependencies" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartveloTests.build/Objects-normal/arm64/GeographyFeatureTests.d",
+    "diagnostics" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartveloTests.build/Objects-normal/arm64/GeographyFeatureTests.dia",
+    "index-unit-output-path" : "/WildSakartvelo.build/Debug-iphonesimulator/WildSakartveloTests.build/Objects-normal/arm64/GeographyFeatureTests.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartveloTests.build/Objects-normal/arm64/GeographyFeatureTests.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartveloTests.build/Objects-normal/arm64/GeographyFeatureTests.o",
+    "swift-dependencies" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartveloTests.build/Objects-normal/arm64/GeographyFeatureTests.swiftdeps",
+    "swiftmodule" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartveloTests.build/Objects-normal/arm64/GeographyFeatureTests~partial.swiftmodule"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartveloTests/MissionSessionTests.swift" : {
+    "const-values" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartveloTests.build/Objects-normal/arm64/MissionSessionTests.swiftconstvalues",
+    "dependencies" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartveloTests.build/Objects-normal/arm64/MissionSessionTests.d",
+    "diagnostics" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartveloTests.build/Objects-normal/arm64/MissionSessionTests.dia",
+    "index-unit-output-path" : "/WildSakartvelo.build/Debug-iphonesimulator/WildSakartveloTests.build/Objects-normal/arm64/MissionSessionTests.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartveloTests.build/Objects-normal/arm64/MissionSessionTests.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartveloTests.build/Objects-normal/arm64/MissionSessionTests.o",
+    "swift-dependencies" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartveloTests.build/Objects-normal/arm64/MissionSessionTests.swiftdeps",
+    "swiftmodule" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartveloTests.build/Objects-normal/arm64/MissionSessionTests~partial.swiftmodule"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartveloTests/Mocks/MockServices.swift" : {
+    "const-values" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartveloTests.build/Objects-normal/arm64/MockServices.swiftconstvalues",
+    "dependencies" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartveloTests.build/Objects-normal/arm64/MockServices.d",
+    "diagnostics" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartveloTests.build/Objects-normal/arm64/MockServices.dia",
+    "index-unit-output-path" : "/WildSakartvelo.build/Debug-iphonesimulator/WildSakartveloTests.build/Objects-normal/arm64/MockServices.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartveloTests.build/Objects-normal/arm64/MockServices.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartveloTests.build/Objects-normal/arm64/MockServices.o",
+    "swift-dependencies" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartveloTests.build/Objects-normal/arm64/MockServices.swiftdeps",
+    "swiftmodule" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartveloTests.build/Objects-normal/arm64/MockServices~partial.swiftmodule"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartveloTests/ModelDecodingTests.swift" : {
+    "const-values" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartveloTests.build/Objects-normal/arm64/ModelDecodingTests.swiftconstvalues",
+    "dependencies" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartveloTests.build/Objects-normal/arm64/ModelDecodingTests.d",
+    "diagnostics" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartveloTests.build/Objects-normal/arm64/ModelDecodingTests.dia",
+    "index-unit-output-path" : "/WildSakartvelo.build/Debug-iphonesimulator/WildSakartveloTests.build/Objects-normal/arm64/ModelDecodingTests.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartveloTests.build/Objects-normal/arm64/ModelDecodingTests.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartveloTests.build/Objects-normal/arm64/ModelDecodingTests.o",
+    "swift-dependencies" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartveloTests.build/Objects-normal/arm64/ModelDecodingTests.swiftdeps",
+    "swiftmodule" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartveloTests.build/Objects-normal/arm64/ModelDecodingTests~partial.swiftmodule"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartveloTests/ProfileStoreTests.swift" : {
+    "const-values" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartveloTests.build/Objects-normal/arm64/ProfileStoreTests.swiftconstvalues",
+    "dependencies" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartveloTests.build/Objects-normal/arm64/ProfileStoreTests.d",
+    "diagnostics" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartveloTests.build/Objects-normal/arm64/ProfileStoreTests.dia",
+    "index-unit-output-path" : "/WildSakartvelo.build/Debug-iphonesimulator/WildSakartveloTests.build/Objects-normal/arm64/ProfileStoreTests.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartveloTests.build/Objects-normal/arm64/ProfileStoreTests.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartveloTests.build/Objects-normal/arm64/ProfileStoreTests.o",
+    "swift-dependencies" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartveloTests.build/Objects-normal/arm64/ProfileStoreTests.swiftdeps",
+    "swiftmodule" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartveloTests.build/Objects-normal/arm64/ProfileStoreTests~partial.swiftmodule"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartveloTests/ProgressServiceTests.swift" : {
+    "const-values" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartveloTests.build/Objects-normal/arm64/ProgressServiceTests.swiftconstvalues",
+    "dependencies" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartveloTests.build/Objects-normal/arm64/ProgressServiceTests.d",
+    "diagnostics" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartveloTests.build/Objects-normal/arm64/ProgressServiceTests.dia",
+    "index-unit-output-path" : "/WildSakartvelo.build/Debug-iphonesimulator/WildSakartveloTests.build/Objects-normal/arm64/ProgressServiceTests.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartveloTests.build/Objects-normal/arm64/ProgressServiceTests.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartveloTests.build/Objects-normal/arm64/ProgressServiceTests.o",
+    "swift-dependencies" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartveloTests.build/Objects-normal/arm64/ProgressServiceTests.swiftdeps",
+    "swiftmodule" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartveloTests.build/Objects-normal/arm64/ProgressServiceTests~partial.swiftmodule"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartveloTests/SettingsStoreTests.swift" : {
+    "const-values" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartveloTests.build/Objects-normal/arm64/SettingsStoreTests.swiftconstvalues",
+    "dependencies" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartveloTests.build/Objects-normal/arm64/SettingsStoreTests.d",
+    "diagnostics" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartveloTests.build/Objects-normal/arm64/SettingsStoreTests.dia",
+    "index-unit-output-path" : "/WildSakartvelo.build/Debug-iphonesimulator/WildSakartveloTests.build/Objects-normal/arm64/SettingsStoreTests.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartveloTests.build/Objects-normal/arm64/SettingsStoreTests.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartveloTests.build/Objects-normal/arm64/SettingsStoreTests.o",
+    "swift-dependencies" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartveloTests.build/Objects-normal/arm64/SettingsStoreTests.swiftdeps",
+    "swiftmodule" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartveloTests.build/Objects-normal/arm64/SettingsStoreTests~partial.swiftmodule"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartveloTests/TestFixtures.swift" : {
+    "const-values" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartveloTests.build/Objects-normal/arm64/TestFixtures.swiftconstvalues",
+    "dependencies" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartveloTests.build/Objects-normal/arm64/TestFixtures.d",
+    "diagnostics" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartveloTests.build/Objects-normal/arm64/TestFixtures.dia",
+    "index-unit-output-path" : "/WildSakartvelo.build/Debug-iphonesimulator/WildSakartveloTests.build/Objects-normal/arm64/TestFixtures.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartveloTests.build/Objects-normal/arm64/TestFixtures.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartveloTests.build/Objects-normal/arm64/TestFixtures.o",
+    "swift-dependencies" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartveloTests.build/Objects-normal/arm64/TestFixtures.swiftdeps",
+    "swiftmodule" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartveloTests.build/Objects-normal/arm64/TestFixtures~partial.swiftmodule"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartveloTests/UnlockServiceTests.swift" : {
+    "const-values" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartveloTests.build/Objects-normal/arm64/UnlockServiceTests.swiftconstvalues",
+    "dependencies" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartveloTests.build/Objects-normal/arm64/UnlockServiceTests.d",
+    "diagnostics" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartveloTests.build/Objects-normal/arm64/UnlockServiceTests.dia",
+    "index-unit-output-path" : "/WildSakartvelo.build/Debug-iphonesimulator/WildSakartveloTests.build/Objects-normal/arm64/UnlockServiceTests.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartveloTests.build/Objects-normal/arm64/UnlockServiceTests.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartveloTests.build/Objects-normal/arm64/UnlockServiceTests.o",
+    "swift-dependencies" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartveloTests.build/Objects-normal/arm64/UnlockServiceTests.swiftdeps",
+    "swiftmodule" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Debug-iphonesimulator/WildSakartveloTests.build/Objects-normal/arm64/UnlockServiceTests~partial.swiftmodule"
+  }
+}

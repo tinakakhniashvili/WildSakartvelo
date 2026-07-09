@@ -1,0 +1,675 @@
+{
+  "" : {
+    "const-values" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/WildSakartvelo-master.swiftconstvalues",
+    "dependencies" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/WildSakartvelo-master.d",
+    "diagnostics" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/WildSakartvelo-master.dia",
+    "emit-module-dependencies" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/WildSakartvelo-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/WildSakartvelo-master-emit-module.dia",
+    "swift-dependencies" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/WildSakartvelo-master.swiftdeps"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/App/AppState.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/AppState.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/AppState.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/AppState.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/App/RootTabView.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/RootTabView.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/RootTabView.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/RootTabView.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/App/WildSakartveloApp.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/WildSakartveloApp.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/WildSakartveloApp.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/WildSakartveloApp.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Core/Accessibility/AppAccessibilitySettings.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/AppAccessibilitySettings.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/AppAccessibilitySettings.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/AppAccessibilitySettings.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Core/Components/AppCard.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/AppCard.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/AppCard.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/AppCard.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Core/Components/AppErrorView.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/AppErrorView.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/AppErrorView.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/AppErrorView.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Core/Components/AudioControlButton.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/AudioControlButton.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/AudioControlButton.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/AudioControlButton.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Core/Components/ContentImageView.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/ContentImageView.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/ContentImageView.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/ContentImageView.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Core/Components/EmptyStateView.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/EmptyStateView.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/EmptyStateView.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/EmptyStateView.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Core/Components/IllustratedHeaderView.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/IllustratedHeaderView.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/IllustratedHeaderView.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/IllustratedHeaderView.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Core/Components/PrimaryButton.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/PrimaryButton.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/PrimaryButton.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/PrimaryButton.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Core/Components/TokoGuideView.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/TokoGuideView.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/TokoGuideView.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/TokoGuideView.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Core/DesignSystem/AppAnimation.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/AppAnimation.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/AppAnimation.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/AppAnimation.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Core/DesignSystem/AppColors.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/AppColors.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/AppColors.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/AppColors.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Core/DesignSystem/AppIconSize.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/AppIconSize.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/AppIconSize.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/AppIconSize.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Core/DesignSystem/AppLayout.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/AppLayout.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/AppLayout.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/AppLayout.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Core/DesignSystem/AppRadius.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/AppRadius.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/AppRadius.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/AppRadius.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Core/DesignSystem/AppShadows.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/AppShadows.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/AppShadows.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/AppShadows.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Core/DesignSystem/AppSpacing.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/AppSpacing.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/AppSpacing.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/AppSpacing.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Core/DesignSystem/AppTypography.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/AppTypography.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/AppTypography.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/AppTypography.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Core/Extensions/ConservationStatus+Display.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/ConservationStatus+Display.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/ConservationStatus+Display.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/ConservationStatus+Display.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Core/Extensions/ContentLocalization+Display.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/ContentLocalization+Display.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/ContentLocalization+Display.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/ContentLocalization+Display.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Core/Extensions/DifficultyLevel+Display.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/DifficultyLevel+Display.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/DifficultyLevel+Display.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/DifficultyLevel+Display.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Core/Extensions/EcosystemTheme+Color.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/EcosystemTheme+Color.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/EcosystemTheme+Color.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/EcosystemTheme+Color.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Core/Extensions/LocalizedContentText+Display.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/LocalizedContentText+Display.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/LocalizedContentText+Display.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/LocalizedContentText+Display.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Core/Localization/AppLocalization.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/AppLocalization.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/AppLocalization.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/AppLocalization.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Core/Models/Animal.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/Animal.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/Animal.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/Animal.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Core/Models/AppEnums.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/AppEnums.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/AppEnums.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/AppEnums.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Core/Models/AppSettings.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/AppSettings.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/AppSettings.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/AppSettings.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Core/Models/ChildProfile.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/ChildProfile.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/ChildProfile.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/ChildProfile.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Core/Models/ContentCatalogue.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/ContentCatalogue.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/ContentCatalogue.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/ContentCatalogue.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Core/Models/ContentPack.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/ContentPack.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/ContentPack.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/ContentPack.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Core/Models/ContentPackState.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/ContentPackState.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/ContentPackState.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/ContentPackState.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Core/Models/DailyDiscovery.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/DailyDiscovery.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/DailyDiscovery.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/DailyDiscovery.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Core/Models/Ecosystem.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/Ecosystem.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/Ecosystem.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/Ecosystem.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Core/Models/ExplorerChallenge.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/ExplorerChallenge.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/ExplorerChallenge.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/ExplorerChallenge.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Core/Models/ExplorerEquipment.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/ExplorerEquipment.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/ExplorerEquipment.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/ExplorerEquipment.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Core/Models/GeographyActivity.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/GeographyActivity.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/GeographyActivity.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/GeographyActivity.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Core/Models/GeographyLandmark.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/GeographyLandmark.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/GeographyLandmark.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/GeographyLandmark.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Core/Models/GeographyMission.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/GeographyMission.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/GeographyMission.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/GeographyMission.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Core/Models/GeographyProgress.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/GeographyProgress.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/GeographyProgress.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/GeographyProgress.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Core/Models/GeorgiaRegion.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/GeorgiaRegion.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/GeorgiaRegion.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/GeorgiaRegion.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Core/Models/GeorgianCity.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/GeorgianCity.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/GeorgianCity.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/GeorgianCity.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Core/Models/LocalizedContentText.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/LocalizedContentText.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/LocalizedContentText.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/LocalizedContentText.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Core/Models/Mission.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/Mission.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/Mission.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/Mission.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Core/Models/MissionActivity.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/MissionActivity.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/MissionActivity.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/MissionActivity.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Core/Models/ObservationActivity.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/ObservationActivity.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/ObservationActivity.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/ObservationActivity.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Core/Models/Plant.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/Plant.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/Plant.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/Plant.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Core/Models/ProfileProgress.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/ProfileProgress.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/ProfileProgress.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/ProfileProgress.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Core/Models/UserProgress.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/UserProgress.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/UserProgress.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/UserProgress.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Core/Services/AVAudioService.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/AVAudioService.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/AVAudioService.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/AVAudioService.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Core/Services/AudioService.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/AudioService.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/AudioService.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/AudioService.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Core/Services/ContentDownloadManager.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/ContentDownloadManager.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/ContentDownloadManager.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/ContentDownloadManager.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Core/Services/ContentDownloadManaging.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/ContentDownloadManaging.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/ContentDownloadManaging.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/ContentDownloadManaging.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Core/Services/ContentError.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/ContentError.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/ContentError.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/ContentError.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Core/Services/ContentService.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/ContentService.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/ContentService.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/ContentService.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Core/Services/DailyDiscoveryService.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/DailyDiscoveryService.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/DailyDiscoveryService.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/DailyDiscoveryService.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Core/Services/EquipmentUnlockService.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/EquipmentUnlockService.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/EquipmentUnlockService.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/EquipmentUnlockService.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Core/Services/ExplorerChallengeService.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/ExplorerChallengeService.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/ExplorerChallengeService.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/ExplorerChallengeService.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Core/Services/JSONLoader.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/JSONLoader.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/JSONLoader.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/JSONLoader.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Core/Services/ProgressCalculator.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/ProgressCalculator.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/ProgressCalculator.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/ProgressCalculator.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Core/Services/ProgressService.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/ProgressService.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/ProgressService.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/ProgressService.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Core/Services/ResourceResolver.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/ResourceResolver.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/ResourceResolver.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/ResourceResolver.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Core/Services/TokoMessageService.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/TokoMessageService.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/TokoMessageService.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/TokoMessageService.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Core/Services/UnlockService.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/UnlockService.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/UnlockService.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/UnlockService.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Core/Storage/ContentPackStore.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/ContentPackStore.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/ContentPackStore.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/ContentPackStore.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Core/Storage/ProfileStore.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/ProfileStore.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/ProfileStore.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/ProfileStore.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Core/Storage/ProgressStore.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/ProgressStore.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/ProgressStore.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/ProgressStore.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Core/Storage/SettingsStore.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/SettingsStore.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/SettingsStore.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/SettingsStore.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Core/Storage/UserDefaultsProfileStore.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/UserDefaultsProfileStore.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/UserDefaultsProfileStore.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/UserDefaultsProfileStore.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Core/Storage/UserDefaultsProgressStore.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/UserDefaultsProgressStore.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/UserDefaultsProgressStore.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/UserDefaultsProgressStore.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Core/Storage/UserDefaultsSettingsStore.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/UserDefaultsSettingsStore.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/UserDefaultsSettingsStore.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/UserDefaultsSettingsStore.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Core/Utilities/AppLogger.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/AppLogger.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/AppLogger.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/AppLogger.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Features/Animals/AnimalDetailView.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/AnimalDetailView.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/AnimalDetailView.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/AnimalDetailView.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Features/Animals/AnimalRowView.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/AnimalRowView.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/AnimalRowView.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/AnimalRowView.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Features/Challenges/ExplorerChallengeCard.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/ExplorerChallengeCard.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/ExplorerChallengeCard.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/ExplorerChallengeCard.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Features/Challenges/ExplorerChallengesView.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/ExplorerChallengesView.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/ExplorerChallengesView.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/ExplorerChallengesView.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Features/Downloads/ContentPackRowView.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/ContentPackRowView.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/ContentPackRowView.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/ContentPackRowView.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Features/Downloads/OfflineContentView.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/OfflineContentView.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/OfflineContentView.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/OfflineContentView.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Features/Equipment/ExplorerEquipmentView.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/ExplorerEquipmentView.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/ExplorerEquipmentView.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/ExplorerEquipmentView.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Features/Explore/ContinueMissionCard.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/ContinueMissionCard.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/ContinueMissionCard.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/ContinueMissionCard.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Features/Explore/DailyDiscoveryCard.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/DailyDiscoveryCard.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/DailyDiscoveryCard.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/DailyDiscoveryCard.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Features/Explore/EcosystemCardView.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/EcosystemCardView.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/EcosystemCardView.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/EcosystemCardView.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Features/Explore/EcosystemDetailView.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/EcosystemDetailView.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/EcosystemDetailView.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/EcosystemDetailView.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Features/Explore/EcosystemProgressView.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/EcosystemProgressView.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/EcosystemProgressView.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/EcosystemProgressView.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Features/Explore/ExploreThumbnail.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/ExploreThumbnail.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/ExploreThumbnail.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/ExploreThumbnail.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Features/Explore/ExploreView.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/ExploreView.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/ExploreView.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/ExploreView.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Features/Geography/GeographyHomeView.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/GeographyHomeView.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/GeographyHomeView.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/GeographyHomeView.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Features/Geography/GeographyMissionView.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/GeographyMissionView.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/GeographyMissionView.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/GeographyMissionView.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Features/Geography/GeorgiaMapView.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/GeorgiaMapView.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/GeorgiaMapView.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/GeorgiaMapView.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Features/Geography/MapLegendView.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/MapLegendView.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/MapLegendView.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/MapLegendView.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Features/Geography/RegionCardView.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/RegionCardView.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/RegionCardView.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/RegionCardView.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Features/Geography/RegionDetailView.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/RegionDetailView.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/RegionDetailView.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/RegionDetailView.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Features/Geography/RegionMapOverlay.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/RegionMapOverlay.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/RegionMapOverlay.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/RegionMapOverlay.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Features/Geography/RegionMapShape.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/RegionMapShape.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/RegionMapShape.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/RegionMapShape.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Features/Journal/BadgeDetailView.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/BadgeDetailView.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/BadgeDetailView.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/BadgeDetailView.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Features/Journal/JournalCardView.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/JournalCardView.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/JournalCardView.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/JournalCardView.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Features/Journal/JournalFilter.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/JournalFilter.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/JournalFilter.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/JournalFilter.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Features/Journal/JournalFilterView.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/JournalFilterView.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/JournalFilterView.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/JournalFilterView.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Features/Journal/JournalGridView.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/JournalGridView.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/JournalGridView.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/JournalGridView.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Features/Journal/JournalItem.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/JournalItem.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/JournalItem.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/JournalItem.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Features/Journal/JournalView.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/JournalView.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/JournalView.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/JournalView.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Features/Journal/JournalViewModel.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/JournalViewModel.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/JournalViewModel.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/JournalViewModel.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Features/Missions/ActivityContainerView.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/ActivityContainerView.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/ActivityContainerView.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/ActivityContainerView.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Features/Missions/ClassificationActivityView.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/ClassificationActivityView.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/ClassificationActivityView.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/ClassificationActivityView.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Features/Missions/HabitatPlacementActivityView.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/HabitatPlacementActivityView.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/HabitatPlacementActivityView.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/HabitatPlacementActivityView.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Features/Missions/MatchingActivityView.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/MatchingActivityView.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/MatchingActivityView.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/MatchingActivityView.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Features/Missions/MissionContainerView.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/MissionContainerView.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/MissionContainerView.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/MissionContainerView.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Features/Missions/MissionIntroView.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/MissionIntroView.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/MissionIntroView.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/MissionIntroView.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Features/Missions/MissionResultView.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/MissionResultView.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/MissionResultView.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/MissionResultView.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Features/Missions/MissionRowView.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/MissionRowView.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/MissionRowView.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/MissionRowView.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Features/Missions/MissionSession.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/MissionSession.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/MissionSession.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/MissionSession.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Features/Missions/MultipleChoiceActivityView.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/MultipleChoiceActivityView.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/MultipleChoiceActivityView.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/MultipleChoiceActivityView.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Features/Missions/SequencingActivityView.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/SequencingActivityView.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/SequencingActivityView.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/SequencingActivityView.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Features/Observation/ObservationActivityView.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/ObservationActivityView.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/ObservationActivityView.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/ObservationActivityView.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Features/Onboarding/OnboardingPage.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/OnboardingPage.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/OnboardingPage.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/OnboardingPage.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Features/Onboarding/OnboardingView.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/OnboardingView.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/OnboardingView.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/OnboardingView.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Features/Parent/CompletedMissionsView.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/CompletedMissionsView.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/CompletedMissionsView.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/CompletedMissionsView.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Features/Parent/EditProfileView.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/EditProfileView.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/EditProfileView.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/EditProfileView.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Features/Parent/LearningTopicsView.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/LearningTopicsView.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/LearningTopicsView.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/LearningTopicsView.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Features/Parent/ParentDashboardView.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/ParentDashboardView.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/ParentDashboardView.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/ParentDashboardView.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Features/Parent/ParentGateView.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/ParentGateView.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/ParentGateView.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/ParentGateView.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Features/Parent/ParentView.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/ParentView.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/ParentView.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/ParentView.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Features/Parent/ProgressOverviewView.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/ProgressOverviewView.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/ProgressOverviewView.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/ProgressOverviewView.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Features/Plants/PlantDetailView.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/PlantDetailView.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/PlantDetailView.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/PlantDetailView.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Features/Plants/PlantRowView.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/PlantRowView.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/PlantRowView.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/PlantRowView.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Features/Profiles/AvatarSelectionView.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/AvatarSelectionView.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/AvatarSelectionView.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/AvatarSelectionView.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Features/Profiles/CreateProfileView.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/CreateProfileView.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/CreateProfileView.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/CreateProfileView.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Features/Profiles/LearningLevelSelectionView.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/LearningLevelSelectionView.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/LearningLevelSelectionView.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/LearningLevelSelectionView.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Features/Profiles/ProfileCardView.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/ProfileCardView.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/ProfileCardView.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/ProfileCardView.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Features/Profiles/ProfileSelectionView.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/ProfileSelectionView.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/ProfileSelectionView.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/ProfileSelectionView.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Features/Settings/SettingsView.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/SettingsView.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/SettingsView.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/SettingsView.o"
+  },
+  "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "index-unit-output-path" : "/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/lesifuges/Desktop/WildSakartveloStarter/build/Build/Intermediates.noindex/WildSakartvelo.build/Release-iphonesimulator/WildSakartvelo.build/Objects-normal/arm64/GeneratedAssetSymbols.o"
+  }
+}

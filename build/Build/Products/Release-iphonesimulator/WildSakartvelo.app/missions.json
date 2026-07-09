@@ -1,0 +1,854 @@
+[
+  {
+    "id": "forest-tracks-and-clues",
+    "title": "Forest Tracks and Clues",
+    "localizedTitle": {
+      "english": "Forest Tracks and Clues",
+      "georgian": "ტყის კვალი და ნიშნები"
+    },
+    "subtitle": "Notice what lives among the beech trees",
+    "localizedSubtitle": {
+      "english": "Notice what lives among the beech trees",
+      "georgian": "შეამჩნიე, ვინ ცხოვრობს წიფლის ხეებს შორის"
+    },
+    "introduction": "Look for clues left by forest animals and match them to the right places.",
+    "localizedIntroduction": {
+      "english": "Look for clues left by forest animals and match them to the right places.",
+      "georgian": "იპოვე ტყის ცხოველების მიერ დატოვებული ნიშნები და შეადარე ისინი სწორ ადგილებს."
+    },
+    "ecosystemID": "borjomi-forest",
+    "difficulty": "beginner",
+    "estimatedMinutes": 5,
+    "activityIDs": [
+      "borjomi-forest-choice",
+      "borjomi-footprint-match",
+      "borjomi-layer-classify"
+    ],
+    "learningTopics": [
+      "habitats",
+      "animalIdentification",
+      "observation"
+    ],
+    "reward": {
+      "type": "animalCard",
+      "referenceID": "roe-deer",
+      "title": "Roe Deer Card",
+      "localizedTitle": {
+        "english": "Roe Deer Card",
+        "georgian": "შვლის ბარათი"
+      }
+    },
+    "prerequisiteMissionIDs": []
+  },
+  {
+    "id": "spring-stream-keepers",
+    "title": "Spring Stream Keepers",
+    "localizedTitle": {
+      "english": "Spring Stream Keepers",
+      "georgian": "გაზაფხულის ნაკადულის მცველები"
+    },
+    "subtitle": "Protect the clean water that forest animals need",
+    "localizedSubtitle": {
+      "english": "Protect the clean water that forest animals need",
+      "georgian": "დაიცავი სუფთა წყალი, რომელიც ტყის ცხოველებს სჭირდებათ"
+    },
+    "introduction": "Keep the forest streams clear and choose the places where each animal belongs.",
+    "localizedIntroduction": {
+      "english": "Keep the forest streams clear and choose the places where each animal belongs.",
+      "georgian": "შეინარჩუნე ტყის ნაკადულები სუფთად და აირჩიე თითოეული ცხოველის ადგილი."
+    },
+    "ecosystemID": "borjomi-forest",
+    "difficulty": "intermediate",
+    "estimatedMinutes": 6,
+    "activityIDs": [
+      "borjomi-forest-sequence",
+      "borjomi-habitat-placement",
+      "borjomi-forest-choice"
+    ],
+    "learningTopics": [
+      "habitats",
+      "environmentalResponsibility",
+      "observation"
+    ],
+    "reward": {
+      "type": "ecosystemUnlock",
+      "referenceID": "caucasus-mountains",
+      "title": "Caucasus Mountains",
+      "localizedTitle": {
+        "english": "Caucasus Mountains",
+        "georgian": "კავკასიონის მთები"
+      }
+    },
+    "prerequisiteMissionIDs": [
+      "forest-tracks-and-clues"
+    ]
+  },
+  {
+    "id": "under-the-canopy",
+    "title": "Under the Canopy",
+    "localizedTitle": {
+      "english": "Under the Canopy",
+      "georgian": "კენწეროს ქვეშ"
+    },
+    "subtitle": "Learn how trees shelter small forest life",
+    "localizedSubtitle": {
+      "english": "Learn how trees shelter small forest life",
+      "georgian": "ისწავლე, როგორ იცავენ ხეები პატარა ტყის სიცოცხლეს"
+    },
+    "introduction": "Notice how the canopy, trunk, and forest floor each support different animals.",
+    "localizedIntroduction": {
+      "english": "Notice how the canopy, trunk, and forest floor each support different animals.",
+      "georgian": "შენიშნე, როგორ ეხმარება კენწერო, ტანი და ტყის ძირი სხვადასხვა ცხოველს."
+    },
+    "ecosystemID": "borjomi-forest",
+    "difficulty": "beginner",
+    "estimatedMinutes": 5,
+    "activityIDs": [
+      "borjomi-layer-classify",
+      "borjomi-forest-sequence",
+      "borjomi-footprint-match"
+    ],
+    "learningTopics": [
+      "habitats",
+      "plants",
+      "observation"
+    ],
+    "reward": {
+      "type": "plantCard",
+      "referenceID": "oriental-beech",
+      "title": "Oriental Beech Card",
+      "localizedTitle": {
+        "english": "Oriental Beech Card",
+        "georgian": "წიფლის ბარათი"
+      }
+    },
+    "prerequisiteMissionIDs": [
+      "spring-stream-keepers"
+    ]
+  },
+  {
+    "id": "forest-food-web",
+    "title": "Forest Food Web",
+    "localizedTitle": {
+      "english": "Forest Food Web",
+      "georgian": "ტყის საკვები ქსელი"
+    },
+    "subtitle": "See how plants and animals are connected",
+    "localizedSubtitle": {
+      "english": "See how plants and animals are connected",
+      "georgian": "ნახე, როგორ უკავშირდება ერთმანეთს მცენარეები და ცხოველები"
+    },
+    "introduction": "Follow the food chain and think about how the forest stays balanced.",
+    "localizedIntroduction": {
+      "english": "Follow the food chain and think about how the forest stays balanced.",
+      "georgian": "გაჰყევი საკვებ ჯაჭვს და იფიქრე, როგორ ინარჩუნებს ტყე ბალანსს."
+    },
+    "ecosystemID": "borjomi-forest",
+    "difficulty": "intermediate",
+    "estimatedMinutes": 7,
+    "activityIDs": [
+      "borjomi-forest-sequence",
+      "borjomi-habitat-placement",
+      "borjomi-layer-classify"
+    ],
+    "learningTopics": [
+      "foodChains",
+      "habitats",
+      "environmentalResponsibility"
+    ],
+    "reward": {
+      "type": "badge",
+      "referenceID": "forest-balance-badge",
+      "title": "Forest Balance Badge",
+      "localizedTitle": {
+        "english": "Forest Balance Badge",
+        "georgian": "ტყის ბალანსის ნიშანი"
+      }
+    },
+    "prerequisiteMissionIDs": [
+      "under-the-canopy"
+    ]
+  },
+  {
+    "id": "protected-woodland-paths",
+    "title": "Protected Woodland Paths",
+    "localizedTitle": {
+      "english": "Protected Woodland Paths",
+      "georgian": "დაცული ტყის ბილიკები"
+    },
+    "subtitle": "Choose the safer way to explore the forest",
+    "localizedSubtitle": {
+      "english": "Choose the safer way to explore the forest",
+      "georgian": "აირჩიე ტყის შესასწავლად უფრო უსაფრთხო გზა"
+    },
+    "introduction": "Use careful observation to keep people and forest wildlife safe.",
+    "localizedIntroduction": {
+      "english": "Use careful observation to keep people and forest wildlife safe.",
+      "georgian": "გამოიყენე ფრთხილი დაკვირვება, რომ ადამიანები და ტყის ველური ბუნება დაცული იყოს."
+    },
+    "ecosystemID": "borjomi-forest",
+    "difficulty": "advanced",
+    "estimatedMinutes": 8,
+    "activityIDs": [
+      "borjomi-forest-choice",
+      "borjomi-footprint-match",
+      "borjomi-habitat-placement"
+    ],
+    "learningTopics": [
+      "observation",
+      "habitats",
+      "environmentalResponsibility"
+    ],
+    "reward": {
+      "type": "animalCard",
+      "referenceID": "red-squirrel",
+      "title": "Red Squirrel Card",
+      "localizedTitle": {
+        "english": "Red Squirrel Card",
+        "georgian": "წითელი ციყვის ბარათი"
+      }
+    },
+    "prerequisiteMissionIDs": [
+      "forest-food-web"
+    ]
+  },
+  {
+    "id": "rocky-ridge-residents",
+    "title": "Rocky Ridge Residents",
+    "localizedTitle": {
+      "english": "Rocky Ridge Residents",
+      "georgian": "კლდოვანი ქედის ბინადრები"
+    },
+    "subtitle": "Find the animals made for steep mountain ground",
+    "localizedSubtitle": {
+      "english": "Find the animals made for steep mountain ground",
+      "georgian": "იპოვე ცხოველები, რომლებიც ციცაბო მთის რელიეფს არიან შეგუებული"
+    },
+    "introduction": "Look closely at tracks, habitats, and mountain clues on the high slopes.",
+    "localizedIntroduction": {
+      "english": "Look closely at tracks, habitats, and mountain clues on the high slopes.",
+      "georgian": "ყურადღებით დააკვირდი ნაკვალევს, ჰაბიტატებს და მთის ნიშნებს მაღალ ფერდობებზე."
+    },
+    "ecosystemID": "caucasus-mountains",
+    "difficulty": "beginner",
+    "estimatedMinutes": 5,
+    "activityIDs": [
+      "identify-animal",
+      "match-animal-footprints",
+      "classify-animal-habitats"
+    ],
+    "learningTopics": [
+      "habitats",
+      "animalIdentification",
+      "observation"
+    ],
+    "reward": {
+      "type": "animalCard",
+      "referenceID": "caucasian-tur",
+      "title": "Caucasian Tur Card",
+      "localizedTitle": {
+        "english": "Caucasian Tur Card",
+        "georgian": "ჯიხვის ბარათი"
+      }
+    },
+    "prerequisiteMissionIDs": []
+  },
+  {
+    "id": "safe-mountain-observer",
+    "title": "Safe Mountain Observer",
+    "localizedTitle": {
+      "english": "Safe Mountain Observer",
+      "georgian": "უსაფრთხო მთის დამკვირვებელი"
+    },
+    "subtitle": "Observe mountain life without disturbing it",
+    "localizedSubtitle": {
+      "english": "Observe mountain life without disturbing it",
+      "georgian": "დააკვირდი მთის სიცოცხლეს ისე, რომ არ შეაწუხო"
+    },
+    "introduction": "Choose the safer path, the right place, and the best food chain order.",
+    "localizedIntroduction": {
+      "english": "Choose the safer path, the right place, and the best food chain order.",
+      "georgian": "აირჩიე უსაფრთხო გზა, სწორი ადგილი და საკვები ჯაჭვის საუკეთესო რიგი."
+    },
+    "ecosystemID": "caucasus-mountains",
+    "difficulty": "intermediate",
+    "estimatedMinutes": 6,
+    "activityIDs": [
+      "habitat-placement-sort",
+      "food-chain-sequence",
+      "identify-animal"
+    ],
+    "learningTopics": [
+      "habitats",
+      "environmentalResponsibility",
+      "observation"
+    ],
+    "reward": {
+      "type": "ecosystemUnlock",
+      "referenceID": "kolkheti-wetlands",
+      "title": "Kolkheti Wetlands",
+      "localizedTitle": {
+        "english": "Kolkheti Wetlands",
+        "georgian": "კოლხეთის ჭარბტენიანი ტერიტორიები"
+      }
+    },
+    "prerequisiteMissionIDs": [
+      "rocky-ridge-residents"
+    ]
+  },
+  {
+    "id": "high-meadow-plants",
+    "title": "High Meadow Plants",
+    "localizedTitle": {
+      "english": "High Meadow Plants",
+      "georgian": "მაღალი მდელოს მცენარეები"
+    },
+    "subtitle": "Meet the flowers that survive in thin mountain air",
+    "localizedSubtitle": {
+      "english": "Meet the flowers that survive in thin mountain air",
+      "georgian": "გაიცანი ყვავილები, რომლებიც თხელ მთის ჰაერში ძლებენ"
+    },
+    "introduction": "Use clues about mountain plants and the animals that share their habitat.",
+    "localizedIntroduction": {
+      "english": "Use clues about mountain plants and the animals that share their habitat.",
+      "georgian": "გამოიყენე მინიშნებები მთის მცენარეებსა და იმ ცხოველებზე, რომლებიც მათ ჰაბიტატს იყოფენ."
+    },
+    "ecosystemID": "caucasus-mountains",
+    "difficulty": "beginner",
+    "estimatedMinutes": 5,
+    "activityIDs": [
+      "classify-animal-habitats",
+      "food-chain-sequence",
+      "habitat-placement-sort"
+    ],
+    "learningTopics": [
+      "plants",
+      "habitats",
+      "observation"
+    ],
+    "reward": {
+      "type": "plantCard",
+      "referenceID": "caucasian-rhododendron",
+      "title": "Caucasian Rhododendron Card",
+      "localizedTitle": {
+        "english": "Caucasian Rhododendron Card",
+        "georgian": "დეკას ბარათი"
+      }
+    },
+    "prerequisiteMissionIDs": [
+      "safe-mountain-observer"
+    ]
+  },
+  {
+    "id": "above-the-tree-line",
+    "title": "Above the Tree Line",
+    "localizedTitle": {
+      "english": "Above the Tree Line",
+      "georgian": "ხეების ზემოთ"
+    },
+    "subtitle": "Notice how animals live where trees stop growing",
+    "localizedSubtitle": {
+      "english": "Notice how animals live where trees stop growing",
+      "georgian": "შეამჩნიე, როგორ ცხოვრობენ ცხოველები იქ, სადაც ხეები აღარ იზრდება"
+    },
+    "introduction": "Think about wind, rocks, and the kinds of animals that can handle open mountain slopes.",
+    "localizedIntroduction": {
+      "english": "Think about wind, rocks, and the kinds of animals that can handle open mountain slopes.",
+      "georgian": "იფიქრე ქარზე, ქვებზე და ცხოველებზე, რომლებიც ღია მთის ფერდობებს უძლებენ."
+    },
+    "ecosystemID": "caucasus-mountains",
+    "difficulty": "advanced",
+    "estimatedMinutes": 8,
+    "activityIDs": [
+      "match-animal-footprints",
+      "identify-animal",
+      "classify-animal-habitats"
+    ],
+    "learningTopics": [
+      "habitats",
+      "animalIdentification",
+      "environmentalResponsibility"
+    ],
+    "reward": {
+      "type": "badge",
+      "referenceID": "high-altitude-badge",
+      "title": "High Altitude Badge",
+      "localizedTitle": {
+        "english": "High Altitude Badge",
+        "georgian": "მაღალმთის ნიშანი"
+      }
+    },
+    "prerequisiteMissionIDs": [
+      "high-meadow-plants"
+    ]
+  },
+  {
+    "id": "mountain-conservation-choices",
+    "title": "Mountain Conservation Choices",
+    "localizedTitle": {
+      "english": "Mountain Conservation Choices",
+      "georgian": "მთის დაცვის არჩევანი"
+    },
+    "subtitle": "Choose actions that keep mountain wildlife safe",
+    "localizedSubtitle": {
+      "english": "Choose actions that keep mountain wildlife safe",
+      "georgian": "აირჩიე ქმედებები, რომლებიც მთის ველურ ბუნებას იცავს"
+    },
+    "introduction": "Use food chains and habitat clues to make careful conservation decisions.",
+    "localizedIntroduction": {
+      "english": "Use food chains and habitat clues to make careful conservation decisions.",
+      "georgian": "გამოიყენე საკვები ჯაჭვი და ჰაბიტატის მინიშნებები ფრთხილი დაცვის გადაწყვეტილებებისთვის."
+    },
+    "ecosystemID": "caucasus-mountains",
+    "difficulty": "advanced",
+    "estimatedMinutes": 9,
+    "activityIDs": [
+      "food-chain-sequence",
+      "classify-animal-habitats",
+      "habitat-placement-sort"
+    ],
+    "learningTopics": [
+      "foodChains",
+      "environmentalResponsibility",
+      "habitats"
+    ],
+    "reward": {
+      "type": "animalCard",
+      "referenceID": "golden-eagle",
+      "title": "Golden Eagle Card",
+      "localizedTitle": {
+        "english": "Golden Eagle Card",
+        "georgian": "არწივის ბარათი"
+      }
+    },
+    "prerequisiteMissionIDs": [
+      "above-the-tree-line"
+    ]
+  },
+  {
+    "id": "reedbed-visitors",
+    "title": "Reedbed Visitors",
+    "localizedTitle": {
+      "english": "Reedbed Visitors",
+      "georgian": "ლერწმების სტუმრები"
+    },
+    "subtitle": "Meet the animals that belong near calm wetland water",
+    "localizedSubtitle": {
+      "english": "Meet the animals that belong near calm wetland water",
+      "georgian": "გაიცანი ცხოველები, რომლებიც მშვიდ ჭარბტენიან წყალთან ცხოვრობენ"
+    },
+    "introduction": "Look for the wetland resident and match it to reed beds and shallow water.",
+    "localizedIntroduction": {
+      "english": "Look for the wetland resident and match it to reed beds and shallow water.",
+      "georgian": "იპოვე ჭაობის ბინადარი და შეადარე ის ლერწმებსა და მეჩეჩ წყალს."
+    },
+    "ecosystemID": "kolkheti-wetlands",
+    "difficulty": "beginner",
+    "estimatedMinutes": 5,
+    "activityIDs": [
+      "find-wetland-resident",
+      "identify-animal",
+      "habitat-placement-sort"
+    ],
+    "learningTopics": [
+      "habitats",
+      "animalIdentification",
+      "observation"
+    ],
+    "reward": {
+      "type": "animalCard",
+      "referenceID": "marsh-frog",
+      "title": "Marsh Frog Card",
+      "localizedTitle": {
+        "english": "Marsh Frog Card",
+        "georgian": "ბაყაყის ბარათი"
+      }
+    },
+    "prerequisiteMissionIDs": []
+  },
+  {
+    "id": "slow-water-survey",
+    "title": "Slow Water Survey",
+    "localizedTitle": {
+      "english": "Slow Water Survey",
+      "georgian": "ნელი წყლის კვლევა"
+    },
+    "subtitle": "Learn how still water supports many animals",
+    "localizedSubtitle": {
+      "english": "Learn how still water supports many animals",
+      "georgian": "ისწავლე, როგორ ეხმარება მშვიდი წყალი ბევრ ცხოველს"
+    },
+    "introduction": "Use clues about calm water, reeds, and wetland food chains.",
+    "localizedIntroduction": {
+      "english": "Use clues about calm water, reeds, and wetland food chains.",
+      "georgian": "გამოიყენე მშვიდი წყლის, ლერწმების და ჭაობის საკვები ჯაჭვის ნიშნები."
+    },
+    "ecosystemID": "kolkheti-wetlands",
+    "difficulty": "intermediate",
+    "estimatedMinutes": 6,
+    "activityIDs": [
+      "classify-animal-habitats",
+      "food-chain-sequence",
+      "find-wetland-resident"
+    ],
+    "learningTopics": [
+      "habitats",
+      "foodChains",
+      "observation"
+    ],
+    "reward": {
+      "type": "ecosystemUnlock",
+      "referenceID": "black-sea-coast",
+      "title": "Black Sea Coast",
+      "localizedTitle": {
+        "english": "Black Sea Coast",
+        "georgian": "შავი ზღვის სანაპირო"
+      }
+    },
+    "prerequisiteMissionIDs": [
+      "reedbed-visitors"
+    ]
+  },
+  {
+    "id": "wetland-plants",
+    "title": "Wetland Plants",
+    "localizedTitle": {
+      "english": "Wetland Plants",
+      "georgian": "ჭარბტენიანი მცენარეები"
+    },
+    "subtitle": "Find the plants that help marsh life thrive",
+    "localizedSubtitle": {
+      "english": "Find the plants that help marsh life thrive",
+      "georgian": "იპოვე მცენარეები, რომლებიც ჭაობის სიცოცხლეს ეხმარება"
+    },
+    "introduction": "Match wetland animals and plants to the places they need.",
+    "localizedIntroduction": {
+      "english": "Match wetland animals and plants to the places they need.",
+      "georgian": "შეადარე ჭარბტენიანი ცხოველები და მცენარეები იმ ადგილებს, რომლებიც მათ სჭირდებათ."
+    },
+    "ecosystemID": "kolkheti-wetlands",
+    "difficulty": "beginner",
+    "estimatedMinutes": 5,
+    "activityIDs": [
+      "habitat-placement-sort",
+      "match-animal-footprints",
+      "find-wetland-resident"
+    ],
+    "learningTopics": [
+      "plants",
+      "habitats",
+      "observation"
+    ],
+    "reward": {
+      "type": "plantCard",
+      "referenceID": "common-reed",
+      "title": "Common Reed Card",
+      "localizedTitle": {
+        "english": "Common Reed Card",
+        "georgian": "ლერწმის ბარათი"
+      }
+    },
+    "prerequisiteMissionIDs": [
+      "slow-water-survey"
+    ]
+  },
+  {
+    "id": "leave-no-trace-at-the-marsh",
+    "title": "Leave No Trace at the Marsh",
+    "localizedTitle": {
+      "english": "Leave No Trace at the Marsh",
+      "georgian": "ნაკვალევის გარეშე ჭაობში"
+    },
+    "subtitle": "Choose actions that protect wetland wildlife",
+    "localizedSubtitle": {
+      "english": "Choose actions that protect wetland wildlife",
+      "georgian": "აირჩიე ქმედებები, რომლებიც ჭარბტენიან ველურ ბუნებას იცავს"
+    },
+    "introduction": "Use careful observation and safe choices to protect the marsh.",
+    "localizedIntroduction": {
+      "english": "Use careful observation and safe choices to protect the marsh.",
+      "georgian": "გამოიყენე ფრთხილი დაკვირვება და უსაფრთხო არჩევანი ჭაობის დასაცავად."
+    },
+    "ecosystemID": "kolkheti-wetlands",
+    "difficulty": "advanced",
+    "estimatedMinutes": 7,
+    "activityIDs": [
+      "identify-animal",
+      "classify-animal-habitats",
+      "food-chain-sequence"
+    ],
+    "learningTopics": [
+      "environmentalResponsibility",
+      "observation",
+      "habitats"
+    ],
+    "reward": {
+      "type": "badge",
+      "referenceID": "wetland-care-badge",
+      "title": "Wetland Care Badge",
+      "localizedTitle": {
+        "english": "Wetland Care Badge",
+        "georgian": "ჭაობის მოვლის ნიშანი"
+      }
+    },
+    "prerequisiteMissionIDs": [
+      "wetland-plants"
+    ]
+  },
+  {
+    "id": "food-in-the-marsh",
+    "title": "Food in the Marsh",
+    "localizedTitle": {
+      "english": "Food in the Marsh",
+      "georgian": "საკვები ჭაობში"
+    },
+    "subtitle": "Trace the food chain through reeds and water",
+    "localizedSubtitle": {
+      "english": "Trace the food chain through reeds and water",
+      "georgian": "გაჰყევი საკვებ ჯაჭვს ლერწმებსა და წყალში"
+    },
+    "introduction": "Look at the order of marsh plants, animals, and birds.",
+    "localizedIntroduction": {
+      "english": "Look at the order of marsh plants, animals, and birds.",
+      "georgian": "დააკვირდი ჭაობის მცენარეების, ცხოველებისა და ფრინველების რიგს."
+    },
+    "ecosystemID": "kolkheti-wetlands",
+    "difficulty": "advanced",
+    "estimatedMinutes": 8,
+    "activityIDs": [
+      "food-chain-sequence",
+      "habitat-placement-sort",
+      "match-animal-footprints"
+    ],
+    "learningTopics": [
+      "foodChains",
+      "habitats",
+      "observation"
+    ],
+    "reward": {
+      "type": "animalCard",
+      "referenceID": "eurasian-otter",
+      "title": "Eurasian Otter Card",
+      "localizedTitle": {
+        "english": "Eurasian Otter Card",
+        "georgian": "წავის ბარათი"
+      }
+    },
+    "prerequisiteMissionIDs": [
+      "leave-no-trace-at-the-marsh"
+    ]
+  },
+  {
+    "id": "shoreline-watch",
+    "title": "Shoreline Watch",
+    "localizedTitle": {
+      "english": "Shoreline Watch",
+      "georgian": "ნაპირის დაკვირვება"
+    },
+    "subtitle": "Meet the animals that live along the Black Sea shore",
+    "localizedSubtitle": {
+      "english": "Meet the animals that live along the Black Sea shore",
+      "georgian": "გაიცანი ცხოველები, რომლებიც შავი ზღვის ნაპირზე ცხოვრობენ"
+    },
+    "introduction": "Look for the animal that belongs near open water and coastal edges.",
+    "localizedIntroduction": {
+      "english": "Look for the animal that belongs near open water and coastal edges.",
+      "georgian": "იპოვე ცხოველი, რომელიც ღია წყალთან და სანაპიროს კიდეებთან ცხოვრობს."
+    },
+    "ecosystemID": "black-sea-coast",
+    "difficulty": "beginner",
+    "estimatedMinutes": 5,
+    "activityIDs": [
+      "blacksea-shore-choice",
+      "blacksea-habitat-match",
+      "blacksea-classify"
+    ],
+    "learningTopics": [
+      "habitats",
+      "animalIdentification",
+      "observation"
+    ],
+    "reward": {
+      "type": "animalCard",
+      "referenceID": "black-sea-bottlenose-dolphin",
+      "title": "Black Sea Dolphin Card",
+      "localizedTitle": {
+        "english": "Black Sea Dolphin Card",
+        "georgian": "შავი ზღვის დელფინის ბარათი"
+      }
+    },
+    "prerequisiteMissionIDs": []
+  },
+  {
+    "id": "dunes-and-tides",
+    "title": "Dunes and Tides",
+    "localizedTitle": {
+      "english": "Dunes and Tides",
+      "georgian": "დიუნები და ტალღები"
+    },
+    "subtitle": "See how coastal plants and animals share the shore",
+    "localizedSubtitle": {
+      "english": "See how coastal plants and animals share the shore",
+      "georgian": "ნახე, როგორ იყოფენ სანაპიროს მცენარეები და ცხოველები"
+    },
+    "introduction": "Use habitat clues to find the right place for each coastal life form.",
+    "localizedIntroduction": {
+      "english": "Use habitat clues to find the right place for each coastal life form.",
+      "georgian": "გამოიყენე ჰაბიტატის ნიშნები, რომ თითოეული სანაპირო ცოცხალი არსების ადგილი იპოვო."
+    },
+    "ecosystemID": "black-sea-coast",
+    "difficulty": "intermediate",
+    "estimatedMinutes": 6,
+    "activityIDs": [
+      "blacksea-sequence",
+      "blacksea-habitat-placement",
+      "blacksea-shore-choice"
+    ],
+    "learningTopics": [
+      "plants",
+      "habitats",
+      "environmentalResponsibility"
+    ],
+    "reward": {
+      "type": "plantCard",
+      "referenceID": "sea-holly",
+      "title": "Sea Holly Card",
+      "localizedTitle": {
+        "english": "Sea Holly Card",
+        "georgian": "ზღვის ეკალის ბარათი"
+      }
+    },
+    "prerequisiteMissionIDs": [
+      "shoreline-watch"
+    ]
+  },
+  {
+    "id": "coastline-chain",
+    "title": "Coastline Chain",
+    "localizedTitle": {
+      "english": "Coastline Chain",
+      "georgian": "სანაპიროს ჯაჭვი"
+    },
+    "subtitle": "Follow the energy that moves from sea to shore",
+    "localizedSubtitle": {
+      "english": "Follow the energy that moves from sea to shore",
+      "georgian": "გაჰყევი ენერგიას, რომელიც ზღვიდან ნაპირზე გადადის"
+    },
+    "introduction": "Think about fish, seabirds, and how food chains connect the coast.",
+    "localizedIntroduction": {
+      "english": "Think about fish, seabirds, and how food chains connect the coast.",
+      "georgian": "იფიქრე თევზზე, ზღვის ფრინველებზე და იმაზე, როგორ აერთებს საკვები ჯაჭვი სანაპიროს."
+    },
+    "ecosystemID": "black-sea-coast",
+    "difficulty": "advanced",
+    "estimatedMinutes": 7,
+    "activityIDs": [
+      "blacksea-classify",
+      "blacksea-habitat-match",
+      "blacksea-sequence"
+    ],
+    "learningTopics": [
+      "foodChains",
+      "habitats",
+      "environmentalResponsibility"
+    ],
+    "reward": {
+      "type": "badge",
+      "referenceID": "coast-protector-badge",
+      "title": "Coast Protector Badge",
+      "localizedTitle": {
+        "english": "Coast Protector Badge",
+        "georgian": "სანაპიროს დამცველის ნიშანი"
+      }
+    },
+    "prerequisiteMissionIDs": [
+      "dunes-and-tides"
+    ]
+  },
+  {
+    "id": "waves-and-wildlife",
+    "title": "Waves and Wildlife",
+    "localizedTitle": {
+      "english": "Waves and Wildlife",
+      "georgian": "ტალღები და ველური ბუნება"
+    },
+    "subtitle": "Spot the animals that share the shoreline",
+    "localizedSubtitle": {
+      "english": "Spot the animals that share the shoreline",
+      "georgian": "შეამჩნიე ცხოველები, რომლებიც სანაპიროს იყოფენ"
+    },
+    "introduction": "Use a mix of observation and habitat clues to explore the coast.",
+    "localizedIntroduction": {
+      "english": "Use a mix of observation and habitat clues to explore the coast.",
+      "georgian": "გამოიყენე დაკვირვება და ჰაბიტატის ნიშნები სანაპიროს შესასწავლად."
+    },
+    "ecosystemID": "black-sea-coast",
+    "difficulty": "beginner",
+    "estimatedMinutes": 5,
+    "activityIDs": [
+      "blacksea-habitat-placement",
+      "blacksea-shore-choice",
+      "blacksea-habitat-match"
+    ],
+    "learningTopics": [
+      "animalIdentification",
+      "observation",
+      "habitats"
+    ],
+    "reward": {
+      "type": "animalCard",
+      "referenceID": "common-tern",
+      "title": "Common Tern Card",
+      "localizedTitle": {
+        "english": "Common Tern Card",
+        "georgian": "ზღვის მერცხლის ბარათი"
+      }
+    },
+    "prerequisiteMissionIDs": [
+      "coastline-chain"
+    ]
+  },
+  {
+    "id": "protect-the-coast",
+    "title": "Protect the Coast",
+    "localizedTitle": {
+      "english": "Protect the Coast",
+      "georgian": "დაიცავი სანაპირო"
+    },
+    "subtitle": "Choose actions that keep the Black Sea healthy",
+    "localizedSubtitle": {
+      "english": "Choose actions that keep the Black Sea healthy",
+      "georgian": "აირჩიე ქმედებები, რომლებიც შავ ზღვას ჯანმრთელს ინარჩუნებს"
+    },
+    "introduction": "Use the final coast clues to make safe and caring choices.",
+    "localizedIntroduction": {
+      "english": "Use the final coast clues to make safe and caring choices.",
+      "georgian": "გამოიყენე საბოლოო სანაპირო მინიშნებები უსაფრთხო და მზრუნველ არჩევანზე."
+    },
+    "ecosystemID": "black-sea-coast",
+    "difficulty": "advanced",
+    "estimatedMinutes": 8,
+    "activityIDs": [
+      "blacksea-sequence",
+      "blacksea-classify",
+      "blacksea-habitat-placement"
+    ],
+    "learningTopics": [
+      "environmentalResponsibility",
+      "habitats",
+      "observation"
+    ],
+    "reward": {
+      "type": "journalPage",
+      "referenceID": "black-sea-coast-journal",
+      "title": "Black Sea Coast Journal Page",
+      "localizedTitle": {
+        "english": "Black Sea Coast Journal Page",
+        "georgian": "შავი ზღვის სანაპიროს ჟურნალი"
+      }
+    },
+    "prerequisiteMissionIDs": [
+      "waves-and-wildlife"
+    ]
+  }
+]

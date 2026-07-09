@@ -24,12 +24,12 @@ struct CreateProfileView: View {
                     levelSection
 
                     if !appState.canCreateProfile {
-                        Text(String(localized: "profile.limit.description"))
+                        Text(String.localized("profile.limit.description", for: appState.currentLanguage))
                             .font(AppTypography.body)
                             .foregroundStyle(AppColors.secondaryText)
                     }
 
-                    PrimaryButton(title: String(localized: "profile.create")) {
+                    PrimaryButton(title: String.localized("profile.create", for: appState.currentLanguage)) {
                         appState.createProfile(
                             nickname: trimmedNickname,
                             avatarID: selectedAvatarID,
@@ -42,11 +42,11 @@ struct CreateProfileView: View {
                 .padding(AppSpacing.medium)
             }
             .background(AppColors.background)
-            .navigationTitle(String(localized: "profile.create.title"))
+            .navigationTitle(String.localized("profile.create.title", for: appState.currentLanguage))
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
                 ToolbarItem(placement: .topBarTrailing) {
-                    Button(String(localized: "action.cancel")) {
+                    Button(String.localized("action.cancel", for: appState.currentLanguage)) {
                         dismiss()
                     }
                 }
@@ -61,11 +61,11 @@ struct CreateProfileView: View {
 
     private var nicknameSection: some View {
         VStack(alignment: .leading, spacing: AppSpacing.small) {
-            Text(String(localized: "profile.nickname"))
+            Text(String.localized("profile.nickname", for: appState.currentLanguage))
                 .font(AppTypography.cardTitle)
                 .foregroundStyle(AppColors.primaryText)
 
-            TextField(String(localized: "profile.nickname.placeholder"), text: $nickname)
+            TextField(String.localized("profile.nickname.placeholder", for: appState.currentLanguage), text: $nickname)
                 .textInputAutocapitalization(.words)
                 .padding(AppSpacing.medium)
                 .background(AppColors.surface, in: RoundedRectangle(cornerRadius: AppSpacing.medium))
@@ -74,7 +74,7 @@ struct CreateProfileView: View {
 
     private var avatarSection: some View {
         VStack(alignment: .leading, spacing: AppSpacing.small) {
-            Text(String(localized: "profile.avatar"))
+            Text(String.localized("profile.avatar", for: appState.currentLanguage))
                 .font(AppTypography.cardTitle)
                 .foregroundStyle(AppColors.primaryText)
 
@@ -84,7 +84,7 @@ struct CreateProfileView: View {
 
     private var levelSection: some View {
         VStack(alignment: .leading, spacing: AppSpacing.small) {
-            Text(String(localized: "profile.learningLevel"))
+            Text(String.localized("profile.learningLevel", for: appState.currentLanguage))
                 .font(AppTypography.cardTitle)
                 .foregroundStyle(AppColors.primaryText)
 

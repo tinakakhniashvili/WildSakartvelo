@@ -1,0 +1,44 @@
+{
+  "source": "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Core/Components/AudioControlButton.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "audio.button.hint",
+        "location": {
+          "startingColumn": 46,
+          "startingLine": 40
+        },
+        "value": "Plays or pauses audio playback."
+      },
+      {
+        "comment": "",
+        "key": "audio.button.pause",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 58
+        },
+        "value": "Pause %@"
+      },
+      {
+        "comment": "",
+        "key": "audio.button.play",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 61
+        },
+        "value": "Play %@"
+      },
+      {
+        "comment": "",
+        "key": "audio.button.unavailable",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 54
+        },
+        "value": "%@ unavailable"
+      }
+    ]
+  },
+  "version": 1
+}

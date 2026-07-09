@@ -75,6 +75,18 @@ final class MissionSessionTests: XCTestCase {
         XCTAssertTrue(session.isAnswerCorrect)
     }
 
+    func testSessionUsesCatalogueLookupForActivities() throws {
+        let mission = TestFixtures.mission(activityIDs: [MissionActivity.sampleMatching.id, MissionActivity.sample.id])
+        let catalogue = try TestFixtures.catalogue(
+            missions: [mission],
+            activities: [.sample, .sampleMatching]
+        )
+
+        let session = MissionSession(mission: mission, catalogue: catalogue)
+
+        XCTAssertEqual(session.activities.map(\.id), [MissionActivity.sampleMatching.id, MissionActivity.sample.id])
+    }
+
     private func makeSession(activity: MissionActivity) throws -> MissionSession {
         let mission = TestFixtures.mission(activityIDs: [activity.id])
         let catalogue = try TestFixtures.catalogue(missions: [mission], activities: [activity])

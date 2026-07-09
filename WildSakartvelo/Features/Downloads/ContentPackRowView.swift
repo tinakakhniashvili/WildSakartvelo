@@ -6,6 +6,7 @@ struct ContentPackRowView: View {
     let ecosystemImageName: String?
     let state: ContentPackState
     let hasUpdate: Bool
+    let language: AppLanguage
     let onDownload: () -> Void
     let onCancel: () -> Void
     let onDelete: () -> Void
@@ -58,7 +59,7 @@ struct ContentPackRowView: View {
 
                 ProgressView(value: progressValue)
                     .tint(AppColors.progressTint(using: accessibilitySettings))
-                    .accessibilityLabel(Text("downloads.progress.accessibility"))
+                    .accessibilityLabel(String.localized("downloads.progress.accessibility", for: language))
                     .accessibilityValue(Text(progressText))
             }
 
@@ -71,24 +72,24 @@ struct ContentPackRowView: View {
             HStack(spacing: AppSpacing.small) {
                 switch state.status {
                 case .notDownloaded:
-                    Button("downloads.action.download", action: onDownload)
+                    Button(String.localized("downloads.action.download", for: language), action: onDownload)
                         .buttonStyle(.borderedProminent)
                         .controlSize(.large)
                 case .downloading:
-                    Button("downloads.action.cancel", action: onCancel)
+                    Button(String.localized("downloads.action.cancel", for: language), action: onCancel)
                         .buttonStyle(.bordered)
                         .controlSize(.large)
                 case .downloaded:
                     if hasUpdate {
-                        Button("downloads.action.update", action: onDownload)
+                        Button(String.localized("downloads.action.update", for: language), action: onDownload)
                             .buttonStyle(.borderedProminent)
                             .controlSize(.large)
                     }
-                    Button("downloads.action.delete", role: .destructive, action: onDelete)
+                    Button(String.localized("downloads.action.delete", for: language), role: .destructive, action: onDelete)
                         .buttonStyle(.bordered)
                         .controlSize(.large)
                 case .failed:
-                    Button("downloads.action.retry", action: onDownload)
+                    Button(String.localized("downloads.action.retry", for: language), action: onDownload)
                         .buttonStyle(.borderedProminent)
                         .controlSize(.large)
                 }
@@ -100,18 +101,18 @@ struct ContentPackRowView: View {
 
     private var statusText: String {
         if hasUpdate {
-            return String(localized: "downloads.status.updateAvailable")
+            return String.localized("downloads.status.updateAvailable", for: language)
         }
 
         switch state.status {
         case .notDownloaded:
-            return String(localized: "downloads.status.notDownloaded")
+            return String.localized("downloads.status.notDownloaded", for: language)
         case .downloading:
-            return String(localized: "downloads.status.downloading")
+            return String.localized("downloads.status.downloading", for: language)
         case .downloaded:
-            return String(localized: "downloads.status.downloaded")
+            return String.localized("downloads.status.downloaded", for: language)
         case .failed:
-            return String(localized: "downloads.status.failed")
+            return String.localized("downloads.status.failed", for: language)
         }
     }
 
@@ -158,6 +159,7 @@ struct ContentPackRowView: View {
                 errorMessage: nil
             ),
             hasUpdate: false,
+            language: .english,
             onDownload: {},
             onCancel: {},
             onDelete: {}

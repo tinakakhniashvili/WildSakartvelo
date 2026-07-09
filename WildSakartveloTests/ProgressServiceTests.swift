@@ -48,4 +48,18 @@ final class ProgressServiceTests: XCTestCase {
         XCTAssertTrue(try service.loadProgress(for: TestFixtures.profileA).completedMissionIDs.isEmpty)
         XCTAssertEqual(try service.loadProgress(for: TestFixtures.profileB).completedMissionIDs, ["other"])
     }
+
+    func testProgressCalculatorCountsCompletedActivities() throws {
+        let firstMission = TestFixtures.mission(id: "first", activityIDs: [MissionActivity.sample.id, MissionActivity.sampleMatching.id])
+        let secondMission = TestFixtures.mission(id: "second", activityIDs: [MissionActivity.sampleClassification.id])
+        let catalogue = try TestFixtures.catalogue(
+            ecosystems: [TestFixtures.ecosystem(missionIDs: [firstMission.id, secondMission.id])],
+            missions: [firstMission, secondMission],
+            activities: [.sample, .sampleMatching, .sampleClassification]
+        )
+        var progress = UserProgress.empty
+        progress.completedMissionIDs = ["first"]
+
+        XCTAssertEqual(ProgressCalculator().completedActivityCount(catalogue: catalogue, progress: progress), firstMission.activityIDs.count)
+    }
 }

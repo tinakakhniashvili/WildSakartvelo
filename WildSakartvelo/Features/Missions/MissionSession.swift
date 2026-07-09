@@ -25,7 +25,7 @@ final class MissionSession: ObservableObject {
     ) {
         self.mission = mission
         self.activities = mission.activityIDs.compactMap { activityID in
-            catalogue.activities.first { $0.id == activityID }
+            catalogue.activitiesByID[activityID]
         }
         self.currentActivityIndex = min(max(startingActivityIndex, 0), max(activities.count - 1, 0))
         self.attempts = max(startingAttempts, 0)
@@ -41,6 +41,16 @@ final class MissionSession: ObservableObject {
     var progressText: String {
         guard !activities.isEmpty else { return "No activities" }
         return "Activity \(currentActivityIndex + 1) of \(activities.count)"
+    }
+
+    func progressText(for language: AppLanguage) -> String {
+        guard !activities.isEmpty else {
+            return language == .georgian ? "აქტივობები არ არის" : "No activities"
+        }
+
+        return language == .georgian
+            ? "აქტივობა \(currentActivityIndex + 1) / \(activities.count)"
+            : "Activity \(currentActivityIndex + 1) of \(activities.count)"
     }
 
     var progressValue: Double {

@@ -73,21 +73,19 @@ struct MissionContainerView: View {
 
     private var missionContent: some View {
         ScrollView {
-            VStack(alignment: .leading, spacing: AppSpacing.large) {
-                header
-                if let narrationFileName = session.currentActivity?.narrationFileName(for: appState.currentLanguage),
-                   appState.narrationEnabled {
-                    AudioControlButton(
-                        fileName: narrationFileName,
-                        label: String.localized("audio.playNarration", for: appState.currentLanguage),
-                        audioService: appState.audioService,
-                        actionLabel: "narration",
-                        accessibilityIdentifier: "mission.narrationButton"
-                    )
-                    subtitleText
-                }
+            ActivityContainerView(
+                title: mission.displayTitle(for: appState.currentLanguage),
+                progressText: session.progressText(for: appState.currentLanguage),
+                progressValue: session.progressValue,
+                instruction: session.currentActivity?.displayInstruction(for: appState.currentLanguage),
+                narrationFileName: appState.narrationEnabled ? session.currentActivity?.narrationFileName(for: appState.currentLanguage) : nil,
+                showsSubtitles: appState.appSettings.subtitlesEnabled,
+                audioService: appState.audioService,
+                feedbackKind: feedbackKind,
+                feedbackMessage: session.feedbackMessage
+            ) {
                 activityContent
-                feedback
+            } actionContent: {
                 actionButton
             }
             .padding(AppSpacing.medium)
@@ -100,20 +98,9 @@ struct MissionContainerView: View {
         }
     }
 
-    private var header: some View {
-        VStack(alignment: .leading, spacing: AppSpacing.small) {
-            Text(mission.displayTitle(for: appState.currentLanguage))
-                .font(AppTypography.screenTitleFont(using: accessibilitySettings))
-                .foregroundStyle(AppColors.primaryText)
-                .fixedSize(horizontal: false, vertical: true)
-
-            Text(session.progressText)
-                .font(AppTypography.captionFont(using: accessibilitySettings))
-                .foregroundStyle(AppColors.secondaryText)
-
-            ProgressView(value: session.progressValue)
-                .tint(AppColors.progressTint(using: accessibilitySettings))
-        }
+    private var feedbackKind: MissionFeedbackKind? {
+        guard session.feedbackMessage != nil else { return nil }
+        return session.isAnswerCorrect ? .success : .retry
     }
 
     @ViewBuilder
@@ -123,7 +110,9 @@ struct MissionContainerView: View {
             case .multipleChoice:
                 MultipleChoiceActivityView(
                     activity: activity,
-                    selectedAnswerID: $session.selectedAnswerID
+                    selectedAnswerID: $session.selectedAnswerID,
+                    hasSubmitted: session.feedbackMessage != nil,
+                    isAnswerCorrect: session.isAnswerCorrect
                 )
             case .matching:
                 MatchingActivityView(
@@ -186,24 +175,6 @@ struct MissionContainerView: View {
     }
 
     @ViewBuilder
-    private var feedback: some View {
-        if let feedbackMessage = session.feedbackMessage {
-            AppCard {
-                HStack(alignment: .top, spacing: AppSpacing.medium) {
-                    Image(systemName: session.isAnswerCorrect ? "checkmark.circle.fill" : "exclamationmark.circle.fill")
-                        .font(.system(size: 24, weight: .semibold))
-                        .foregroundStyle(session.isAnswerCorrect ? AppColors.success : AppColors.warning)
-
-                    Text(feedbackMessage)
-                        .font(AppTypography.bodyFont(using: accessibilitySettings))
-                        .foregroundStyle(AppColors.primaryText)
-                        .fixedSize(horizontal: false, vertical: true)
-                }
-            }
-        }
-    }
-
-    @ViewBuilder
     private var actionButton: some View {
         if session.isAnswerCorrect {
             PrimaryButton(title: String.localized("action.continue", for: appState.currentLanguage)) {
@@ -231,18 +202,6 @@ struct MissionContainerView: View {
             }
             .disabled(!session.canSubmit)
             .accessibilityIdentifier("mission.submitButton")
-        }
-    }
-
-    @ViewBuilder
-    private var subtitleText: some View {
-        if appState.appSettings.subtitlesEnabled,
-           let activity = session.currentActivity {
-            Text(activity.displayInstruction(for: appState.currentLanguage))
-                .font(AppTypography.captionFont(using: accessibilitySettings))
-                .foregroundStyle(AppColors.secondaryText)
-                .fixedSize(horizontal: false, vertical: true)
-                .accessibilityHidden(true)
         }
     }
 

@@ -5,6 +5,7 @@ struct AppErrorView: View {
     let message: String
     var retryAction: (() -> Void)?
     var closeAction: (() -> Void)?
+    var language: AppLanguage = .english
 
     @Environment(\.appAccessibilitySettings) private var accessibilitySettings
 
@@ -27,13 +28,13 @@ struct AppErrorView: View {
 
             HStack(spacing: AppSpacing.small) {
                 if let retryAction {
-                    Button("action.retry", action: retryAction)
+                    Button(String.localized("action.retry", for: language), action: retryAction)
                         .buttonStyle(.borderedProminent)
                         .controlSize(.large)
                 }
 
                 if let closeAction {
-                    Button("action.close", action: closeAction)
+                    Button(String.localized("action.close", for: language), action: closeAction)
                         .buttonStyle(.bordered)
                         .controlSize(.large)
                 }

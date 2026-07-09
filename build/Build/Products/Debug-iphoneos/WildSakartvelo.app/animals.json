@@ -1,0 +1,917 @@
+[
+  {
+    "id": "brown-bear",
+    "georgianName": "დათვი",
+    "englishName": "Brown Bear",
+    "scientificName": "Ursus arctos",
+    "summary": "A powerful omnivore that lives in forests and mountain valleys across parts of Sakartvelo.",
+    "localizedSummary": {
+      "english": "A powerful omnivore that lives in forests and mountain valleys across parts of Sakartvelo.",
+      "georgian": "ძლიერი ყოვლისმჭამელი, რომელიც საქართველოს ზოგიერთ ტყესა და მთის ხეობაში ცხოვრობს."
+    },
+    "habitat": "Forests, mountain valleys, and remote slopes with seasonal food.",
+    "localizedHabitat": {
+      "english": "Forests, mountain valleys, and remote slopes with seasonal food.",
+      "georgian": "ტყეები, მთის ხეობები და შორეული ფერდობები სეზონური საკვებით."
+    },
+    "diet": "Berries, roots, insects, fish, carrion, and small animals.",
+    "localizedDiet": {
+      "english": "Berries, roots, insects, fish, carrion, and small animals.",
+      "georgian": "კენკრა, ფესვები, მწერები, თევზი, ლეში და პატარა ცხოველები."
+    },
+    "sizeDescription": "A large mammal with a strong body, broad paws, and thick fur.",
+    "localizedSizeDescription": {
+      "english": "A large mammal with a strong body, broad paws, and thick fur.",
+      "georgian": "დიდი ძუძუმწოვარი ძლიერი სხეულით, ფართო თათებით და ხშირი ბეწვით."
+    },
+    "surprisingFact": "Brown bears can travel long distances while searching for seasonal food.",
+    "localizedSurprisingFact": {
+      "english": "Brown bears can travel long distances while searching for seasonal food.",
+      "georgian": "დათვებს შეუძლიათ დიდ მანძილზე გადაადგილება სეზონური საკვების საძებნელად."
+    },
+    "imageName": "brown_bear",
+    "footprintImageName": "brown_bear_footprint",
+    "soundFileName": null,
+    "conservationStatus": "protected",
+    "ecosystemIDs": [
+      "borjomi-forest",
+      "caucasus-mountains"
+    ]
+  },
+  {
+    "id": "roe-deer",
+    "georgianName": "შველი",
+    "englishName": "Roe Deer",
+    "scientificName": "Capreolus capreolus",
+    "summary": "A small deer that moves quietly through forest edges and clearings.",
+    "localizedSummary": {
+      "english": "A small deer that moves quietly through forest edges and clearings.",
+      "georgian": "პატარა ირემი, რომელიც მშვიდად გადაადგილდება ტყის კიდეებსა და მინდვრებში."
+    },
+    "habitat": "Mixed forests, glades, and wooded valleys.",
+    "localizedHabitat": {
+      "english": "Mixed forests, glades, and wooded valleys.",
+      "georgian": "შერეული ტყეები, ღია მინდვრები და ტყიანი ხეობები."
+    },
+    "diet": "Leaves, buds, grass, herbs, and soft shoots.",
+    "localizedDiet": {
+      "english": "Leaves, buds, grass, herbs, and soft shoots.",
+      "georgian": "ფოთლები, კვირტები, ბალახი, ბალახეულობა და ნაზი ყლორტები."
+    },
+    "sizeDescription": "A graceful deer with a reddish coat and small antlers on males.",
+    "localizedSizeDescription": {
+      "english": "A graceful deer with a reddish coat and small antlers on males.",
+      "georgian": "მოხდენილი ირემი მოწითალო ბეწვით და მამრზე პატარა რქებით."
+    },
+    "surprisingFact": "Roe deer often freeze and listen before moving into a new opening.",
+    "localizedSurprisingFact": {
+      "english": "Roe deer often freeze and listen before moving into a new opening.",
+      "georgian": "შველები ხშირად ჩერდებიან და უსმენენ, სანამ ახალ ღია ადგილას გადავიდოდნენ."
+    },
+    "imageName": "roe_deer",
+    "footprintImageName": null,
+    "soundFileName": null,
+    "conservationStatus": "common",
+    "ecosystemIDs": [
+      "borjomi-forest"
+    ]
+  },
+  {
+    "id": "wild-boar",
+    "georgianName": "ტახი",
+    "englishName": "Wild Boar",
+    "scientificName": "Sus scrofa",
+    "summary": "A sturdy forest animal that roots in soil to find food.",
+    "localizedSummary": {
+      "english": "A sturdy forest animal that roots in soil to find food.",
+      "georgian": "ძლიერი ტყის ცხოველი, რომელიც საკვების საპოვნელად მიწას თხრის."
+    },
+    "habitat": "Woodlands with cover, muddy edges, and rich leaf litter.",
+    "localizedHabitat": {
+      "english": "Woodlands with cover, muddy edges, and rich leaf litter.",
+      "georgian": "ტყეები თავშესაფრით, ტალახიანი კიდეები და მდიდარი ფოთლის საფარი."
+    },
+    "diet": "Roots, acorns, fungi, insects, seeds, and fallen fruit.",
+    "localizedDiet": {
+      "english": "Roots, acorns, fungi, insects, seeds, and fallen fruit.",
+      "georgian": "ფესვები, რკოები, სოკოები, მწერები, თესლები და დაცვენილი ხილი."
+    },
+    "sizeDescription": "A heavy-bodied pig with a strong snout and coarse fur.",
+    "localizedSizeDescription": {
+      "english": "A heavy-bodied pig with a strong snout and coarse fur.",
+      "georgian": "მასიური ღორი ძლიერი ხორთუმით და უხეში ბეწვით."
+    },
+    "surprisingFact": "Wild boars use their snouts to dig for hidden food under leaves.",
+    "localizedSurprisingFact": {
+      "english": "Wild boars use their snouts to dig for hidden food under leaves.",
+      "georgian": "ტახებები ხორთუმს იყენებენ, რომ ფოთლების ქვეშ დამალული საკვები ამოთხარონ."
+    },
+    "imageName": "wild_boar",
+    "footprintImageName": null,
+    "soundFileName": null,
+    "conservationStatus": "common",
+    "ecosystemIDs": [
+      "borjomi-forest"
+    ]
+  },
+  {
+    "id": "eurasian-lynx",
+    "georgianName": "ევრაზიული ფოცხვერი",
+    "englishName": "Eurasian Lynx",
+    "scientificName": "Lynx lynx",
+    "summary": "A secretive forest cat with tufted ears and a short tail.",
+    "localizedSummary": {
+      "english": "A secretive forest cat with tufted ears and a short tail.",
+      "georgian": "ფრთხილი ტყის კატა ყურებზე პატარა ფოჩებით და მოკლე კუდით."
+    },
+    "habitat": "Dense forests, rocky hillsides, and quiet mountain slopes.",
+    "localizedHabitat": {
+      "english": "Dense forests, rocky hillsides, and quiet mountain slopes.",
+      "georgian": "ხშირი ტყეები, კლდოვანი ფერდობები და მშვიდი მთის კალთები."
+    },
+    "diet": "Small to medium mammals and birds.",
+    "localizedDiet": {
+      "english": "Small to medium mammals and birds.",
+      "georgian": "პატარა და საშუალო ზომის ძუძუმწოვრები და ფრინველები."
+    },
+    "sizeDescription": "A medium-sized wild cat with strong legs and spotted fur.",
+    "localizedSizeDescription": {
+      "english": "A medium-sized wild cat with strong legs and spotted fur.",
+      "georgian": "საშუალო ზომის გარეული კატა ძლიერი ფეხებით და ლაქებიანი ბეწვით."
+    },
+    "surprisingFact": "A lynx can move quietly through dense forest without being seen easily.",
+    "localizedSurprisingFact": {
+      "english": "A lynx can move quietly through dense forest without being seen easily.",
+      "georgian": "ფოცხვერი ისე ჩუმად გადაადგილდება ხშირ ტყეში, რომ მისი შემჩნევა რთულია."
+    },
+    "imageName": "eurasian_lynx",
+    "footprintImageName": null,
+    "soundFileName": null,
+    "conservationStatus": "protected",
+    "ecosystemIDs": [
+      "borjomi-forest",
+      "caucasus-mountains"
+    ]
+  },
+  {
+    "id": "red-squirrel",
+    "georgianName": "წითელი ციყვი",
+    "englishName": "Red Squirrel",
+    "scientificName": "Sciurus vulgaris",
+    "summary": "A quick climber that stores seeds and cones for later.",
+    "localizedSummary": {
+      "english": "A quick climber that stores seeds and cones for later.",
+      "georgian": "სწრაფი მცოცავი, რომელიც თესლებსა და გირჩებს მოგვიანებით საჭმელად იმარაგებს."
+    },
+    "habitat": "Conifer and mixed forests with plenty of trees.",
+    "localizedHabitat": {
+      "english": "Conifer and mixed forests with plenty of trees.",
+      "georgian": "წიწვოვანი და შერეული ტყეები მრავალი ხით."
+    },
+    "diet": "Seeds, nuts, fungi, buds, and fruit.",
+    "localizedDiet": {
+      "english": "Seeds, nuts, fungi, buds, and fruit.",
+      "georgian": "თესლები, კაკლები, სოკოები, კვირტები და ხილი."
+    },
+    "sizeDescription": "A small tree squirrel with a bushy tail and agile feet.",
+    "localizedSizeDescription": {
+      "english": "A small tree squirrel with a bushy tail and agile feet.",
+      "georgian": "პატარა ციყვი ფაფუკი კუდით და მოქნილი ფეხებით."
+    },
+    "surprisingFact": "Red squirrels can hide food in many small places and return later.",
+    "localizedSurprisingFact": {
+      "english": "Red squirrels can hide food in many small places and return later.",
+      "georgian": "წითელ ციყვებს შეუძლიათ საკვები ბევრ პატარა ადგილას დამალონ და მერე დაბრუნდნენ."
+    },
+    "imageName": "red_squirrel",
+    "footprintImageName": null,
+    "soundFileName": null,
+    "conservationStatus": "common",
+    "ecosystemIDs": [
+      "borjomi-forest"
+    ]
+  },
+  {
+    "id": "great-spotted-woodpecker",
+    "georgianName": "დიდი ჭრელი კოდალა",
+    "englishName": "Great Spotted Woodpecker",
+    "scientificName": "Dendrocopos major",
+    "summary": "A forest bird that taps trunks to find insects and make nesting holes.",
+    "localizedSummary": {
+      "english": "A forest bird that taps trunks to find insects and make nesting holes.",
+      "georgian": "ტყის ფრინველი, რომელიც ხის ტოტებს აკაკუნებს, რომ მწერები იპოვოს და საბუდარი გამოკვეთოს."
+    },
+    "habitat": "Woodlands, parks, and mature tree stands.",
+    "localizedHabitat": {
+      "english": "Woodlands, parks, and mature tree stands.",
+      "georgian": "ტყეები, პარკები და დამწიფებული ხეების მასივები."
+    },
+    "diet": "Insects, larvae, seeds, and tree sap.",
+    "localizedDiet": {
+      "english": "Insects, larvae, seeds, and tree sap.",
+      "georgian": "მწერები, ლარვები, თესლები და ხის წვენი."
+    },
+    "sizeDescription": "A medium bird with a black-and-white body and a red patch under the tail.",
+    "localizedSizeDescription": {
+      "english": "A medium bird with a black-and-white body and a red patch under the tail.",
+      "georgian": "საშუალო ზომის ფრინველი შავ-თეთრი სხეულით და წითელი ლაქით კუდის ქვემოთ."
+    },
+    "surprisingFact": "Woodpeckers have strong skulls that help them tap wood repeatedly.",
+    "localizedSurprisingFact": {
+      "english": "Woodpeckers have strong skulls that help them tap wood repeatedly.",
+      "georgian": "კოდალებს აქვთ ძლიერი თავის ქალა, რომელიც ხის განმეორებით კაკუნში ეხმარებათ."
+    },
+    "imageName": "great_spotted_woodpecker",
+    "footprintImageName": null,
+    "soundFileName": null,
+    "conservationStatus": "common",
+    "ecosystemIDs": [
+      "borjomi-forest"
+    ]
+  },
+  {
+    "id": "caucasian-tur",
+    "georgianName": "ჯიხვი",
+    "englishName": "Caucasian Tur",
+    "scientificName": "Capra caucasica",
+    "summary": "A sure-footed wild goat that lives on steep rocky slopes in the Greater Caucasus.",
+    "localizedSummary": {
+      "english": "A sure-footed wild goat that lives on steep rocky slopes in the Greater Caucasus.",
+      "georgian": "გაფრთხილებულად მოძრავი ველური თხა, რომელიც დიდ კავკასიონის ციცაბო კლდოვან ფერდობებზე ცხოვრობს."
+    },
+    "habitat": "Alpine meadows, cliffs, and high mountain ridges.",
+    "localizedHabitat": {
+      "english": "Alpine meadows, cliffs, and high mountain ridges.",
+      "georgian": "ალპური მდელოები, კლდეები და მაღალი მთის ქედები."
+    },
+    "diet": "Mountain grasses, herbs, leaves, and young shoots.",
+    "localizedDiet": {
+      "english": "Mountain grasses, herbs, leaves, and young shoots.",
+      "georgian": "მთის ბალახები, ბალახეულობა, ფოთლები და ახალგაზრდა ყლორტები."
+    },
+    "sizeDescription": "A large mountain goat with strong legs and curved horns.",
+    "localizedSizeDescription": {
+      "english": "A large mountain goat with strong legs and curved horns.",
+      "georgian": "დიდი მთის თხა ძლიერი ფეხებითა და მოხრილი რქებით."
+    },
+    "surprisingFact": "Caucasian turs can move across narrow cliff ledges that would be difficult for most animals.",
+    "localizedSurprisingFact": {
+      "english": "Caucasian turs can move across narrow cliff ledges that would be difficult for most animals.",
+      "georgian": "ჯიხვებს შეუძლიათ ვიწრო კლდის ბილიკებზე გადაადგილება, რაც უმეტეს ცხოველებს გაუჭირდებოდათ."
+    },
+    "imageName": "caucasian_tur",
+    "footprintImageName": "caucasian_tur_footprint",
+    "soundFileName": "caucasian_tur_sound",
+    "conservationStatus": "protected",
+    "ecosystemIDs": [
+      "caucasus-mountains"
+    ]
+  },
+  {
+    "id": "golden-eagle",
+    "georgianName": "არწივი",
+    "englishName": "Golden Eagle",
+    "scientificName": "Aquila chrysaetos",
+    "summary": "A large bird of prey that circles over open mountains and rocky ridges.",
+    "localizedSummary": {
+      "english": "A large bird of prey that circles over open mountains and rocky ridges.",
+      "georgian": "დიდი მტაცებელი ფრინველი, რომელიც ღია მთებსა და კლდოვან ქედებზე დაფრინავს."
+    },
+    "habitat": "Mountain cliffs, open slopes, and wide valleys.",
+    "localizedHabitat": {
+      "english": "Mountain cliffs, open slopes, and wide valleys.",
+      "georgian": "მთის კლდეები, ღია ფერდობები და ფართო ხეობები."
+    },
+    "diet": "Small mammals, birds, and carrion.",
+    "localizedDiet": {
+      "english": "Small mammals, birds, and carrion.",
+      "georgian": "პატარა ძუძუმწოვრები, ფრინველები და ლეში."
+    },
+    "sizeDescription": "A powerful bird with broad wings and a hooked beak.",
+    "localizedSizeDescription": {
+      "english": "A powerful bird with broad wings and a hooked beak.",
+      "georgian": "ძლიერი ფრინველი ფართო ფრთებითა და კაუჭოვანი ნისკარტით."
+    },
+    "surprisingFact": "Golden eagles can spot movement from far above a mountain slope.",
+    "localizedSurprisingFact": {
+      "english": "Golden eagles can spot movement from far above a mountain slope.",
+      "georgian": "არწივებს შეუძლიათ მოძრაობა შორიდან, მაღლა მყოფი ქედიდანაც კი შეამჩნიონ."
+    },
+    "imageName": "golden_eagle",
+    "footprintImageName": null,
+    "soundFileName": null,
+    "conservationStatus": "protected",
+    "ecosystemIDs": [
+      "caucasus-mountains"
+    ]
+  },
+  {
+    "id": "red-fox",
+    "georgianName": "მელა",
+    "englishName": "Red Fox",
+    "scientificName": "Vulpes vulpes",
+    "summary": "A clever animal that hunts and scavenges in forests and mountain edges.",
+    "localizedSummary": {
+      "english": "A clever animal that hunts and scavenges in forests and mountain edges.",
+      "georgian": "ჭკვიანი ცხოველი, რომელიც ტყეებსა და მთის კიდეებში ნადირობს და საკვებს აგროვებს."
+    },
+    "habitat": "Forest edges, slopes, meadows, and open woodland.",
+    "localizedHabitat": {
+      "english": "Forest edges, slopes, meadows, and open woodland.",
+      "georgian": "ტყის კიდეები, ფერდობები, მდელოები და ღია ტყეები."
+    },
+    "diet": "Small mammals, birds, insects, fruit, and eggs.",
+    "localizedDiet": {
+      "english": "Small mammals, birds, insects, fruit, and eggs.",
+      "georgian": "პატარა ძუძუმწოვრები, ფრინველები, მწერები, ხილი და კვერცხები."
+    },
+    "sizeDescription": "A medium wild canid with a bushy tail and a pointed muzzle.",
+    "localizedSizeDescription": {
+      "english": "A medium wild canid with a bushy tail and a pointed muzzle.",
+      "georgian": "საშუალო ზომის გარეული ძაღლთა ოჯახი ფაფუკი კუდით და წაწვეტებული დრუნჩით."
+    },
+    "surprisingFact": "Red foxes can adapt to many habitats if food and cover are available.",
+    "localizedSurprisingFact": {
+      "english": "Red foxes can adapt to many habitats if food and cover are available.",
+      "georgian": "მელებს შეუძლიათ მრავალ ჰაბიტატს შეეგუონ, თუ საკვები და თავშესაფარი აქვთ."
+    },
+    "imageName": "red_fox",
+    "footprintImageName": null,
+    "soundFileName": null,
+    "conservationStatus": "common",
+    "ecosystemIDs": [
+      "borjomi-forest",
+      "caucasus-mountains"
+    ]
+  },
+  {
+    "id": "alpine-chough",
+    "georgianName": "ალპური ჭყიპინა",
+    "englishName": "Alpine Chough",
+    "scientificName": "Pyrrhocorax graculus",
+    "summary": "A sociable mountain bird that feeds around cliffs, meadows, and high ridges.",
+    "localizedSummary": {
+      "english": "A sociable mountain bird that feeds around cliffs, meadows, and high ridges.",
+      "georgian": "მეგობრული მთის ფრინველი, რომელიც კლდეებთან, მდელოებსა და მაღალ ქედებზე იკვებება."
+    },
+    "habitat": "High mountains, cliffs, ski slopes, and alpine meadows.",
+    "localizedHabitat": {
+      "english": "High mountains, cliffs, ski slopes, and alpine meadows.",
+      "georgian": "მაღალი მთები, კლდეები, თოვლიან ფერდობები და ალპური მდელოები."
+    },
+    "diet": "Insects, seeds, fruit, and scraps from natural areas.",
+    "localizedDiet": {
+      "english": "Insects, seeds, fruit, and scraps from natural areas.",
+      "georgian": "მწერები, თესლები, ხილი და ბუნებრივ ადგილებში ნაპოვნი ნარჩენები."
+    },
+    "sizeDescription": "A glossy black bird with yellow-orange legs and a curved bill.",
+    "localizedSizeDescription": {
+      "english": "A glossy black bird with yellow-orange legs and a curved bill.",
+      "georgian": "მბზინავი შავი ფრინველი ყვითელ-ნარინჯისფერი ფეხებით და მოხრილი ნისკარტით."
+    },
+    "surprisingFact": "Alpine choughs often fly and feed in groups above mountain villages.",
+    "localizedSurprisingFact": {
+      "english": "Alpine choughs often fly and feed in groups above mountain villages.",
+      "georgian": "ალპური ჭყიპინები ხშირად ჯგუფებად დაფრინავენ და იკვებებიან მთის სოფლების ზემოთ."
+    },
+    "imageName": "alpine_chough",
+    "footprintImageName": null,
+    "soundFileName": null,
+    "conservationStatus": "common",
+    "ecosystemIDs": [
+      "caucasus-mountains"
+    ]
+  },
+  {
+    "id": "caucasian-black-grouse",
+    "georgianName": "კავკასიური შავი როჭო",
+    "englishName": "Caucasian Black Grouse",
+    "scientificName": "Lyrurus mlokosiewiczi",
+    "summary": "A mountain grouse that lives in shrub-rich alpine and subalpine habitats.",
+    "localizedSummary": {
+      "english": "A mountain grouse that lives in shrub-rich alpine and subalpine habitats.",
+      "georgian": "მთის როჭო, რომელიც ბუჩქიან ალპურ და სუბალპურ ჰაბიტატებში ცხოვრობს."
+    },
+    "habitat": "Shrubby slopes, alpine meadows, and forest edges.",
+    "localizedHabitat": {
+      "english": "Shrubby slopes, alpine meadows, and forest edges.",
+      "georgian": "ბუჩქიანი ფერდობები, ალპური მდელოები და ტყის კიდეები."
+    },
+    "diet": "Leaves, buds, seeds, berries, and soft plants.",
+    "localizedDiet": {
+      "english": "Leaves, buds, seeds, berries, and soft plants.",
+      "georgian": "ფოთლები, კვირტები, თესლები, კენკრა და რბილი მცენარეები."
+    },
+    "sizeDescription": "A dark grouse with a fan-shaped tail and ground-feeding habits.",
+    "localizedSizeDescription": {
+      "english": "A dark grouse with a fan-shaped tail and ground-feeding habits.",
+      "georgian": "მუქი როჭო გულშემოყრილი კუდით და მიწაზე კვების ჩვევით."
+    },
+    "surprisingFact": "This grouse is shy and spends much of its time on the ground.",
+    "localizedSurprisingFact": {
+      "english": "This grouse is shy and spends much of its time on the ground.",
+      "georgian": "ეს როჭო ფრთხილია და დროის დიდ ნაწილს მიწაზე ატარებს."
+    },
+    "imageName": "caucasian_black_grouse",
+    "footprintImageName": null,
+    "soundFileName": null,
+    "conservationStatus": "protected",
+    "ecosystemIDs": [
+      "caucasus-mountains"
+    ]
+  },
+  {
+    "id": "chamois",
+    "georgianName": "ჯეირანი",
+    "englishName": "Chamois",
+    "scientificName": "Rupicapra rupicapra",
+    "summary": "A nimble mountain herbivore that can climb steep rocky terrain.",
+    "localizedSummary": {
+      "english": "A nimble mountain herbivore that can climb steep rocky terrain.",
+      "georgian": "მოქნილი მთის ბალახისმჭამელი, რომელიც ციცაბო კლდოვან რელიეფზე ადის."
+    },
+    "habitat": "Rocky slopes, subalpine meadows, and steep mountain valleys.",
+    "localizedHabitat": {
+      "english": "Rocky slopes, subalpine meadows, and steep mountain valleys.",
+      "georgian": "კლდოვანი ფერდობები, სუბალპური მდელოები და ციცაბო მთის ხეობები."
+    },
+    "diet": "Grasses, herbs, leaves, and shoots.",
+    "localizedDiet": {
+      "english": "Grasses, herbs, leaves, and shoots.",
+      "georgian": "ბალახები, ბალახეულობა, ფოთლები და ყლორტები."
+    },
+    "sizeDescription": "A small antelope-like goat with curved horns.",
+    "localizedSizeDescription": {
+      "english": "A small antelope-like goat with curved horns.",
+      "georgian": "პატარა თხისმაგვარი ცხოველი მოხრილი რქებით."
+    },
+    "surprisingFact": "Chamois can run and leap safely over rough slopes.",
+    "localizedSurprisingFact": {
+      "english": "Chamois can run and leap safely over rough slopes.",
+      "georgian": "ჯეირანს შეუძლია უხეშ ფერდობებზე უსაფრთხოდ სირბილი და ხტომა."
+    },
+    "imageName": "chamois",
+    "footprintImageName": null,
+    "soundFileName": null,
+    "conservationStatus": "protected",
+    "ecosystemIDs": [
+      "caucasus-mountains"
+    ]
+  },
+  {
+    "id": "marsh-frog",
+    "georgianName": "ბაყაყი",
+    "englishName": "Marsh Frog",
+    "scientificName": "Pelophylax ridibundus",
+    "summary": "A green frog often found near calm water, reeds, and muddy wetland edges.",
+    "localizedSummary": {
+      "english": "A green frog often found near calm water, reeds, and muddy wetland edges.",
+      "georgian": "მწვანე ბაყაყი, რომელიც ხშირად მშვიდ წყალს, ლერწმებს და ჭაობის ტალახიან კიდეებსთან გვხვდება."
+    },
+    "habitat": "Wetlands, ponds, marshes, and slow-moving water.",
+    "localizedHabitat": {
+      "english": "Wetlands, ponds, marshes, and slow-moving water.",
+      "georgian": "ჭარბტენიანი ადგილები, ტბორები, ჭაობები და ნელი წყლის ნაკადები."
+    },
+    "diet": "Small insects, spiders, worms, and other tiny invertebrates.",
+    "localizedDiet": {
+      "english": "Small insects, spiders, worms, and other tiny invertebrates.",
+      "georgian": "პატარა მწერები, ობობები, ჭიები და სხვა მცირე უხერხემლოები."
+    },
+    "sizeDescription": "A medium frog with strong back legs and smooth green-brown skin.",
+    "localizedSizeDescription": {
+      "english": "A medium frog with strong back legs and smooth green-brown skin.",
+      "georgian": "საშუალო ზომის ბაყაყი ძლიერი უკანა ფეხებითა და გლუვი მწვანე-მოყავისფრო კანით."
+    },
+    "surprisingFact": "Marsh frogs can make loud calls that carry across quiet water.",
+    "localizedSurprisingFact": {
+      "english": "Marsh frogs can make loud calls that carry across quiet water.",
+      "georgian": "ჭაობის ბაყაყებს შეუძლიათ ხმამაღალი ხმიანობა, რომელიც მშვიდ წყალს გადასწვდება."
+    },
+    "imageName": "marsh_frog",
+    "footprintImageName": null,
+    "soundFileName": null,
+    "conservationStatus": "common",
+    "ecosystemIDs": [
+      "kolkheti-wetlands"
+    ]
+  },
+  {
+    "id": "eurasian-otter",
+    "georgianName": "წავი",
+    "englishName": "Eurasian Otter",
+    "scientificName": "Lutra lutra",
+    "summary": "A stream and wetland mammal that swims well and hunts in clean water.",
+    "localizedSummary": {
+      "english": "A stream and wetland mammal that swims well and hunts in clean water.",
+      "georgian": "ნაკადულისა და ჭაობის ძუძუმწოვარი, რომელიც კარგად ცურავს და სუფთა წყალში ნადირობს."
+    },
+    "habitat": "Rivers, marshes, lakes, and reed-bordered water.",
+    "localizedHabitat": {
+      "english": "Rivers, marshes, lakes, and reed-bordered water.",
+      "georgian": "მდინარეები, ჭაობები, ტბები და ლერწმებით შემოსაზღვრული წყალი."
+    },
+    "diet": "Fish, amphibians, crustaceans, and aquatic insects.",
+    "localizedDiet": {
+      "english": "Fish, amphibians, crustaceans, and aquatic insects.",
+      "georgian": "თევზი, ამფიბიები, კიბოსნაირები და წყლის მწერები."
+    },
+    "sizeDescription": "A sleek brown mammal with a long body, webbed feet, and a thick tail.",
+    "localizedSizeDescription": {
+      "english": "A sleek brown mammal with a long body, webbed feet, and a thick tail.",
+      "georgian": "მოხდენილი ყავისფერი ძუძუმწოვარი გრძელი სხეულით, მემბრანიანი თათებით და სქელი კუდით."
+    },
+    "surprisingFact": "Otters keep their fur clean and insulated so they can stay warm in water.",
+    "localizedSurprisingFact": {
+      "english": "Otters keep their fur clean and insulated so they can stay warm in water.",
+      "georgian": "წავის ბეწვი სუფთა და თბილად ინარჩუნებს სხეულს წყალში ყოფნისას."
+    },
+    "imageName": "eurasian_otter",
+    "footprintImageName": null,
+    "soundFileName": null,
+    "conservationStatus": "protected",
+    "ecosystemIDs": [
+      "kolkheti-wetlands"
+    ]
+  },
+  {
+    "id": "grey-heron",
+    "georgianName": "ნაცრისფერი ყანჩა",
+    "englishName": "Grey Heron",
+    "scientificName": "Ardea cinerea",
+    "summary": "A tall wetland bird that waits quietly before striking at fish or frogs.",
+    "localizedSummary": {
+      "english": "A tall wetland bird that waits quietly before striking at fish or frogs.",
+      "georgian": "მაღალი ჭარბტენიანი ფრინველი, რომელიც ჩუმად ელოდება და შემდეგ თევზს ან ბაყაყს ესხმის."
+    },
+    "habitat": "Marshes, rivers, reed beds, and shallow water.",
+    "localizedHabitat": {
+      "english": "Marshes, rivers, reed beds, and shallow water.",
+      "georgian": "ჭაობები, მდინარეები, ლერწმები და მეჩეჩი წყალი."
+    },
+    "diet": "Fish, frogs, insects, and small aquatic animals.",
+    "localizedDiet": {
+      "english": "Fish, frogs, insects, and small aquatic animals.",
+      "georgian": "თევზი, ბაყაყი, მწერები და პატარა წყლის ცხოველები."
+    },
+    "sizeDescription": "A tall grey bird with long legs, a long neck, and a sharp bill.",
+    "localizedSizeDescription": {
+      "english": "A tall grey bird with long legs, a long neck, and a sharp bill.",
+      "georgian": "მაღალი ნაცრისფერი ფრინველი გრძელი ფეხებით, გრძელი კისრით და მკვეთრი ნისკარტით."
+    },
+    "surprisingFact": "Herons can stand still for a long time while watching water carefully.",
+    "localizedSurprisingFact": {
+      "english": "Herons can stand still for a long time while watching water carefully.",
+      "georgian": "ყანჩებს შეუძლიათ დიდხანს უძრავად დგომა და წყლის ყურადღებით დაკვირვება."
+    },
+    "imageName": "grey_heron",
+    "footprintImageName": null,
+    "soundFileName": null,
+    "conservationStatus": "common",
+    "ecosystemIDs": [
+      "kolkheti-wetlands"
+    ]
+  },
+  {
+    "id": "great-egret",
+    "georgianName": "თეთრი ყანჩა",
+    "englishName": "Great Egret",
+    "scientificName": "Ardea alba",
+    "summary": "A white wetland bird that walks through shallow water to catch small prey.",
+    "localizedSummary": {
+      "english": "A white wetland bird that walks through shallow water to catch small prey.",
+      "georgian": "თეთრი ჭარბტენიანი ფრინველი, რომელიც მეჩეჩ წყალში დადის და პატარა ნადავლს იჭერს."
+    },
+    "habitat": "Wetlands, lagoons, marshes, and shallow edges.",
+    "localizedHabitat": {
+      "english": "Wetlands, lagoons, marshes, and shallow edges.",
+      "georgian": "ჭარბტენიანი ადგილები, ლაგუნები, ჭაობები და მეჩეჩი კიდეები."
+    },
+    "diet": "Fish, amphibians, insects, and crustaceans.",
+    "localizedDiet": {
+      "english": "Fish, amphibians, insects, and crustaceans.",
+      "georgian": "თევზი, ამფიბიები, მწერები და კიბოსნაირები."
+    },
+    "sizeDescription": "A tall white bird with a long neck and dark legs.",
+    "localizedSizeDescription": {
+      "english": "A tall white bird with a long neck and dark legs.",
+      "georgian": "მაღალი თეთრი ფრინველი გრძელი კისრით და მუქი ფეხებით."
+    },
+    "surprisingFact": "Great egrets often move slowly so they do not scare their prey.",
+    "localizedSurprisingFact": {
+      "english": "Great egrets often move slowly so they do not scare their prey.",
+      "georgian": "თეთრი ყანჩები ხშირად ნელა გადაადგილდებიან, რომ ნადავლი არ დააფრთხონ."
+    },
+    "imageName": "great_egret",
+    "footprintImageName": null,
+    "soundFileName": null,
+    "conservationStatus": "common",
+    "ecosystemIDs": [
+      "kolkheti-wetlands"
+    ]
+  },
+  {
+    "id": "reed-warbler",
+    "georgianName": "ლერწმის მურწა",
+    "englishName": "Reed Warbler",
+    "scientificName": "Acrocephalus scirpaceus",
+    "summary": "A small bird that hides among reeds and sings from dense wetland plants.",
+    "localizedSummary": {
+      "english": "A small bird that hides among reeds and sings from dense wetland plants.",
+      "georgian": "პატარა ფრინველი, რომელიც ლერწმებს შორის იმალება და მკვრივი მცენარეებიდან მღერის."
+    },
+    "habitat": "Reed beds, marsh edges, and marshy thickets.",
+    "localizedHabitat": {
+      "english": "Reed beds, marsh edges, and marshy thickets.",
+      "georgian": "ლერწმები, ჭაობის კიდეები და ჭაობიანი ბუჩქნარი."
+    },
+    "diet": "Insects and other tiny invertebrates.",
+    "localizedDiet": {
+      "english": "Insects and other tiny invertebrates.",
+      "georgian": "მწერები და სხვა მცირე უხერხემლოები."
+    },
+    "sizeDescription": "A small brown songbird with a narrow bill and quick movement.",
+    "localizedSizeDescription": {
+      "english": "A small brown songbird with a narrow bill and quick movement.",
+      "georgian": "პატარა ყავისფერი მომღერალი ფრინველი თხელი ნისკარტით და სწრაფი მოძრაობით."
+    },
+    "surprisingFact": "Reed warblers are hard to notice because they stay hidden in vegetation.",
+    "localizedSurprisingFact": {
+      "english": "Reed warblers are hard to notice because they stay hidden in vegetation.",
+      "georgian": "ლერწმის მურწა რთულად შესამჩნევია, რადგან მცენარეულობაში იმალება."
+    },
+    "imageName": "reed_warbler",
+    "footprintImageName": null,
+    "soundFileName": null,
+    "conservationStatus": "common",
+    "ecosystemIDs": [
+      "kolkheti-wetlands"
+    ]
+  },
+  {
+    "id": "eurasian-marsh-harrier",
+    "georgianName": "ჭაობის მტაცებელი",
+    "englishName": "Eurasian Marsh Harrier",
+    "scientificName": "Circus aeruginosus",
+    "summary": "A wetland raptor that glides low over reeds and marshes while hunting.",
+    "localizedSummary": {
+      "english": "A wetland raptor that glides low over reeds and marshes while hunting.",
+      "georgian": "ჭარბტენიანი მტაცებელი ფრინველი, რომელიც ნადირობისას ლერწმებსა და ჭაობებს დაბლა გადაუფრენს."
+    },
+    "habitat": "Reed beds, marshes, and wide wetland plains.",
+    "localizedHabitat": {
+      "english": "Reed beds, marshes, and wide wetland plains.",
+      "georgian": "ლერწმები, ჭაობები და ფართო ჭარბტენიანი ველები."
+    },
+    "diet": "Small birds, rodents, amphibians, and insects.",
+    "localizedDiet": {
+      "english": "Small birds, rodents, amphibians, and insects.",
+      "georgian": "პატარა ფრინველები, მღრღნელები, ამფიბიები და მწერები."
+    },
+    "sizeDescription": "A slim bird of prey with long wings and a graceful flight.",
+    "localizedSizeDescription": {
+      "english": "A slim bird of prey with long wings and a graceful flight.",
+      "georgian": "თხელი მტაცებელი ფრინველი გრძელი ფრთებითა და მოხდენილი ფრენით."
+    },
+    "surprisingFact": "Marsh harriers often fly low, using reeds as cover while they search for food.",
+    "localizedSurprisingFact": {
+      "english": "Marsh harriers often fly low, using reeds as cover while they search for food.",
+      "georgian": "ჭაობის მტაცებლები ხშირად დაბლა დაფრინავენ და ლერწმებს იყენებენ საფარად."
+    },
+    "imageName": "eurasian_marsh_harrier",
+    "footprintImageName": null,
+    "soundFileName": null,
+    "conservationStatus": "protected",
+    "ecosystemIDs": [
+      "kolkheti-wetlands"
+    ]
+  },
+  {
+    "id": "black-sea-bottlenose-dolphin",
+    "georgianName": "შავი ზღვის აფალინა",
+    "englishName": "Black Sea Bottlenose Dolphin",
+    "scientificName": "Tursiops truncatus",
+    "summary": "A smart marine mammal that lives in the Black Sea and hunts fish.",
+    "localizedSummary": {
+      "english": "A smart marine mammal that lives in the Black Sea and hunts fish.",
+      "georgian": "ჭკვიანი ზღვის ძუძუმწოვარი, რომელიც შავ ზღვაში ცხოვრობს და თევზზე ნადირობს."
+    },
+    "habitat": "Coastal waters, bays, and open sea near the shore.",
+    "localizedHabitat": {
+      "english": "Coastal waters, bays, and open sea near the shore.",
+      "georgian": "სანაპირო წყლები, ყურეები და ნაპირის მახლობლად ღია ზღვა."
+    },
+    "diet": "Fish and squid.",
+    "localizedDiet": {
+      "english": "Fish and squid.",
+      "georgian": "თევზი და კალმარი."
+    },
+    "sizeDescription": "A streamlined grey dolphin with a curved dorsal fin.",
+    "localizedSizeDescription": {
+      "english": "A streamlined grey dolphin with a curved dorsal fin.",
+      "georgian": "მდინარი ნაცრისფერი დელფინი მოხრილი ზურგის ფარფლით."
+    },
+    "surprisingFact": "Dolphins use sound to help them find food and stay together.",
+    "localizedSurprisingFact": {
+      "english": "Dolphins use sound to help them find food and stay together.",
+      "georgian": "დელფინები ხმას იყენებენ საკვების საპოვნელად და ერთად ყოფნისთვის."
+    },
+    "imageName": "black_sea_bottlenose_dolphin",
+    "footprintImageName": null,
+    "soundFileName": null,
+    "conservationStatus": "protected",
+    "ecosystemIDs": [
+      "black-sea-coast"
+    ]
+  },
+  {
+    "id": "great-cormorant",
+    "georgianName": "დიდი კორმორანი",
+    "englishName": "Great Cormorant",
+    "scientificName": "Phalacrocorax carbo",
+    "summary": "A dark water bird that dives for fish near coasts and lagoons.",
+    "localizedSummary": {
+      "english": "A dark water bird that dives for fish near coasts and lagoons.",
+      "georgian": "მუქი წყლის ფრინველი, რომელიც ნაპირთან და ლაგუნებთან თევზზე ჩაყვინთვით ნადირობს."
+    },
+    "habitat": "Coasts, lagoons, estuaries, and rocky shores.",
+    "localizedHabitat": {
+      "english": "Coasts, lagoons, estuaries, and rocky shores.",
+      "georgian": "სანაპიროები, ლაგუნები, ესტუარები და კლდოვანი ნაპირები."
+    },
+    "diet": "Fish and aquatic prey.",
+    "localizedDiet": {
+      "english": "Fish and aquatic prey.",
+      "georgian": "თევზი და წყლის ნადავლი."
+    },
+    "sizeDescription": "A large black bird with a hooked bill and webbed feet.",
+    "localizedSizeDescription": {
+      "english": "A large black bird with a hooked bill and webbed feet.",
+      "georgian": "დიდი შავი ფრინველი კაუჭოვანი ნისკარტით და მემბრანიანი ფეხებით."
+    },
+    "surprisingFact": "Cormorants can dive under water to catch fish they cannot reach from land.",
+    "localizedSurprisingFact": {
+      "english": "Cormorants can dive under water to catch fish they cannot reach from land.",
+      "georgian": "კორმორანებს შეუძლიათ წყალქვეშ ჩაყვინთვა, რომ თევზი დაიჭირონ."
+    },
+    "imageName": "great_cormorant",
+    "footprintImageName": null,
+    "soundFileName": null,
+    "conservationStatus": "common",
+    "ecosystemIDs": [
+      "black-sea-coast"
+    ]
+  },
+  {
+    "id": "common-tern",
+    "georgianName": "ზღვის მერცხალი",
+    "englishName": "Common Tern",
+    "scientificName": "Sterna hirundo",
+    "summary": "A light seabird that hunts small fish by skimming the water.",
+    "localizedSummary": {
+      "english": "A light seabird that hunts small fish by skimming the water.",
+      "georgian": "მსუბუქი ზღვის ფრინველი, რომელიც წყლის ზედაპირთან ახლოს დაფრინვით თევზზე ნადირობს."
+    },
+    "habitat": "Shores, lagoons, sandbars, and coastal waters.",
+    "localizedHabitat": {
+      "english": "Shores, lagoons, sandbars, and coastal waters.",
+      "georgian": "ნაპირები, ლაგუნები, ქვიშიანი ბარიერები და სანაპირო წყლები."
+    },
+    "diet": "Small fish and aquatic insects.",
+    "localizedDiet": {
+      "english": "Small fish and aquatic insects.",
+      "georgian": "პატარა თევზი და წყლის მწერები."
+    },
+    "sizeDescription": "A slender white-and-grey bird with a sharp black cap in breeding season.",
+    "localizedSizeDescription": {
+      "english": "A slender white-and-grey bird with a sharp black cap in breeding season.",
+      "georgian": "თხელი თეთრ-ნაცრისფერი ფრინველი გამოკვეთილი შავი ქუდით გამრავლების სეზონზე."
+    },
+    "surprisingFact": "Common terns can hover briefly before diving toward fish.",
+    "localizedSurprisingFact": {
+      "english": "Common terns can hover briefly before diving toward fish.",
+      "georgian": "ზღვის მერცხლებს შეუძლიათ მოკლე ხნით ჰაერში გაჩერება, სანამ თევზისკენ ჩაყვინთავენ."
+    },
+    "imageName": "common_tern",
+    "footprintImageName": null,
+    "soundFileName": null,
+    "conservationStatus": "common",
+    "ecosystemIDs": [
+      "black-sea-coast"
+    ]
+  },
+  {
+    "id": "mediterranean-gull",
+    "georgianName": "ხმელთაშუა ზღვის თოლია",
+    "englishName": "Mediterranean Gull",
+    "scientificName": "Ichthyaetus melanocephalus",
+    "summary": "A coastal gull that visits beaches, lagoons, and shallow water.",
+    "localizedSummary": {
+      "english": "A coastal gull that visits beaches, lagoons, and shallow water.",
+      "georgian": "სანაპირო თოლია, რომელიც პლაჟებს, ლაგუნებს და მეჩეჩ წყალს სტუმრობს."
+    },
+    "habitat": "Beaches, lagoons, estuaries, and coastal flats.",
+    "localizedHabitat": {
+      "english": "Beaches, lagoons, estuaries, and coastal flats.",
+      "georgian": "პლაჟები, ლაგუნები, ესტუარები და სანაპირო ველები."
+    },
+    "diet": "Small fish, insects, crustaceans, and leftover natural food.",
+    "localizedDiet": {
+      "english": "Small fish, insects, crustaceans, and leftover natural food.",
+      "georgian": "პატარა თევზი, მწერები, კიბოსნაირები და ბუნებრივი ნარჩენები."
+    },
+    "sizeDescription": "A medium gull with pale plumage and a dark head in breeding season.",
+    "localizedSizeDescription": {
+      "english": "A medium gull with pale plumage and a dark head in breeding season.",
+      "georgian": "საშუალო ზომის თოლია ღია ბუმბულით და გამრავლების სეზონზე მუქი თავით."
+    },
+    "surprisingFact": "Gulls are adaptable and often watch the water for moving fish.",
+    "localizedSurprisingFact": {
+      "english": "Gulls are adaptable and often watch the water for moving fish.",
+      "georgian": "თოლიები ადაპტირებულები არიან და ხშირად წყალს აკვირდებიან მოძრავი თევზის საპოვნელად."
+    },
+    "imageName": "mediterranean_gull",
+    "footprintImageName": null,
+    "soundFileName": null,
+    "conservationStatus": "protected",
+    "ecosystemIDs": [
+      "black-sea-coast"
+    ]
+  },
+  {
+    "id": "loggerhead-sea-turtle",
+    "georgianName": "ლოგერჰედი",
+    "englishName": "Loggerhead Sea Turtle",
+    "scientificName": "Caretta caretta",
+    "summary": "A sea turtle that migrates long distances and uses coastal waters.",
+    "localizedSummary": {
+      "english": "A sea turtle that migrates long distances and uses coastal waters.",
+      "georgian": "ზღვის კუ, რომელიც დიდ მანძილებს გადის და სანაპირო წყლებს იყენებს."
+    },
+    "habitat": "Warm coastal waters and sandy beaches for nesting.",
+    "localizedHabitat": {
+      "english": "Warm coastal waters and sandy beaches for nesting.",
+      "georgian": "თბილი სანაპირო წყლები და ქვიშიანი პლაჟები საბუდრობისთვის."
+    },
+    "diet": "Jellyfish, crabs, mollusks, and other ocean prey.",
+    "localizedDiet": {
+      "english": "Jellyfish, crabs, mollusks, and other ocean prey.",
+      "georgian": "მედუზები, კიბორჩხალები, მოლუსკები და სხვა ზღვის ნადავლი."
+    },
+    "sizeDescription": "A large marine turtle with a strong shell and powerful flippers.",
+    "localizedSizeDescription": {
+      "english": "A large marine turtle with a strong shell and powerful flippers.",
+      "georgian": "დიდი ზღვის კუ ძლიერი გარსითა და ძლიერი ფარფლებით."
+    },
+    "surprisingFact": "Loggerhead turtles can swim far offshore and return to nesting beaches.",
+    "localizedSurprisingFact": {
+      "english": "Loggerhead turtles can swim far offshore and return to nesting beaches.",
+      "georgian": "ლოგერჰედებს შეუძლიათ შორს გაცურვა და მერე საბუდარ პლაჟებზე დაბრუნება."
+    },
+    "imageName": "loggerhead_sea_turtle",
+    "footprintImageName": null,
+    "soundFileName": null,
+    "conservationStatus": "protected",
+    "ecosystemIDs": [
+      "black-sea-coast"
+    ]
+  },
+  {
+    "id": "sand-lizard",
+    "georgianName": "ქვიშის ხვლიკი",
+    "englishName": "Sand Lizard",
+    "scientificName": "Lacerta agilis",
+    "summary": "A small reptile that uses sandy dunes and sunny clearings.",
+    "localizedSummary": {
+      "english": "A small reptile that uses sandy dunes and sunny clearings.",
+      "georgian": "პატარა ქვეწარმავალი, რომელიც ქვიშიან დიუნებსა და მზიან ღია ადგილებს იყენებს."
+    },
+    "habitat": "Sand dunes, grass edges, and sunny coastal clearings.",
+    "localizedHabitat": {
+      "english": "Sand dunes, grass edges, and sunny coastal clearings.",
+      "georgian": "ქვიშიანი დიუნები, ბალახიანი კიდეები და მზიანი სანაპირო ღიადები."
+    },
+    "diet": "Insects, spiders, and other small invertebrates.",
+    "localizedDiet": {
+      "english": "Insects, spiders, and other small invertebrates.",
+      "georgian": "მწერები, ობობები და სხვა მცირე უხერხემლოები."
+    },
+    "sizeDescription": "A small brown-green lizard with quick movements and a long tail.",
+    "localizedSizeDescription": {
+      "english": "A small brown-green lizard with quick movements and a long tail.",
+      "georgian": "პატარა ყავისფრო-მომწვანო ხვლიკი სწრაფი მოძრაობით და გრძელი კუდით."
+    },
+    "surprisingFact": "Sand lizards warm themselves in sunny places before moving quickly for cover.",
+    "localizedSurprisingFact": {
+      "english": "Sand lizards warm themselves in sunny places before moving quickly for cover.",
+      "georgian": "ქვიშის ხვლიკები მზეზე თბებიან და მერე სწრაფად იმალებიან."
+    },
+    "imageName": "sand_lizard",
+    "footprintImageName": null,
+    "soundFileName": null,
+    "conservationStatus": "common",
+    "ecosystemIDs": [
+      "black-sea-coast"
+    ]
+  }
+]

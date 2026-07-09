@@ -6,7 +6,7 @@
 	<integer>11</integer>
 	<key>logs</key>
 	<dict>
-		<key>BFD28141-099C-47E3-BF2A-05FA26298E40</key>
+		<key>8F3CB81B-FE8C-4875-AF42-7BADD3A1731B</key>
 		<dict>
 			<key>className</key>
 			<string>IDECommandLineBuildLog</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>BFD28141-099C-47E3-BF2A-05FA26298E40.xcactivitylog</string>
+			<string>8F3CB81B-FE8C-4875-AF42-7BADD3A1731B.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -38,15 +38,57 @@
 			<key>schemeIdentifier-sharedScheme</key>
 			<integer>1</integer>
 			<key>signature</key>
-			<string>Building project WildSakartvelo with scheme WildSakartvelo</string>
+			<string>Building project WildSakartvelo with scheme WildSakartvelo and configuration Debug</string>
 			<key>timeStartedRecording</key>
-			<real>805187385.24194205</real>
+			<real>805276896.82402503</real>
 			<key>timeStoppedRecording</key>
-			<real>805187391.67056894</real>
+			<real>805276905.31947601</real>
 			<key>title</key>
-			<string>Building project WildSakartvelo with scheme WildSakartvelo</string>
+			<string>Building project WildSakartvelo with scheme WildSakartvelo and configuration Debug</string>
 			<key>uniqueIdentifier</key>
-			<string>BFD28141-099C-47E3-BF2A-05FA26298E40</string>
+			<string>8F3CB81B-FE8C-4875-AF42-7BADD3A1731B</string>
+		</dict>
+		<key>E5CDCD1E-E51A-4BAE-BD7D-07BC19D97147</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>E5CDCD1E-E51A-4BAE-BD7D-07BC19D97147.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>WildSakartvelo project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>WildSakartvelo</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Testing project WildSakartvelo with scheme WildSakartvelo</string>
+			<key>timeStartedRecording</key>
+			<real>805276467.88873303</real>
+			<key>timeStoppedRecording</key>
+			<real>805276477.58580899</real>
+			<key>title</key>
+			<string>Testing project WildSakartvelo with scheme WildSakartvelo</string>
+			<key>uniqueIdentifier</key>
+			<string>E5CDCD1E-E51A-4BAE-BD7D-07BC19D97147</string>
 		</dict>
 	</dict>
 </dict>

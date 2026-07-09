@@ -1,0 +1,96 @@
+{
+  "source": "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Features/Downloads/ContentPackRowView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "downloads.progress.accessibility",
+        "location": {
+          "startingColumn": 46,
+          "startingLine": 61
+        }
+      },
+      {
+        "comment": "",
+        "key": "downloads.status.updateAvailable",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 103
+        }
+      },
+      {
+        "comment": "",
+        "key": "downloads.status.notDownloaded",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 108
+        }
+      },
+      {
+        "comment": "",
+        "key": "downloads.status.downloading",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 110
+        }
+      },
+      {
+        "comment": "",
+        "key": "downloads.status.downloaded",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 112
+        }
+      },
+      {
+        "comment": "",
+        "key": "downloads.status.failed",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 114
+        }
+      },
+      {
+        "comment": "",
+        "key": "downloads.action.download",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 74
+        }
+      },
+      {
+        "comment": "",
+        "key": "downloads.action.cancel",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 78
+        }
+      },
+      {
+        "comment": "",
+        "key": "downloads.action.update",
+        "location": {
+          "startingColumn": 32,
+          "startingLine": 83
+        }
+      },
+      {
+        "comment": "",
+        "key": "downloads.action.delete",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 87
+        }
+      },
+      {
+        "comment": "",
+        "key": "downloads.action.retry",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 91
+        }
+      }
+    ]
+  },
+  "version": 1
+}

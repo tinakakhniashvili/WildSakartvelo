@@ -53,6 +53,19 @@ final class ProgressService {
         return progress
     }
 
+    func completeGeographyMission(_ mission: GeographyMission, score: Int, for profileID: UUID) throws -> UserProgress {
+        var progress = try store.loadProgress(for: profileID)
+        progress.geographyProgress.completedGeographyMissionIDs.insert(mission.id)
+        progress.geographyProgress.discoveredRegionIDs.formUnion(mission.regionIDs)
+        progress.geographyProgress.bestResultsByMissionID[mission.id] = max(
+            score,
+            progress.geographyProgress.bestResultsByMissionID[mission.id] ?? 0
+        )
+        unlockReward(mission.reward, in: &progress)
+        try store.saveProgress(progress, for: profileID)
+        return progress
+    }
+
     func saveProgress(_ progress: UserProgress, for profileID: UUID) throws -> UserProgress {
         try store.saveProgress(progress, for: profileID)
         return progress

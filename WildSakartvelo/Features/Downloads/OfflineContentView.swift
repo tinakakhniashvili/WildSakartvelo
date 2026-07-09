@@ -23,6 +23,7 @@ struct OfflineContentView: View {
                         ecosystemImageName: ecosystem(for: pack)?.imageName,
                         state: appState.contentPackState(for: pack),
                         hasUpdate: hasUpdate(for: pack),
+                        language: appState.currentLanguage,
                         onDownload: { download(pack) },
                         onCancel: { appState.cancelContentPackDownload(pack) },
                         onDelete: { packPendingDeletion = pack }

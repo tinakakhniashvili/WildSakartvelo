@@ -1,24 +1,5 @@
 {
   "source": "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Core/Components/AppErrorView.swift",
-  "tables": {
-    "Localizable": [
-      {
-        "comment": "",
-        "key": "action.retry",
-        "location": {
-          "startingColumn": 28,
-          "startingLine": 30
-        }
-      },
-      {
-        "comment": "",
-        "key": "action.close",
-        "location": {
-          "startingColumn": 28,
-          "startingLine": 36
-        }
-      }
-    ]
-  },
+  "tables": {},
   "version": 1
 }

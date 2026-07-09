@@ -9,6 +9,7 @@ struct UserProgress: Codable, Hashable {
     var totalAttemptsByMission: [String: Int]
     var challengeProgress: [ExplorerChallengeProgress]
     var completedObservationActivityIDs: Set<String>
+    var geographyProgress: GeographyProgress
 
     enum CodingKeys: String, CodingKey {
         case completedMissionIDs
@@ -21,6 +22,7 @@ struct UserProgress: Codable, Hashable {
         case totalAttemptsByMission
         case challengeProgress
         case completedObservationActivityIDs
+        case geographyProgress
     }
 
     init(
@@ -33,7 +35,8 @@ struct UserProgress: Codable, Hashable {
         currentActivityIndexByMission: [String: Int],
         totalAttemptsByMission: [String: Int],
         challengeProgress: [ExplorerChallengeProgress] = [],
-        completedObservationActivityIDs: Set<String> = []
+        completedObservationActivityIDs: Set<String> = [],
+        geographyProgress: GeographyProgress = .empty
     ) {
         self.completedMissionIDs = completedMissionIDs
         self.discoveredAnimalIDs = discoveredAnimalIDs
@@ -45,6 +48,7 @@ struct UserProgress: Codable, Hashable {
         self.totalAttemptsByMission = totalAttemptsByMission
         self.challengeProgress = challengeProgress
         self.completedObservationActivityIDs = completedObservationActivityIDs
+        self.geographyProgress = geographyProgress
     }
 
     init(from decoder: Decoder) throws {
@@ -60,6 +64,7 @@ struct UserProgress: Codable, Hashable {
         totalAttemptsByMission = try container.decodeIfPresent([String: Int].self, forKey: .totalAttemptsByMission) ?? [:]
         challengeProgress = try container.decodeIfPresent([ExplorerChallengeProgress].self, forKey: .challengeProgress) ?? []
         completedObservationActivityIDs = try container.decodeIfPresent(Set<String>.self, forKey: .completedObservationActivityIDs) ?? []
+        geographyProgress = try container.decodeIfPresent(GeographyProgress.self, forKey: .geographyProgress) ?? .empty
     }
 
     static let empty = UserProgress(
@@ -72,6 +77,7 @@ struct UserProgress: Codable, Hashable {
         currentActivityIndexByMission: [:],
         totalAttemptsByMission: [:],
         challengeProgress: [],
-        completedObservationActivityIDs: []
+        completedObservationActivityIDs: [],
+        geographyProgress: .empty
     )
 }

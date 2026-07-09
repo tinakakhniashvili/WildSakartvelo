@@ -1,0 +1,24 @@
+{
+  "source": "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Features/Explore/DailyDiscoveryCard.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "გახსნა",
+        "location": {
+          "startingColumn": 54,
+          "startingLine": 45
+        }
+      },
+      {
+        "comment": "",
+        "key": "Open",
+        "location": {
+          "startingColumn": 77,
+          "startingLine": 45
+        }
+      }
+    ]
+  },
+  "version": 1
+}

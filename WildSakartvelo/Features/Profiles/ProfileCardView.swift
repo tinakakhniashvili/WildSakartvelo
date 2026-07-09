@@ -2,6 +2,7 @@ import SwiftUI
 
 struct ProfileCardView: View {
     let profile: ChildProfile
+    var language: AppLanguage = .english
     var showsLastUsed = true
     @Environment(\.appAccessibilitySettings) private var accessibilitySettings
 
@@ -24,12 +25,12 @@ struct ProfileCardView: View {
                         .foregroundStyle(AppColors.primaryText)
                         .lineLimit(1)
 
-                    Text(profile.learningLevel.displayTitle)
+                    Text(profile.learningLevel.displayTitle(for: language))
                         .font(AppTypography.bodyFont(using: accessibilitySettings))
                         .foregroundStyle(AppColors.secondaryText)
 
                     if showsLastUsed {
-                        Text(String(localized: "profile.lastUsed", defaultValue: "Last used \(profile.lastOpenedAt.formatted(date: .abbreviated, time: .omitted))"))
+                        Text(lastUsedText)
                             .font(AppTypography.captionFont(using: accessibilitySettings))
                             .foregroundStyle(AppColors.secondaryText)
                     }
@@ -44,7 +45,18 @@ struct ProfileCardView: View {
         }
         .accessibilityElement(children: .combine)
         .accessibilityLabel(profile.nickname)
-        .accessibilityValue(profile.learningLevel.displayTitle)
+        .accessibilityValue(profile.learningLevel.displayTitle(for: language))
+    }
+
+    private var lastUsedText: String {
+        let formattedDate = profile.lastOpenedAt.formatted(
+            .dateTime
+                .locale(language.locale)
+                .month(.abbreviated)
+                .day()
+                .year()
+        )
+        return String.localizedFormat("profile.lastUsed", for: language, formattedDate)
     }
 }
 

@@ -160,6 +160,10 @@
 	<string>პროგრესი ვერ შეინახა.</string>
 	<key>error.settings.save</key>
 	<string>პარამეტრები ვერ შეინახა.</string>
+	<key>explore.accessibility.progress</key>
+	<string>აღმოჩენის პროგრესი ხელმისაწვდომია</string>
+	<key>explore.accessibility.unlocked</key>
+	<string>გახსნილია</string>
 	<key>explore.chooseEcosystem</key>
 	<string>აირჩიე ეკოსისტემა</string>
 	<key>explore.description</key>
@@ -300,8 +304,16 @@
 	<string>ამ მისიას ჯერ არ აქვს აქტივობები.</string>
 	<key>mission.locked</key>
 	<string>მისია დაბლოკილია</string>
+	<key>mission.locked.completeMission</key>
+	<string>ჯერ დაასრულე %@.</string>
+	<key>mission.locked.completeRequired</key>
+	<string>ჯერ დაასრულე საჭირო მისია.</string>
 	<key>mission.locked.description</key>
 	<string>დასრულე ადრინდელი აღმოჩენები ამ მისიის გასახსნელად.</string>
+	<key>mission.locked.unavailableEcosystem</key>
+	<string>ეს მისია მიუწვდომელ ეკოსისტემას ეკუთვნის.</string>
+	<key>mission.locked.unlockEcosystem</key>
+	<string>ჯერ გახსენი %@.</string>
 	<key>mission.malformedActivity</key>
 	<string>შეცდომიანი აქტივობა</string>
 	<key>mission.malformedActivity.description</key>
@@ -436,6 +448,8 @@
 	<string>პროფილის შექმნა</string>
 	<key>profile.create.title</key>
 	<string>პროფილის შექმნა</string>
+	<key>profile.lastUsed</key>
+	<string>ბოლოს გამოყენებულია %@</string>
 	<key>profile.learningLevel</key>
 	<string>სწავლების დონე</string>
 	<key>profile.limit.description</key>

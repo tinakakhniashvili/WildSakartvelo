@@ -1,0 +1,101 @@
+{
+  "source": "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Features/Missions/MatchingActivityView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "matching.column.left",
+        "location": {
+          "startingColumn": 55,
+          "startingLine": 55
+        }
+      },
+      {
+        "comment": "",
+        "key": "matching.column.right",
+        "location": {
+          "startingColumn": 55,
+          "startingLine": 56
+        }
+      },
+      {
+        "comment": "",
+        "key": "matching.accessibility.select",
+        "location": {
+          "startingColumn": 37,
+          "startingLine": 85
+        }
+      },
+      {
+        "comment": "",
+        "key": "matching.accessibility.pair",
+        "location": {
+          "startingColumn": 37,
+          "startingLine": 86
+        }
+      },
+      {
+        "comment": "",
+        "key": "matching.accessibility.removePair",
+        "location": {
+          "startingColumn": 36,
+          "startingLine": 100
+        },
+        "value": "Remove pair for %@"
+      },
+      {
+        "comment": "",
+        "key": "matching.accessibility.paired",
+        "location": {
+          "startingColumn": 32,
+          "startingLine": 161
+        },
+        "value": "%@ paired with %@."
+      },
+      {
+        "comment": "",
+        "key": "matching.accessibility.removed",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 176
+        },
+        "value": "Pair removed for %@."
+      },
+      {
+        "comment": "",
+        "key": "matching.action.removePair",
+        "location": {
+          "startingColumn": 49,
+          "startingLine": 93
+        }
+      },
+      {
+        "comment": "",
+        "key": "matching.accessibility.pairedWith",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 192
+        },
+        "value": "Paired with %@"
+      },
+      {
+        "comment": "",
+        "key": "matching.accessibility.pairedWith",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 203
+        },
+        "value": "Paired with %@"
+      },
+      {
+        "comment": "",
+        "key": "common.item",
+        "location": {
+          "startingColumn": 121,
+          "startingLine": 157
+        }
+      }
+    ]
+  },
+  "version": 1
+}

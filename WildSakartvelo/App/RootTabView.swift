@@ -74,7 +74,8 @@ struct RootTabView: View {
             retryAction: {
                 appState.contentCatalogue = nil
                 appState.loadContent()
-            }
+            },
+            language: appState.currentLanguage
         )
     }
 }

@@ -247,6 +247,18 @@ final class AppState: ObservableObject {
         }
     }
 
+    func completeGeographyMission(_ mission: GeographyMission, score: Int) {
+        guard let profileID = selectedProfile?.id else { return }
+
+        do {
+            let completedProgress = try progressService.completeGeographyMission(mission, score: score, for: profileID)
+            userProgress = try saveChallengeRewardsIfNeeded(completedProgress, for: profileID)
+        } catch {
+            AppLogger.progress.error("Geography mission completion failed: \(error.localizedDescription, privacy: .public)")
+            setErrorMessage("error.progress.save")
+        }
+    }
+
     private func saveChallengeRewardsIfNeeded(_ progress: UserProgress, for profileID: UUID) throws -> UserProgress {
         guard let contentCatalogue else { return progress }
         let updated = challengeService.applyingCompletedRewards(in: contentCatalogue, to: progress)
@@ -339,7 +351,7 @@ final class AppState: ObservableObject {
                     status: .failed,
                     progress: 0,
                     installedVersion: contentPackStates[pack.id]?.installedVersion,
-                    errorMessage: error.localizedDescription
+                    errorMessage: localizedDownloadError(error)
                 )
             )
         }
@@ -378,7 +390,7 @@ final class AppState: ObservableObject {
                     status: .failed,
                     progress: 0,
                     installedVersion: contentPackStates[pack.id]?.installedVersion,
-                    errorMessage: error.localizedDescription
+                    errorMessage: localizedDownloadError(error)
                 )
             )
         }
@@ -482,6 +494,25 @@ final class AppState: ObservableObject {
 
     private func setErrorMessage(_ key: String) {
         contentErrorMessage = String.localized(key, for: currentLanguage)
+    }
+
+    private func localizedDownloadError(_ error: Error) -> String {
+        guard let downloadError = error as? ContentDownloadError else {
+            return String.localized("downloads.error.storage", for: currentLanguage)
+        }
+
+        switch downloadError {
+        case .cancelled:
+            return String.localized("downloads.error.cancelled", for: currentLanguage)
+        case .invalidFileName:
+            return String.localized("downloads.error.invalidFile", for: currentLanguage)
+        case .missingBundledResource(let fileName):
+            return String.localizedFormat("downloads.error.missingBundleResource", for: currentLanguage, fileName)
+        case .invalidRemoteURL:
+            return String.localized("downloads.error.network", for: currentLanguage)
+        case .insufficientStorage:
+            return String.localized("downloads.error.storage", for: currentLanguage)
+        }
     }
 
     private func configureResourceResolver() {

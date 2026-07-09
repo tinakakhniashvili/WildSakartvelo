@@ -1,0 +1,1375 @@
+[
+  {
+    "id": "identify-animal",
+    "type": "multipleChoice",
+    "instruction": "Look for the animal best adapted to steep mountain cliffs.",
+    "localizedInstruction": {
+      "english": "Look for the animal best adapted to steep mountain cliffs.",
+      "georgian": "იპოვე ცხოველი, რომელიც ყველაზე კარგადაა შეგუებული ციცაბო მთის კლდეებს."
+    },
+    "question": "Which animal is the missing mountain resident?",
+    "localizedQuestion": {
+      "english": "Which animal is the missing mountain resident?",
+      "georgian": "რომელი ცხოველია დაკარგული მთის ბინადარი?"
+    },
+    "imageName": "caucasus_mountains",
+    "narrationFileName": "identify_animal_instruction",
+    "options": [
+      {
+        "id": "caucasian-tur",
+        "text": "Caucasian tur",
+        "localizedText": {
+          "english": "Caucasian tur",
+          "georgian": "ჯიხვი"
+        },
+        "imageName": "caucasian_tur"
+      },
+      {
+        "id": "black-sea-dolphin",
+        "text": "Black Sea dolphin",
+        "localizedText": {
+          "english": "Black Sea dolphin",
+          "georgian": "შავი ზღვის დელფინი"
+        },
+        "imageName": "black_sea_dolphin"
+      },
+      {
+        "id": "marsh-frog",
+        "text": "Marsh frog",
+        "localizedText": {
+          "english": "Marsh frog",
+          "georgian": "ჭაობის ბაყაყი"
+        },
+        "imageName": "marsh_frog"
+      }
+    ],
+    "correctAnswerIDs": [
+      "caucasian-tur"
+    ],
+    "hint": "Choose the animal with hooves made for rocky slopes.",
+    "localizedHint": {
+      "english": "Choose the animal with hooves made for rocky slopes.",
+      "georgian": "აირჩიე ცხოველი, რომელსაც კლდოვანი ფერდობებისთვის შესაფერისი ჩლიქები აქვს."
+    },
+    "successFeedback": "Correct. The Caucasian tur is built for high mountain terrain.",
+    "localizedSuccessFeedback": {
+      "english": "Correct. The Caucasian tur is built for high mountain terrain.",
+      "georgian": "სწორია. ჯიხვი მაღალმთიან რელიეფს არის შეგუებული."
+    },
+    "failureFeedback": "Try again. Think about an animal that climbs steep cliffs.",
+    "localizedFailureFeedback": {
+      "english": "Try again. Think about an animal that climbs steep cliffs.",
+      "georgian": "სცადე კიდევ ერთხელ. იფიქრე ცხოველზე, რომელიც ციცაბო კლდეებზე ადის."
+    }
+  },
+  {
+    "id": "choose-habitat",
+    "type": "multipleChoice",
+    "instruction": "Choose the habitat where the Caucasian tur would most likely live.",
+    "localizedInstruction": {
+      "english": "Choose the habitat where the Caucasian tur would most likely live.",
+      "georgian": "აირჩიე ჰაბიტატი, სადაც ჯიხვი ყველაზე მეტად იცხოვრებდა."
+    },
+    "question": "Where does the Caucasian tur belong?",
+    "localizedQuestion": {
+      "english": "Where does the Caucasian tur belong?",
+      "georgian": "სად არის ჯიხვის ადგილი?"
+    },
+    "imageName": "caucasian_tur",
+    "options": [
+      {
+        "id": "rocky-mountain-slope",
+        "text": "Rocky mountain slope",
+        "localizedText": {
+          "english": "Rocky mountain slope",
+          "georgian": "კლდოვანი მთის ფერდობი"
+        },
+        "imageName": "rocky_mountain_slope"
+      },
+      {
+        "id": "sandy-coast",
+        "text": "Sandy coast",
+        "localizedText": {
+          "english": "Sandy coast",
+          "georgian": "ქვიშიანი სანაპირო"
+        },
+        "imageName": "sandy_coast"
+      },
+      {
+        "id": "lowland-wetland",
+        "text": "Lowland wetland",
+        "localizedText": {
+          "english": "Lowland wetland",
+          "georgian": "დაბლობური ჭარბტენიანი ტერიტორია"
+        },
+        "imageName": "lowland_wetland"
+      }
+    ],
+    "correctAnswerIDs": [
+      "rocky-mountain-slope"
+    ],
+    "hint": "Look for cliffs, alpine grass, and high ridges.",
+    "localizedHint": {
+      "english": "Look for cliffs, alpine grass, and high ridges.",
+      "georgian": "ეძებე კლდეები, ალპური ბალახი და მაღალი ქედები."
+    },
+    "successFeedback": "Correct. Rocky slopes give the tur food and protection.",
+    "localizedSuccessFeedback": {
+      "english": "Correct. Rocky slopes give the tur food and protection.",
+      "georgian": "სწორია. კლდოვანი ფერდობები ჯიხვს საკვებს და თავშესაფარს აძლევს."
+    },
+    "failureFeedback": "Try again. The tur is a mountain animal.",
+    "localizedFailureFeedback": {
+      "english": "Try again. The tur is a mountain animal.",
+      "georgian": "სცადე კიდევ ერთხელ. ჯიხვი მთის ცხოველია."
+    }
+  },
+  {
+    "id": "match-animal-footprints",
+    "type": "matching",
+    "instruction": "Match each animal with the footprint it would leave behind.",
+    "localizedInstruction": {
+      "english": "Match each animal with the footprint it would leave behind.",
+      "georgian": "დაამთხვიე თითოეული ცხოველი მის ნაკვალევს."
+    },
+    "question": "Which footprint belongs to each animal?",
+    "localizedQuestion": {
+      "english": "Which footprint belongs to each animal?",
+      "georgian": "რომელი ნაკვალევი ეკუთვნის თითოეულ ცხოველს?"
+    },
+    "imageName": "caucasus_mountains",
+    "narrationFileName": "match_animal_footprints_instruction",
+    "options": [
+      {
+        "id": "tur-animal",
+        "text": "Caucasian tur",
+        "localizedText": {
+          "english": "Caucasian tur",
+          "georgian": "ჯიხვი"
+        },
+        "imageName": "caucasian_tur",
+        "pairID": "tur-track"
+      },
+      {
+        "id": "tur-track",
+        "text": "Split hoof print",
+        "localizedText": {
+          "english": "Split hoof print",
+          "georgian": "გაყოფილი ჩლიქის ნაკვალევი"
+        },
+        "imageName": null,
+        "pairID": "tur-track"
+      },
+      {
+        "id": "bear-animal",
+        "text": "Brown bear",
+        "localizedText": {
+          "english": "Brown bear",
+          "georgian": "დათვი"
+        },
+        "imageName": "brown_bear",
+        "pairID": "bear-track"
+      },
+      {
+        "id": "bear-track",
+        "text": "Wide paw print",
+        "localizedText": {
+          "english": "Wide paw print",
+          "georgian": "ფართო თათის ნაკვალევი"
+        },
+        "imageName": null,
+        "pairID": "bear-track"
+      },
+      {
+        "id": "frog-animal",
+        "text": "Marsh frog",
+        "localizedText": {
+          "english": "Marsh frog",
+          "georgian": "ჭაობის ბაყაყი"
+        },
+        "imageName": "marsh_frog",
+        "pairID": "frog-track"
+      },
+      {
+        "id": "frog-track",
+        "text": "Tiny webbed print",
+        "localizedText": {
+          "english": "Tiny webbed print",
+          "georgian": "პატარა მემბრანიანი ნაკვალევი"
+        },
+        "imageName": null,
+        "pairID": "frog-track"
+      }
+    ],
+    "correctAnswerIDs": [],
+    "hint": "Hooves, paws, and webbed feet leave different shapes.",
+    "localizedHint": {
+      "english": "Hooves, paws, and webbed feet leave different shapes.",
+      "georgian": "ჩლიქები, თათები და მემბრანიანი ფეხები სხვადასხვა კვალს ტოვებს."
+    },
+    "successFeedback": "Correct. Each track matches the animal that made it.",
+    "localizedSuccessFeedback": {
+      "english": "Correct. Each track matches the animal that made it.",
+      "georgian": "სწორია. თითოეული ნაკვალევი ემთხვევა მის შემქმნელ ცხოველს."
+    },
+    "failureFeedback": "Try again. Compare the shape of each footprint.",
+    "localizedFailureFeedback": {
+      "english": "Try again. Compare the shape of each footprint.",
+      "georgian": "სცადე კიდევ ერთხელ. შეადარე თითოეული ნაკვალევის ფორმა."
+    }
+  },
+  {
+    "id": "classify-animal-habitats",
+    "type": "classification",
+    "instruction": "Choose the habitat where each animal belongs.",
+    "localizedInstruction": {
+      "english": "Choose the habitat where each animal belongs.",
+      "georgian": "აირჩიე ჰაბიტატი, სადაც თითოეული ცხოველი ცხოვრობს."
+    },
+    "question": "Sort the animals into habitats.",
+    "localizedQuestion": {
+      "english": "Sort the animals into habitats.",
+      "georgian": "დაალაგე ცხოველები ჰაბიტატებში."
+    },
+    "imageName": "kolkheti_wetlands",
+    "narrationFileName": "habitat_classification_instruction",
+    "options": [
+      {
+        "id": "tur",
+        "text": "Caucasian tur",
+        "localizedText": {
+          "english": "Caucasian tur",
+          "georgian": "ჯიხვი"
+        },
+        "imageName": "caucasian_tur",
+        "categoryID": "mountain"
+      },
+      {
+        "id": "bear",
+        "text": "Brown bear",
+        "localizedText": {
+          "english": "Brown bear",
+          "georgian": "დათვი"
+        },
+        "imageName": "brown_bear",
+        "categoryID": "forest"
+      },
+      {
+        "id": "frog",
+        "text": "Marsh frog",
+        "localizedText": {
+          "english": "Marsh frog",
+          "georgian": "ჭაობის ბაყაყი"
+        },
+        "imageName": "marsh_frog",
+        "categoryID": "wetland"
+      }
+    ],
+    "categories": [
+      {
+        "id": "mountain",
+        "title": "Mountain",
+        "localizedTitle": {
+          "english": "Mountain",
+          "georgian": "მთა"
+        },
+        "imageName": "caucasus_mountains"
+      },
+      {
+        "id": "forest",
+        "title": "Forest",
+        "localizedTitle": {
+          "english": "Forest",
+          "georgian": "ტყე"
+        },
+        "imageName": "forest_floor"
+      },
+      {
+        "id": "wetland",
+        "title": "Wetland",
+        "localizedTitle": {
+          "english": "Wetland",
+          "georgian": "ჭაობი"
+        },
+        "imageName": "kolkheti_wetlands"
+      }
+    ],
+    "correctAnswerIDs": [],
+    "hint": "Think about cliffs, trees, reeds, and calm water.",
+    "localizedHint": {
+      "english": "Think about cliffs, trees, reeds, and calm water.",
+      "georgian": "იფიქრე კლდეებზე, ხეებზე, ლერწმებზე და მშვიდ წყალზე."
+    },
+    "successFeedback": "Correct. Each animal is in the habitat that fits it best.",
+    "localizedSuccessFeedback": {
+      "english": "Correct. Each animal is in the habitat that fits it best.",
+      "georgian": "სწორია. თითოეული ცხოველი იმ ჰაბიტატშია, რომელიც მას ყველაზე მეტად შეეფერება."
+    },
+    "failureFeedback": "Try again. Look at what each animal needs for shelter and food.",
+    "localizedFailureFeedback": {
+      "english": "Try again. Look at what each animal needs for shelter and food.",
+      "georgian": "სცადე კიდევ ერთხელ. შეხედე, რა სჭირდება თითოეულ ცხოველს თავშესაფრად და საკვებად."
+    }
+  },
+  {
+    "id": "food-chain-sequence",
+    "type": "sequencing",
+    "instruction": "Put the food chain in the right order.",
+    "localizedInstruction": {
+      "english": "Put the food chain in the right order.",
+      "georgian": "დაალაგე საკვები ჯაჭვი სწორ რიგში."
+    },
+    "question": "What comes first, second, and third?",
+    "localizedQuestion": {
+      "english": "What comes first, second, and third?",
+      "georgian": "რა მოდის პირველ, მეორე და მესამე ადგილზე?"
+    },
+    "imageName": null,
+    "narrationFileName": "food_chain_sequence_instruction",
+    "options": [],
+    "sequenceItems": [
+      {
+        "id": "grass",
+        "text": "Grass",
+        "localizedText": {
+          "english": "Grass",
+          "georgian": "ბალახი"
+        },
+        "imageName": null,
+        "correctPosition": 1
+      },
+      {
+        "id": "deer",
+        "text": "Deer",
+        "localizedText": {
+          "english": "Deer",
+          "georgian": "ირემი"
+        },
+        "imageName": null,
+        "correctPosition": 2
+      },
+      {
+        "id": "wolf",
+        "text": "Wolf",
+        "localizedText": {
+          "english": "Wolf",
+          "georgian": "მგელი"
+        },
+        "imageName": null,
+        "correctPosition": 3
+      }
+    ],
+    "correctAnswerIDs": [],
+    "hint": "Plants are eaten by herbivores, and herbivores are eaten by predators.",
+    "localizedHint": {
+      "english": "Plants are eaten by herbivores, and herbivores are eaten by predators.",
+      "georgian": "მცენარეებს ჭამენ ბალახისმჭამელები, ხოლო მათ თავად ჭამენ მტაცებლები."
+    },
+    "successFeedback": "Correct. The food chain starts with grass.",
+    "localizedSuccessFeedback": {
+      "english": "Correct. The food chain starts with grass.",
+      "georgian": "სწორია. საკვები ჯაჭვი ბალახით იწყება."
+    },
+    "failureFeedback": "Try again. Think about who eats whom.",
+    "localizedFailureFeedback": {
+      "english": "Try again. Think about who eats whom.",
+      "georgian": "სცადე კიდევ ერთხელ. იფიქრე, ვინ ვის ჭამს."
+    }
+  },
+  {
+    "id": "habitat-placement-sort",
+    "type": "habitatPlacement",
+    "instruction": "Place each animal into the habitat where it belongs.",
+    "localizedInstruction": {
+      "english": "Place each animal into the habitat where it belongs.",
+      "georgian": "მოათავსე თითოეული ცხოველი მისთვის შესაფერის ჰაბიტატში."
+    },
+    "question": "Choose mountain, forest, or wetland for each item.",
+    "localizedQuestion": {
+      "english": "Choose mountain, forest, or wetland for each item.",
+      "georgian": "აირჩიე მთის, ტყის ან ჭაობის ჰაბიტატი თითოეული ნივთისთვის."
+    },
+    "imageName": null,
+    "narrationFileName": "habitat_placement_instruction",
+    "options": [
+      {
+        "id": "tur",
+        "text": "Caucasian tur",
+        "localizedText": {
+          "english": "Caucasian tur",
+          "georgian": "ჯიხვი"
+        },
+        "imageName": "caucasian_tur"
+      },
+      {
+        "id": "bear",
+        "text": "Brown bear",
+        "localizedText": {
+          "english": "Brown bear",
+          "georgian": "დათვი"
+        },
+        "imageName": "brown_bear"
+      },
+      {
+        "id": "frog",
+        "text": "Marsh frog",
+        "localizedText": {
+          "english": "Marsh frog",
+          "georgian": "ჭაობის ბაყაყი"
+        },
+        "imageName": "marsh_frog"
+      }
+    ],
+    "habitatZones": [
+      {
+        "id": "mountain",
+        "title": "Mountain",
+        "localizedTitle": {
+          "english": "Mountain",
+          "georgian": "მთა"
+        },
+        "imageName": null,
+        "acceptedItemIDs": ["tur"]
+      },
+      {
+        "id": "forest",
+        "title": "Forest",
+        "localizedTitle": {
+          "english": "Forest",
+          "georgian": "ტყე"
+        },
+        "imageName": null,
+        "acceptedItemIDs": ["bear"]
+      },
+      {
+        "id": "wetland",
+        "title": "Wetland",
+        "localizedTitle": {
+          "english": "Wetland",
+          "georgian": "ჭაობი"
+        },
+        "imageName": null,
+        "acceptedItemIDs": ["frog"]
+      }
+    ],
+    "correctAnswerIDs": [],
+    "hint": "Match each animal to the place it naturally lives.",
+    "localizedHint": {
+      "english": "Match each animal to the place it naturally lives.",
+      "georgian": "შეადარე თითოეული ცხოველი იმ ადგილს, სადაც ის ბუნებრივად ცხოვრობს."
+    },
+    "successFeedback": "Correct. Each animal is in the right habitat.",
+    "localizedSuccessFeedback": {
+      "english": "Correct. Each animal is in the right habitat.",
+      "georgian": "სწორია. თითოეული ცხოველი სწორ ჰაბიტატშია."
+    },
+    "failureFeedback": "Try again. Think about cliffs, trees, and calm water.",
+    "localizedFailureFeedback": {
+      "english": "Try again. Think about cliffs, trees, and calm water.",
+      "georgian": "სცადე კიდევ ერთხელ. იფიქრე კლდეებზე, ხეებზე და მშვიდ წყალზე."
+    }
+  },
+  {
+    "id": "find-wetland-resident",
+    "type": "multipleChoice",
+    "instruction": "Look for the animal that belongs near calm water and reeds.",
+    "localizedInstruction": {
+      "english": "Look for the animal that belongs near calm water and reeds.",
+      "georgian": "იპოვე ცხოველი, რომელიც მშვიდ წყალსა და ლერწმებთან ცხოვრობს."
+    },
+    "question": "Which animal is the wetland resident?",
+    "localizedQuestion": {
+      "english": "Which animal is the wetland resident?",
+      "georgian": "რომელი ცხოველია ჭაობის ბინადარი?"
+    },
+    "imageName": "kolkheti_wetlands",
+    "narrationFileName": "habitat_classification_instruction",
+    "options": [
+      {
+        "id": "caucasian-tur",
+        "text": "Caucasian tur",
+        "localizedText": {
+          "english": "Caucasian tur",
+          "georgian": "ჯიხვი"
+        },
+        "imageName": "caucasian_tur"
+      },
+      {
+        "id": "black-sea-dolphin",
+        "text": "Black Sea dolphin",
+        "localizedText": {
+          "english": "Black Sea dolphin",
+          "georgian": "შავი ზღვის დელფინი"
+        },
+        "imageName": "black_sea_dolphin"
+      },
+      {
+        "id": "marsh-frog",
+        "text": "Marsh frog",
+        "localizedText": {
+          "english": "Marsh frog",
+          "georgian": "ჭაობის ბაყაყი"
+        },
+        "imageName": "marsh_frog"
+      }
+    ],
+    "correctAnswerIDs": [
+      "marsh-frog"
+    ],
+    "hint": "Choose the animal that lives around wet places and reeds.",
+    "localizedHint": {
+      "english": "Choose the animal that lives around wet places and reeds.",
+      "georgian": "აირჩიე ცხოველი, რომელიც ტენიან ადგილებსა და ლერწმებთან ცხოვრობს."
+    },
+    "successFeedback": "Correct. Marsh frogs live in wetlands and around calm water.",
+    "localizedSuccessFeedback": {
+      "english": "Correct. Marsh frogs live in wetlands and around calm water.",
+      "georgian": "სწორია. ჭაობის ბაყაყები ჭაობებსა და მშვიდ წყალთან ცხოვრობენ."
+    },
+    "failureFeedback": "Try again. Think about an animal that calls from the reeds.",
+    "localizedFailureFeedback": {
+      "english": "Try again. Think about an animal that calls from the reeds.",
+      "georgian": "სცადე კიდევ ერთხელ. იფიქრე ცხოველზე, რომელიც ლერწმებიდან ხმიანობს."
+    }
+  },
+  {
+    "id": "borjomi-forest-choice",
+    "type": "multipleChoice",
+    "instruction": "Choose the forest animal that belongs among Borjomi's beech trees.",
+    "localizedInstruction": {
+      "english": "Choose the forest animal that belongs among Borjomi's beech trees.",
+      "georgian": "აირჩიე ტყის ცხოველი, რომელიც ბორჯომის წიფლის ხეებს შორის ცხოვრობს."
+    },
+    "question": "Which animal is most likely to live in Borjomi Forest?",
+    "localizedQuestion": {
+      "english": "Which animal is most likely to live in Borjomi Forest?",
+      "georgian": "რომელი ცხოველია ყველაზე მეტად მოსალოდნელი ბორჯომის ტყეში?"
+    },
+    "imageName": "borjomi_forest",
+    "narrationFileName": "identify_animal_instruction",
+    "options": [
+      {
+        "id": "roe-deer",
+        "text": "Roe deer",
+        "localizedText": {
+          "english": "Roe deer",
+          "georgian": "შველი"
+        },
+        "imageName": "roe_deer"
+      },
+      {
+        "id": "black-sea-bottlenose-dolphin",
+        "text": "Black Sea bottlenose dolphin",
+        "localizedText": {
+          "english": "Black Sea bottlenose dolphin",
+          "georgian": "შავი ზღვის აფალინა"
+        },
+        "imageName": "black_sea_bottlenose_dolphin"
+      },
+      {
+        "id": "marsh-frog",
+        "text": "Marsh frog",
+        "localizedText": {
+          "english": "Marsh frog",
+          "georgian": "ბაყაყი"
+        },
+        "imageName": "marsh_frog"
+      }
+    ],
+    "correctAnswerIDs": [
+      "roe-deer"
+    ],
+    "hint": "Think about a quiet forest animal that moves between trees and clearings.",
+    "localizedHint": {
+      "english": "Think about a quiet forest animal that moves between trees and clearings.",
+      "georgian": "იფიქრე მშვიდ ტყის ცხოველზე, რომელიც ხეებსა და ღია ადგილებს შორის გადაადგილდება."
+    },
+    "successFeedback": "Correct. Roe deer are common in mixed forests.",
+    "localizedSuccessFeedback": {
+      "english": "Correct. Roe deer are common in mixed forests.",
+      "georgian": "სწორია. შველი შერეულ ტყეებში ხშირად გვხვდება."
+    },
+    "failureFeedback": "Try again. Look for the animal adapted to forest cover.",
+    "localizedFailureFeedback": {
+      "english": "Try again. Look for the animal adapted to forest cover.",
+      "georgian": "სცადე კიდევ ერთხელ. ეძებე ცხოველი, რომელიც ტყის საფარსაა შეგუებული."
+    }
+  },
+  {
+    "id": "borjomi-footprint-match",
+    "type": "matching",
+    "instruction": "Match each forest animal with the clue it leaves behind.",
+    "localizedInstruction": {
+      "english": "Match each forest animal with the clue it leaves behind.",
+      "georgian": "დაამთხვიე თითოეული ტყის ცხოველი იმ კვალს, რომელსაც ის ტოვებს."
+    },
+    "question": "Which clue belongs to each animal?",
+    "localizedQuestion": {
+      "english": "Which clue belongs to each animal?",
+      "georgian": "რომელი ნიშანი ეკუთვნის თითოეულ ცხოველს?"
+    },
+    "imageName": "borjomi_forest",
+    "narrationFileName": "match_animal_footprints_instruction",
+    "options": [
+      {
+        "id": "roe-deer-animal",
+        "text": "Roe deer",
+        "localizedText": {
+          "english": "Roe deer",
+          "georgian": "შველი"
+        },
+        "imageName": "roe_deer",
+        "pairID": "roe-deer-clue"
+      },
+      {
+        "id": "roe-deer-clue",
+        "text": "Small cloven hoof print",
+        "localizedText": {
+          "english": "Small cloven hoof print",
+          "georgian": "პატარა გაყოფილი ჩლიქის ნაკვალევი"
+        },
+        "imageName": null,
+        "pairID": "roe-deer-clue"
+      },
+      {
+        "id": "wild-boar-animal",
+        "text": "Wild boar",
+        "localizedText": {
+          "english": "Wild boar",
+          "georgian": "ტახი"
+        },
+        "imageName": "wild_boar",
+        "pairID": "wild-boar-clue"
+      },
+      {
+        "id": "wild-boar-clue",
+        "text": "Rooted soil patch",
+        "localizedText": {
+          "english": "Rooted soil patch",
+          "georgian": "ამოთხრილი მიწის კვალის ნაწილი"
+        },
+        "imageName": null,
+        "pairID": "wild-boar-clue"
+      },
+      {
+        "id": "red-squirrel-animal",
+        "text": "Red squirrel",
+        "localizedText": {
+          "english": "Red squirrel",
+          "georgian": "წითელი ციყვი"
+        },
+        "imageName": "red_squirrel",
+        "pairID": "red-squirrel-clue"
+      },
+      {
+        "id": "red-squirrel-clue",
+        "text": "Hidden cone cache",
+        "localizedText": {
+          "english": "Hidden cone cache",
+          "georgian": "დამალული გირჩების მარაგი"
+        },
+        "imageName": null,
+        "pairID": "red-squirrel-clue"
+      }
+    ],
+    "correctAnswerIDs": [],
+    "hint": "Look at hooves, soil, and food storage signs in the forest.",
+    "localizedHint": {
+      "english": "Look at hooves, soil, and food storage signs in the forest.",
+      "georgian": "დააკვირდი ჩლიქებს, მიწას და საკვების დამალვის ნიშნებს ტყეში."
+    },
+    "successFeedback": "Correct. Each forest clue matches the right animal.",
+    "localizedSuccessFeedback": {
+      "english": "Correct. Each forest clue matches the right animal.",
+      "georgian": "სწორია. თითოეული ტყის ნიშანი სწორ ცხოველს შეესაბამება."
+    },
+    "failureFeedback": "Try again. Compare the clue with the animal's habits.",
+    "localizedFailureFeedback": {
+      "english": "Try again. Compare the clue with the animal's habits.",
+      "georgian": "სცადე კიდევ ერთხელ. შეადარე ნიშანი ცხოველის ჩვევებს."
+    }
+  },
+  {
+    "id": "borjomi-layer-classify",
+    "type": "classification",
+    "instruction": "Choose the forest layer where each animal is most often seen.",
+    "localizedInstruction": {
+      "english": "Choose the forest layer where each animal is most often seen.",
+      "georgian": "აირჩიე ტყის ფენა, სადაც თითოეული ცხოველი ყველაზე ხშირად ჩანს."
+    },
+    "question": "Sort the animals into forest layers.",
+    "localizedQuestion": {
+      "english": "Sort the animals into forest layers.",
+      "georgian": "დაალაგე ცხოველები ტყის ფენებში."
+    },
+    "imageName": "borjomi_forest",
+    "narrationFileName": "habitat_classification_instruction",
+    "options": [
+      {
+        "id": "red-squirrel",
+        "text": "Red squirrel",
+        "localizedText": {
+          "english": "Red squirrel",
+          "georgian": "წითელი ციყვი"
+        },
+        "imageName": "red_squirrel",
+        "categoryID": "canopy"
+      },
+      {
+        "id": "great-spotted-woodpecker",
+        "text": "Great spotted woodpecker",
+        "localizedText": {
+          "english": "Great spotted woodpecker",
+          "georgian": "დიდი ჭრელი კოდალა"
+        },
+        "imageName": "great_spotted_woodpecker",
+        "categoryID": "trunk"
+      },
+      {
+        "id": "wild-boar",
+        "text": "Wild boar",
+        "localizedText": {
+          "english": "Wild boar",
+          "georgian": "ტახი"
+        },
+        "imageName": "wild_boar",
+        "categoryID": "forest-floor"
+      }
+    ],
+    "categories": [
+      {
+        "id": "canopy",
+        "title": "Canopy",
+        "localizedTitle": {
+          "english": "Canopy",
+          "georgian": "კენწერო"
+        },
+        "imageName": null
+      },
+      {
+        "id": "trunk",
+        "title": "Trunk",
+        "localizedTitle": {
+          "english": "Trunk",
+          "georgian": "ტანი"
+        },
+        "imageName": null
+      },
+      {
+        "id": "forest-floor",
+        "title": "Forest floor",
+        "localizedTitle": {
+          "english": "Forest floor",
+          "georgian": "ტყის ძირი"
+        },
+        "imageName": null
+      }
+    ],
+    "sequenceItems": null,
+    "habitatZones": null,
+    "correctAnswerIDs": [],
+    "hint": "Think about where each animal spends the most time.",
+    "localizedHint": {
+      "english": "Think about where each animal spends the most time.",
+      "georgian": "იფიქრე, სად ატარებს თითოეული ცხოველი ყველაზე მეტ დროს."
+    },
+    "successFeedback": "Correct. Each animal fits a different part of the forest.",
+    "localizedSuccessFeedback": {
+      "english": "Correct. Each animal fits a different part of the forest.",
+      "georgian": "სწორია. თითოეული ცხოველი ტყის სხვადასხვა ნაწილში ცხოვრობს."
+    },
+    "failureFeedback": "Try again. Match the animal to its usual layer.",
+    "localizedFailureFeedback": {
+      "english": "Try again. Match the animal to its usual layer.",
+      "georgian": "სცადე კიდევ ერთხელ. შეადარე ცხოველი მის ჩვეულ ფენას."
+    }
+  },
+  {
+    "id": "borjomi-forest-sequence",
+    "type": "sequencing",
+    "instruction": "Put the forest food chain in the right order.",
+    "localizedInstruction": {
+      "english": "Put the forest food chain in the right order.",
+      "georgian": "დაალაგე ტყის საკვები ჯაჭვი სწორ რიგში."
+    },
+    "question": "What comes first, second, and third?",
+    "localizedQuestion": {
+      "english": "What comes first, second, and third?",
+      "georgian": "რა მოდის პირველ, მეორე და მესამე ადგილზე?"
+    },
+    "imageName": "borjomi_forest",
+    "narrationFileName": "food_chain_sequence_instruction",
+    "options": [],
+    "categories": null,
+    "sequenceItems": [
+      {
+        "id": "beech-leaf",
+        "text": "Beech leaf",
+        "localizedText": {
+          "english": "Beech leaf",
+          "georgian": "წიფლის ფოთოლი"
+        },
+        "imageName": null,
+        "correctPosition": 1
+      },
+      {
+        "id": "caterpillar",
+        "text": "Caterpillar",
+        "localizedText": {
+          "english": "Caterpillar",
+          "georgian": "მუხლუხო"
+        },
+        "imageName": null,
+        "correctPosition": 2
+      },
+      {
+        "id": "woodpecker",
+        "text": "Great spotted woodpecker",
+        "localizedText": {
+          "english": "Great spotted woodpecker",
+          "georgian": "დიდი ჭრელი კოდალა"
+        },
+        "imageName": "great_spotted_woodpecker",
+        "correctPosition": 3
+      }
+    ],
+    "habitatZones": null,
+    "correctAnswerIDs": [],
+    "hint": "A plant can feed an insect, and an insect can feed a bird.",
+    "localizedHint": {
+      "english": "A plant can feed an insect, and an insect can feed a bird.",
+      "georgian": "მცენარე შეიძლება მწერს კვებავდეს, ხოლო მწერი - ფრინველს."
+    },
+    "successFeedback": "Correct. The food chain starts with the plant.",
+    "localizedSuccessFeedback": {
+      "english": "Correct. The food chain starts with the plant.",
+      "georgian": "სწორია. საკვები ჯაჭვი მცენარით იწყება."
+    },
+    "failureFeedback": "Try again. Start with the plant and move up the chain.",
+    "localizedFailureFeedback": {
+      "english": "Try again. Start with the plant and move up the chain.",
+      "georgian": "სცადე კიდევ ერთხელ. დაიწყე მცენარით და გადადი ჯაჭვის ზემოთ."
+    }
+  },
+  {
+    "id": "borjomi-habitat-placement",
+    "type": "habitatPlacement",
+    "instruction": "Place each animal in the forest place where it belongs.",
+    "localizedInstruction": {
+      "english": "Place each animal in the forest place where it belongs.",
+      "georgian": "მოათავსე თითოეული ცხოველი ტყის იმ ადგილას, სადაც მას ადგილი აქვს."
+    },
+    "question": "Choose forest edge, forest floor, or tree canopy for each item.",
+    "localizedQuestion": {
+      "english": "Choose forest edge, forest floor, or tree canopy for each item.",
+      "georgian": "აირჩიე ტყის კიდე, ტყის ძირი ან ხეების კენწერო თითოეული ცხოველისთვის."
+    },
+    "imageName": "borjomi_forest",
+    "narrationFileName": "habitat_placement_instruction",
+    "options": [
+      {
+        "id": "roe-deer",
+        "text": "Roe deer",
+        "localizedText": {
+          "english": "Roe deer",
+          "georgian": "შველი"
+        },
+        "imageName": "roe_deer"
+      },
+      {
+        "id": "wild-boar",
+        "text": "Wild boar",
+        "localizedText": {
+          "english": "Wild boar",
+          "georgian": "ტახი"
+        },
+        "imageName": "wild_boar"
+      },
+      {
+        "id": "red-squirrel",
+        "text": "Red squirrel",
+        "localizedText": {
+          "english": "Red squirrel",
+          "georgian": "წითელი ციყვი"
+        },
+        "imageName": "red_squirrel"
+      }
+    ],
+    "categories": null,
+    "sequenceItems": null,
+    "habitatZones": [
+      {
+        "id": "forest-edge",
+        "title": "Forest edge",
+        "localizedTitle": {
+          "english": "Forest edge",
+          "georgian": "ტყის კიდე"
+        },
+        "imageName": null,
+        "acceptedItemIDs": [
+          "roe-deer"
+        ]
+      },
+      {
+        "id": "forest-floor",
+        "title": "Forest floor",
+        "localizedTitle": {
+          "english": "Forest floor",
+          "georgian": "ტყის ძირი"
+        },
+        "imageName": null,
+        "acceptedItemIDs": [
+          "wild-boar"
+        ]
+      },
+      {
+        "id": "tree-canopy",
+        "title": "Tree canopy",
+        "localizedTitle": {
+          "english": "Tree canopy",
+          "georgian": "ხეების კენწერო"
+        },
+        "imageName": null,
+        "acceptedItemIDs": [
+          "red-squirrel"
+        ]
+      }
+    ],
+    "correctAnswerIDs": [],
+    "hint": "Think about where each animal finds food and cover.",
+    "localizedHint": {
+      "english": "Think about where each animal finds food and cover.",
+      "georgian": "იფიქრე, სად პოულობს თითოეული ცხოველი საკვებს და თავშესაფარს."
+    },
+    "successFeedback": "Correct. Each animal is in the right part of the forest.",
+    "localizedSuccessFeedback": {
+      "english": "Correct. Each animal is in the right part of the forest.",
+      "georgian": "სწორია. თითოეული ცხოველი ტყის სწორ ნაწილშია."
+    },
+    "failureFeedback": "Try again. Match the animal to its usual forest place.",
+    "localizedFailureFeedback": {
+      "english": "Try again. Match the animal to its usual forest place.",
+      "georgian": "სცადე კიდევ ერთხელ. შეადარე ცხოველი ტყის მის ჩვეულ ადგილს."
+    }
+  },
+  {
+    "id": "blacksea-shore-choice",
+    "type": "multipleChoice",
+    "instruction": "Choose the coastal animal that belongs near open water.",
+    "localizedInstruction": {
+      "english": "Choose the coastal animal that belongs near open water.",
+      "georgian": "აირჩიე სანაპირო ცხოველი, რომელიც ღია წყალთან ცხოვრობს."
+    },
+    "question": "Which animal is most likely to live on the Black Sea Coast?",
+    "localizedQuestion": {
+      "english": "Which animal is most likely to live on the Black Sea Coast?",
+      "georgian": "რომელი ცხოველია ყველაზე მეტად მოსალოდნელი შავი ზღვის სანაპიროზე?"
+    },
+    "imageName": "black_sea_coast",
+    "narrationFileName": "identify_animal_instruction",
+    "options": [
+      {
+        "id": "black-sea-bottlenose-dolphin",
+        "text": "Black Sea bottlenose dolphin",
+        "localizedText": {
+          "english": "Black Sea bottlenose dolphin",
+          "georgian": "შავი ზღვის აფალინა"
+        },
+        "imageName": "black_sea_bottlenose_dolphin"
+      },
+      {
+        "id": "marsh-frog",
+        "text": "Marsh frog",
+        "localizedText": {
+          "english": "Marsh frog",
+          "georgian": "ბაყაყი"
+        },
+        "imageName": "marsh_frog"
+      },
+      {
+        "id": "caucasian-tur",
+        "text": "Caucasian tur",
+        "localizedText": {
+          "english": "Caucasian tur",
+          "georgian": "ჯიხვი"
+        },
+        "imageName": "caucasian_tur"
+      }
+    ],
+    "correctAnswerIDs": [
+      "black-sea-bottlenose-dolphin"
+    ],
+    "hint": "Think about an animal that swims in the sea and uses sound to hunt fish.",
+    "localizedHint": {
+      "english": "Think about an animal that swims in the sea and uses sound to hunt fish.",
+      "georgian": "იფიქრე ცხოველზე, რომელიც ზღვაში ცურავს და ხმას იყენებს თევზზე ნადირობისთვის."
+    },
+    "successFeedback": "Correct. Dolphins live in coastal waters.",
+    "localizedSuccessFeedback": {
+      "english": "Correct. Dolphins live in coastal waters.",
+      "georgian": "სწორია. დელფინები სანაპირო წყლებში ცხოვრობენ."
+    },
+    "failureFeedback": "Try again. The right animal uses the sea, not the mountains.",
+    "localizedFailureFeedback": {
+      "english": "Try again. The right animal uses the sea, not the mountains.",
+      "georgian": "სცადე კიდევ ერთხელ. სწორი ცხოველი ზღვას იყენებს და არა მთებს."
+    }
+  },
+  {
+    "id": "blacksea-habitat-match",
+    "type": "matching",
+    "instruction": "Match each coastal animal with the place it uses.",
+    "localizedInstruction": {
+      "english": "Match each coastal animal with the place it uses.",
+      "georgian": "დაამთხვიე თითოეული სანაპირო ცხოველი იმ ადგილს, რომელსაც იყენებს."
+    },
+    "question": "Which place belongs with each animal?",
+    "localizedQuestion": {
+      "english": "Which place belongs with each animal?",
+      "georgian": "რომელი ადგილი ეკუთვნის თითოეულ ცხოველს?"
+    },
+    "imageName": "black_sea_coast",
+    "narrationFileName": "match_animal_footprints_instruction",
+    "options": [
+      {
+        "id": "common-tern-animal",
+        "text": "Common tern",
+        "localizedText": {
+          "english": "Common tern",
+          "georgian": "ზღვის მერცხალი"
+        },
+        "imageName": "common_tern",
+        "pairID": "sandbar-clue"
+      },
+      {
+        "id": "sandbar-clue",
+        "text": "Sandbar",
+        "localizedText": {
+          "english": "Sandbar",
+          "georgian": "ქვიშიანი ბარიერი"
+        },
+        "imageName": null,
+        "pairID": "sandbar-clue"
+      },
+      {
+        "id": "loggerhead-turtle-animal",
+        "text": "Loggerhead sea turtle",
+        "localizedText": {
+          "english": "Loggerhead sea turtle",
+          "georgian": "ლოგერჰედი"
+        },
+        "imageName": "loggerhead_sea_turtle",
+        "pairID": "nesting-beach-clue"
+      },
+      {
+        "id": "nesting-beach-clue",
+        "text": "Nesting beach",
+        "localizedText": {
+          "english": "Nesting beach",
+          "georgian": "საბუდარი პლაჟი"
+        },
+        "imageName": null,
+        "pairID": "nesting-beach-clue"
+      },
+      {
+        "id": "great-cormorant-animal",
+        "text": "Great cormorant",
+        "localizedText": {
+          "english": "Great cormorant",
+          "georgian": "დიდი კორმორანი"
+        },
+        "imageName": "great_cormorant",
+        "pairID": "rocky-shore-clue"
+      },
+      {
+        "id": "rocky-shore-clue",
+        "text": "Rocky shore",
+        "localizedText": {
+          "english": "Rocky shore",
+          "georgian": "კლდოვანი ნაპირი"
+        },
+        "imageName": null,
+        "pairID": "rocky-shore-clue"
+      }
+    ],
+    "correctAnswerIDs": [],
+    "hint": "Think about where each animal rests, nests, or hunts.",
+    "localizedHint": {
+      "english": "Think about where each animal rests, nests, or hunts.",
+      "georgian": "იფიქრე, სად ისვენებს, ბუდობს ან ნადირობს თითოეული ცხოველი."
+    },
+    "successFeedback": "Correct. Each coastal clue matches the right animal.",
+    "localizedSuccessFeedback": {
+      "english": "Correct. Each coastal clue matches the right animal.",
+      "georgian": "სწორია. თითოეული სანაპირო ნიშანი სწორ ცხოველს შეესაბამება."
+    },
+    "failureFeedback": "Try again. Compare the habitat clue with the animal.",
+    "localizedFailureFeedback": {
+      "english": "Try again. Compare the habitat clue with the animal.",
+      "georgian": "სცადე კიდევ ერთხელ. შეადარე ჰაბიტატის ნიშანი ცხოველს."
+    }
+  },
+  {
+    "id": "blacksea-classify",
+    "type": "classification",
+    "instruction": "Choose sea, shore, or dunes for each animal.",
+    "localizedInstruction": {
+      "english": "Choose sea, shore, or dunes for each animal.",
+      "georgian": "აირჩიე ზღვა, ნაპირი ან დიუნები თითოეული ცხოველისთვის."
+    },
+    "question": "Sort the animals into their coastal places.",
+    "localizedQuestion": {
+      "english": "Sort the animals into their coastal places.",
+      "georgian": "დაალაგე ცხოველები სანაპირო ადგილებში."
+    },
+    "imageName": "black_sea_coast",
+    "narrationFileName": "habitat_classification_instruction",
+    "options": [
+      {
+        "id": "black-sea-bottlenose-dolphin",
+        "text": "Black Sea bottlenose dolphin",
+        "localizedText": {
+          "english": "Black Sea bottlenose dolphin",
+          "georgian": "შავი ზღვის აფალინა"
+        },
+        "imageName": "black_sea_bottlenose_dolphin",
+        "categoryID": "sea"
+      },
+      {
+        "id": "common-tern",
+        "text": "Common tern",
+        "localizedText": {
+          "english": "Common tern",
+          "georgian": "ზღვის მერცხალი"
+        },
+        "imageName": "common_tern",
+        "categoryID": "shore"
+      },
+      {
+        "id": "sand-lizard",
+        "text": "Sand lizard",
+        "localizedText": {
+          "english": "Sand lizard",
+          "georgian": "ქვიშის ხვლიკი"
+        },
+        "imageName": "sand_lizard",
+        "categoryID": "dunes"
+      }
+    ],
+    "categories": [
+      {
+        "id": "sea",
+        "title": "Sea",
+        "localizedTitle": {
+          "english": "Sea",
+          "georgian": "ზღვა"
+        },
+        "imageName": null
+      },
+      {
+        "id": "shore",
+        "title": "Shore",
+        "localizedTitle": {
+          "english": "Shore",
+          "georgian": "ნაპირი"
+        },
+        "imageName": null
+      },
+      {
+        "id": "dunes",
+        "title": "Dunes",
+        "localizedTitle": {
+          "english": "Dunes",
+          "georgian": "დიუნები"
+        },
+        "imageName": null
+      }
+    ],
+    "sequenceItems": null,
+    "habitatZones": null,
+    "correctAnswerIDs": [],
+    "hint": "Think about where each animal spends most of its time.",
+    "localizedHint": {
+      "english": "Think about where each animal spends most of its time.",
+      "georgian": "იფიქრე, სად ატარებს თითოეული ცხოველი ყველაზე მეტ დროს."
+    },
+    "successFeedback": "Correct. Each animal belongs to a different coastal place.",
+    "localizedSuccessFeedback": {
+      "english": "Correct. Each animal belongs to a different coastal place.",
+      "georgian": "სწორია. თითოეული ცხოველი სანაპიროს სხვადასხვა ადგილზეა."
+    },
+    "failureFeedback": "Try again. Match the animal to sea, shore, or dunes.",
+    "localizedFailureFeedback": {
+      "english": "Try again. Match the animal to sea, shore, or dunes.",
+      "georgian": "სცადე კიდევ ერთხელ. შეადარე ცხოველი ზღვას, ნაპირს ან დიუნებს."
+    }
+  },
+  {
+    "id": "blacksea-sequence",
+    "type": "sequencing",
+    "instruction": "Put the coastal food chain in the right order.",
+    "localizedInstruction": {
+      "english": "Put the coastal food chain in the right order.",
+      "georgian": "დაალაგე სანაპიროს საკვები ჯაჭვი სწორ რიგში."
+    },
+    "question": "What comes first, second, and third?",
+    "localizedQuestion": {
+      "english": "What comes first, second, and third?",
+      "georgian": "რა მოდის პირველ, მეორე და მესამე ადგილზე?"
+    },
+    "imageName": "black_sea_coast",
+    "narrationFileName": "food_chain_sequence_instruction",
+    "options": [],
+    "categories": null,
+    "sequenceItems": [
+      {
+        "id": "plankton",
+        "text": "Plankton",
+        "localizedText": {
+          "english": "Plankton",
+          "georgian": "პლანქტონი"
+        },
+        "imageName": null,
+        "correctPosition": 1
+      },
+      {
+        "id": "small-fish",
+        "text": "Small fish",
+        "localizedText": {
+          "english": "Small fish",
+          "georgian": "პატარა თევზი"
+        },
+        "imageName": null,
+        "correctPosition": 2
+      },
+      {
+        "id": "dolphin",
+        "text": "Black Sea bottlenose dolphin",
+        "localizedText": {
+          "english": "Black Sea bottlenose dolphin",
+          "georgian": "შავი ზღვის აფალინა"
+        },
+        "imageName": "black_sea_bottlenose_dolphin",
+        "correctPosition": 3
+      }
+    ],
+    "habitatZones": null,
+    "correctAnswerIDs": [],
+    "hint": "A tiny ocean meal can become fish food, and fish can become dolphin food.",
+    "localizedHint": {
+      "english": "A tiny ocean meal can become fish food, and fish can become dolphin food.",
+      "georgian": "პატარა ოკეანური საკვები შეიძლება თევზის საკვებად იქცეს, ხოლო თევზი - დელფინის საკვებად."
+    },
+    "successFeedback": "Correct. The food chain starts with the smallest living things.",
+    "localizedSuccessFeedback": {
+      "english": "Correct. The food chain starts with the smallest living things.",
+      "georgian": "სწორია. საკვები ჯაჭვი ყველაზე პატარა ცოცხალი არსებებით იწყება."
+    },
+    "failureFeedback": "Try again. Start with plankton and move up the chain.",
+    "localizedFailureFeedback": {
+      "english": "Try again. Start with plankton and move up the chain.",
+      "georgian": "სცადე კიდევ ერთხელ. დაიწყე პლანქტონით და გადადი ჯაჭვის ზემოთ."
+    }
+  },
+  {
+    "id": "blacksea-habitat-placement",
+    "type": "habitatPlacement",
+    "instruction": "Place each animal into sea, shore, or dunes.",
+    "localizedInstruction": {
+      "english": "Place each animal into sea, shore, or dunes.",
+      "georgian": "მოათავსე თითოეული ცხოველი ზღვაში, ნაპირზე ან დიუნებში."
+    },
+    "question": "Choose the right coastal place for each animal.",
+    "localizedQuestion": {
+      "english": "Choose the right coastal place for each animal.",
+      "georgian": "აირჩიე სწორი სანაპირო ადგილი თითოეული ცხოველისთვის."
+    },
+    "imageName": "black_sea_coast",
+    "narrationFileName": "habitat_placement_instruction",
+    "options": [
+      {
+        "id": "black-sea-bottlenose-dolphin",
+        "text": "Black Sea bottlenose dolphin",
+        "localizedText": {
+          "english": "Black Sea bottlenose dolphin",
+          "georgian": "შავი ზღვის აფალინა"
+        },
+        "imageName": "black_sea_bottlenose_dolphin"
+      },
+      {
+        "id": "common-tern",
+        "text": "Common tern",
+        "localizedText": {
+          "english": "Common tern",
+          "georgian": "ზღვის მერცხალი"
+        },
+        "imageName": "common_tern"
+      },
+      {
+        "id": "sand-lizard",
+        "text": "Sand lizard",
+        "localizedText": {
+          "english": "Sand lizard",
+          "georgian": "ქვიშის ხვლიკი"
+        },
+        "imageName": "sand_lizard"
+      }
+    ],
+    "categories": null,
+    "sequenceItems": null,
+    "habitatZones": [
+      {
+        "id": "sea",
+        "title": "Sea",
+        "localizedTitle": {
+          "english": "Sea",
+          "georgian": "ზღვა"
+        },
+        "imageName": null,
+        "acceptedItemIDs": [
+          "black-sea-bottlenose-dolphin"
+        ]
+      },
+      {
+        "id": "shore",
+        "title": "Shore",
+        "localizedTitle": {
+          "english": "Shore",
+          "georgian": "ნაპირი"
+        },
+        "imageName": null,
+        "acceptedItemIDs": [
+          "common-tern"
+        ]
+      },
+      {
+        "id": "dunes",
+        "title": "Dunes",
+        "localizedTitle": {
+          "english": "Dunes",
+          "georgian": "დიუნები"
+        },
+        "imageName": null,
+        "acceptedItemIDs": [
+          "sand-lizard"
+        ]
+      }
+    ],
+    "correctAnswerIDs": [],
+    "hint": "Think about water, nesting, and warm sand.",
+    "localizedHint": {
+      "english": "Think about water, nesting, and warm sand.",
+      "georgian": "იფიქრე წყალზე, ბუდობაზე და თბილ ქვიშაზე."
+    },
+    "successFeedback": "Correct. Each coastal animal belongs in the right place.",
+    "localizedSuccessFeedback": {
+      "english": "Correct. Each coastal animal belongs in the right place.",
+      "georgian": "სწორია. თითოეული სანაპირო ცხოველი სწორ ადგილზეა."
+    },
+    "failureFeedback": "Try again. Match the animal to the place it naturally uses.",
+    "localizedFailureFeedback": {
+      "english": "Try again. Match the animal to the place it naturally uses.",
+      "georgian": "სცადე კიდევ ერთხელ. შეადარე ცხოველი იმ ადგილს, რომელსაც ის ბუნებრივად იყენებს."
+    }
+  }
+]

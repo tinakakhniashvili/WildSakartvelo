@@ -1,0 +1,32 @@
+{
+  "source": "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Features/Challenges/ExplorerChallengeCard.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "%lld/%lld",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 38
+        }
+      },
+      {
+        "comment": "",
+        "key": "დაკავშირებული გვერდი",
+        "location": {
+          "startingColumn": 54,
+          "startingLine": 66
+        }
+      },
+      {
+        "comment": "",
+        "key": "View Related Content",
+        "location": {
+          "startingColumn": 117,
+          "startingLine": 66
+        }
+      }
+    ]
+  },
+  "version": 1
+}

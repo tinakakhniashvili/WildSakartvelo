@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>action.cancel</key>
+	<string>გაუქმება</string>
+	<key>action.close</key>
+	<string>დახურვა</string>
+	<key>action.continue</key>
+	<string>გაგრძელება</string>
+	<key>action.continueMission</key>
+	<string>მისიის გაგრძელება</string>
+	<key>action.getStarted</key>
+	<string>დაწყება</string>
+	<key>action.next</key>
+	<string>შემდეგი</string>
+	<key>action.playAgain</key>
+	<string>თავიდან თამაში</string>
+	<key>action.retry</key>
+	<string>ხელახლა სცადე</string>
+	<key>action.save</key>
+	<string>შენახვა</string>
+	<key>action.skip</key>
+	<string>გამოტოვება</string>
+	<key>action.startMission</key>
+	<string>მისიის დაწყება</string>
+	<key>action.submit</key>
+	<string>გაგზავნა</string>
+	<key>animal.section.diet</key>
+	<string>კვება</string>
+	<key>animal.section.fact</key>
+	<string>საინტერესო ფაქტი</string>
+	<key>animal.section.footprint</key>
+	<string>ნაკვალევი</string>
+	<key>animal.section.habitat</key>
+	<string>ჰაბიტატი</string>
+	<key>animal.section.size</key>
+	<string>ზომა</string>
+	<key>animal.section.summary</key>
+	<string>შეჯამება</string>
+	<key>animal.sound.disabled</key>
+	<string>ცხოველების ხმები პარამეტრებში გამორთულია.</string>
+	<key>animal.sound.play</key>
+	<string>ცხოველის ხმის გაშვება</string>
+	<key>animal.sound.title</key>
+	<string>ცხოველის ხმა</string>
+	<key>animal.sound.unavailable</key>
+	<string>ამ ცხოველისთვის ხმა ჯერ არ არის ხელმისაწვდომი.</string>
+	<key>app.title</key>
+	<string>ველური საქართველო</string>
+	<key>audio.playNarration</key>
+	<string>თხრობის გაშვება</string>
+	<key>badge.detail.description</key>
+	<string>ეს ბეჯი მოპოვებულია კვლევისა და მისიის პროგრესის შედეგად.</string>
+	<key>badge.detail.id</key>
+	<string>ბეჯის იდენტიფიკატორი: %@</string>
+	<key>badge.title.firstMission</key>
+	<string>პირველი მისია</string>
+	<key>classification.accessibility.category</key>
+	<string>კატეგორია %@</string>
+	<key>classification.accessibility.select</key>
+	<string>%@-სთვის ჰაბიტატის არჩევა</string>
+	<key>classification.picker.placeholder</key>
+	<string>აირჩიე ჰაბიტატი</string>
+	<key>classification.picker.title</key>
+	<string>ჰაბიტატი %@-სთვის</string>
+	<key>common.emptyState</key>
+	<string>ელემენტები ჯერ არ არის ხელმისაწვდომი.</string>
+	<key>common.item</key>
+	<string>ელემენტი</string>
+	<key>common.itemUnavailable</key>
+	<string>ელემენტი მიუწვდომელია</string>
+	<key>conservation.common</key>
+	<string>ხშირად გვხვდება</string>
+	<key>conservation.common.description</key>
+	<string>ეს ცხოველი ხშირად გვხვდება.</string>
+	<key>conservation.endangered</key>
+	<string>საფრთხის წინაშე</string>
+	<key>conservation.endangered.description</key>
+	<string>ამ ცხოველს განსაკუთრებული დაცვა სჭირდება.</string>
+	<key>conservation.protected</key>
+	<string>დაცული</string>
+	<key>conservation.protected.description</key>
+	<string>ამ ცხოველს ზოგიერთ ადგილას იცავენ.</string>
+	<key>conservation.unknown</key>
+	<string>უცნობი</string>
+	<key>conservation.unknown.description</key>
+	<string>ამ ცხოველის სტატუსი ჯერ არ არის ხელმისაწვდომი.</string>
+	<key>content.animals</key>
+	<string>ცხოველები</string>
+	<key>content.missions</key>
+	<string>მისიები</string>
+	<key>content.plant</key>
+	<string>მცენარე</string>
+	<key>content.plants</key>
+	<string>მცენარეები</string>
+	<key>difficulty.advanced</key>
+	<string>მაღალი</string>
+	<key>difficulty.beginner</key>
+	<string>დამწყები</string>
+	<key>difficulty.intermediate</key>
+	<string>საშუალო</string>
+	<key>downloads.action.cancel</key>
+	<string>გაუქმება</string>
+	<key>downloads.action.delete</key>
+	<string>წაშლა</string>
+	<key>downloads.action.download</key>
+	<string>ჩამოტვირთვა</string>
+	<key>downloads.action.retry</key>
+	<string>ხელახლა ცდა</string>
+	<key>downloads.action.update</key>
+	<string>განახლება</string>
+	<key>downloads.delete.message</key>
+	<string>მისიები და პროგრესი დარჩება. ამ პაკეტის სურათებისა და აუდიოს ხელახლა ჩამოტვირთვა შეიძლება დაგჭირდეთ.</string>
+	<key>downloads.delete.title</key>
+	<string>წავშალოთ კონტენტის პაკეტი?</string>
+	<key>downloads.description</key>
+	<string>ჩამოტვირთეთ ეკოსისტემის დამატებითი აუდიო და სურათები ოფლაინ გამოყენებისთვის. მისიები და შენახული პროგრესი ამ მოწყობილობაზე რჩება.</string>
+	<key>downloads.error.cancelled</key>
+	<string>ჩამოტვირთვა გაუქმდა.</string>
+	<key>downloads.error.invalidFile</key>
+	<string>ამ კონტენტის პაკეტში სახიფათო ფაილის სახელია.</string>
+	<key>downloads.error.missingBundleResource</key>
+	<string>ჩაშენებული სატესტო ფაილი ვერ მოიძებნა: %@.</string>
+	<key>downloads.error.network</key>
+	<string>ქსელის შეცდომა. შეამოწმეთ კავშირი და ხელახლა სცადეთ.</string>
+	<key>downloads.error.storage</key>
+	<string>ამ ჩამოტვირთვისთვის საკმარისი მეხსიერება არ არის.</string>
+	<key>downloads.progress.accessibility</key>
+	<string>ჩამოტვირთვის პროგრესი</string>
+	<key>downloads.section.packs</key>
+	<string>ეკოსისტემის პაკეტები</string>
+	<key>downloads.settings.summary</key>
+	<string>%d ჩამოტვირთულია, %@</string>
+	<key>downloads.status.downloaded</key>
+	<string>ჩამოტვირთულია</string>
+	<key>downloads.status.downloading</key>
+	<string>იტვირთება</string>
+	<key>downloads.status.failed</key>
+	<string>ხელახლა ცდა სჭირდება</string>
+	<key>downloads.status.notDownloaded</key>
+	<string>ჯერ არ არის ჩამოტვირთული</string>
+	<key>downloads.status.updateAvailable</key>
+	<string>განახლება ხელმისაწვდომია</string>
+	<key>downloads.title</key>
+	<string>ოფლაინ კონტენტი</string>
+	<key>ecosystem.progress.completed</key>
+	<string>%lld-დან %lld მისია დასრულებულია</string>
+	<key>error.contentLoad.message</key>
+	<string>კონტენტი ვერ ჩაიტვირთა. გთხოვთ, ხელახლა სცადოთ.</string>
+	<key>error.contentLoad.title</key>
+	<string>კონტენტის ჩატვირთვა ვერ მოხერხდა</string>
+	<key>error.downloads.save</key>
+	<string>ოფლაინ კონტენტის სტატუსი ვერ შეინახა.</string>
+	<key>error.profiles.load</key>
+	<string>პროფილები ვერ ჩაიტვირთა.</string>
+	<key>error.profiles.save</key>
+	<string>პროფილის ცვლილებები ვერ შეინახა.</string>
+	<key>error.progress.save</key>
+	<string>პროგრესი ვერ შეინახა.</string>
+	<key>error.settings.save</key>
+	<string>პარამეტრები ვერ შეინახა.</string>
+	<key>explore.accessibility.progress</key>
+	<string>აღმოჩენის პროგრესი ხელმისაწვდომია</string>
+	<key>explore.accessibility.unlocked</key>
+	<string>გახსნილია</string>
+	<key>explore.chooseEcosystem</key>
+	<string>აირჩიე ეკოსისტემა</string>
+	<key>explore.description</key>
+	<string>გამოიკვლიე საქართველოს ბუნება ტყეების, მთების, ჭარბტენიანი ტერიტორიებისა და სანაპიროების მეშვეობით.</string>
+	<key>explore.empty.animals</key>
+	<string>ცხოველები ჯერ არ არის აღმოჩენილი.</string>
+	<key>explore.empty.description</key>
+	<string>ადგილობრივი ეკოსისტემების კონტენტი ჩაიტვირთა, მაგრამ ეკოსისტემები ვერ მოიძებნა.</string>
+	<key>explore.empty.missions</key>
+	<string>მისიები ჯერ არ არის ხელმისაწვდომი.</string>
+	<key>explore.empty.plants</key>
+	<string>მცენარეები ჯერ არ არის აღმოჩენილი.</string>
+	<key>explore.empty.title</key>
+	<string>ეკოსისტემები ხელმისაწვდომი არაა</string>
+	<key>explore.welcome</key>
+	<string>მოგესალმები, მკვლევარო!</string>
+	<key>habitPlacement.emptyZone</key>
+	<string>აქ ჯერ არაფერი დაგიდგენია.</string>
+	<key>habitatPlacement.emptyZone</key>
+	<string>აქ ჯერ არაფერი დაგიდგენია.</string>
+	<key>habitatPlacement.noSelection</key>
+	<string>ჰაბიტატი არ არის არჩეული</string>
+	<key>habitatPlacement.picker.placeholder</key>
+	<string>აირჩიე ჰაბიტატი</string>
+	<key>journal.badge.subtitle</key>
+	<string>მოპოვებულია კვლევით</string>
+	<key>journal.description</key>
+	<string>დასეირნე აღმოჩენებს შორის.</string>
+	<key>journal.empty.all</key>
+	<string>შენი ჟურნალი ცარიელია</string>
+	<key>journal.empty.all.description</key>
+	<string>დაასრულე მისიები, რომ შენი ჟურნალი შეივსოს.</string>
+	<key>journal.empty.animals</key>
+	<string>ცხოველები ჯერ არ არის აღმოჩენილი.</string>
+	<key>journal.empty.animals.description</key>
+	<string>დაასრულე მისიები, რომლებიც ცხოველებს ხსნის.</string>
+	<key>journal.empty.badges</key>
+	<string>ბეჯები ჯერ არ მიგიღია.</string>
+	<key>journal.empty.badges.description</key>
+	<string>დაასრულე მისიები, რომ ბეჯები მიიღო.</string>
+	<key>journal.empty.plants</key>
+	<string>მცენარეები ჯერ არ არის აღმოჩენილი.</string>
+	<key>journal.empty.plants.description</key>
+	<string>დაასრულე მისიები, რომლებიც მცენარეებს ხსნის.</string>
+	<key>journal.filter.all</key>
+	<string>ყველა</string>
+	<key>journal.filter.animals</key>
+	<string>ცხოველები</string>
+	<key>journal.filter.badges</key>
+	<string>ბეჯები</string>
+	<key>journal.filter.plants</key>
+	<string>მცენარეები</string>
+	<key>journal.filter.title</key>
+	<string>ჟურნალის ფილტრი</string>
+	<key>journal.item.animal</key>
+	<string>ცხოველი</string>
+	<key>journal.item.badge</key>
+	<string>ბეჯი</string>
+	<key>journal.item.plant</key>
+	<string>მცენარე</string>
+	<key>journal.progress</key>
+	<string>აღმოჩენის პროგრესი %lld%%</string>
+	<key>journal.remaining.animals</key>
+	<string>აღმოუჩენელი ცხოველები</string>
+	<key>journal.remaining.animals.subtitle</key>
+	<string>საპოვნელად დარჩა %lld</string>
+	<key>journal.remaining.plants</key>
+	<string>აღმოუჩენელი მცენარეები</string>
+	<key>journal.remaining.plants.subtitle</key>
+	<string>საპოვნელად დარჩა %lld</string>
+	<key>journal.remaining.title</key>
+	<string>ჯერ კიდევ აღმოუჩენელი: %lld</string>
+	<key>journal.summary.accessibility</key>
+	<string>ცხოველები %1$lld %2$lld-დან. მცენარეები %3$lld %4$lld-დან. ბეჯები %5$lld.</string>
+	<key>journal.summary.animals</key>
+	<string>ცხოველები: %1$lld %2$lld-დან</string>
+	<key>journal.summary.badges</key>
+	<string>ბეჯები: %lld</string>
+	<key>journal.summary.plants</key>
+	<string>მცენარეები: %1$lld %2$lld-დან</string>
+	<key>learningLevel.explorerOne</key>
+	<string>მკვლევარი 1</string>
+	<key>learningLevel.explorerOne.description</key>
+	<string>უფრო მეტი გამოსახულება, ნაკლები ტექსტი და უფრო მარტივი აქტივობები.</string>
+	<key>learningLevel.explorerThree</key>
+	<string>მკვლევარი 3</string>
+	<key>learningLevel.explorerThree.description</key>
+	<string>უფრო დეტალური ფაქტები, კლასიფიკაციები და მრავალსაფეხურიანი მისიები.</string>
+	<key>learningLevel.explorerTwo</key>
+	<string>მკვლევარი 2</string>
+	<key>learningLevel.explorerTwo.description</key>
+	<string>მოკლე ტექსტი, ჰაბიტატის ფაქტები და საბაზისო ინგლისური სიტყვები.</string>
+	<key>learningTopic.animalIdentification</key>
+	<string>ცხოველების ამოცნობა</string>
+	<key>learningTopic.environmentalResponsibility</key>
+	<string>გარემოზე ზრუნვა</string>
+	<key>learningTopic.foodChains</key>
+	<string>საკვები ჯაჭვები</string>
+	<key>learningTopic.general</key>
+	<string>ზოგადი კვლევა</string>
+	<key>learningTopic.habitats</key>
+	<string>ჰაბიტატები</string>
+	<key>learningTopic.observation</key>
+	<string>დაკვირვება</string>
+	<key>learningTopic.plants</key>
+	<string>მცენარეები</string>
+	<key>loading.content</key>
+	<string>კონტენტის ჩატვირთვა...</string>
+	<key>matching.accessibility.pair</key>
+	<string>ამ ელემენტს არჩეულ ცხოველს აერთებს.</string>
+	<key>matching.accessibility.paired</key>
+	<string>%@ შეერთდა %@-თან.</string>
+	<key>matching.accessibility.pairedWith</key>
+	<string>შეერთებულია %@-თან</string>
+	<key>matching.accessibility.removePair</key>
+	<string>%@-ის წყვილის წაშლა</string>
+	<key>matching.accessibility.removed</key>
+	<string>წყვილი წაიშალა %@-სთვის.</string>
+	<key>matching.accessibility.select</key>
+	<string>ამ ელემენტს შესადარებლად ირჩევს.</string>
+	<key>matching.action.removePair</key>
+	<string>წყვილის წაშლა</string>
+	<key>matching.column.left</key>
+	<string>ცხოველები</string>
+	<key>matching.column.right</key>
+	<string>ნაკვალევი</string>
+	<key>mission.detail.activities</key>
+	<string>აქტივობები</string>
+	<key>mission.detail.difficulty</key>
+	<string>სირთულე</string>
+	<key>mission.detail.estimatedTime</key>
+	<string>სავარაუდო დრო</string>
+	<key>mission.detail.minutes</key>
+	<string>%lld წუთი</string>
+	<key>mission.detail.reward</key>
+	<string>ჯილდო</string>
+	<key>mission.emptyActivities</key>
+	<string>ამ მისიას ჯერ არ აქვს აქტივობები.</string>
+	<key>mission.locked</key>
+	<string>მისია დაბლოკილია</string>
+	<key>mission.locked.completeMission</key>
+	<string>ჯერ დაასრულე %@.</string>
+	<key>mission.locked.completeRequired</key>
+	<string>ჯერ დაასრულე საჭირო მისია.</string>
+	<key>mission.locked.description</key>
+	<string>დასრულე ადრინდელი აღმოჩენები ამ მისიის გასახსნელად.</string>
+	<key>mission.locked.unavailableEcosystem</key>
+	<string>ეს მისია მიუწვდომელ ეკოსისტემას ეკუთვნის.</string>
+	<key>mission.locked.unlockEcosystem</key>
+	<string>ჯერ გახსენი %@.</string>
+	<key>mission.malformedActivity</key>
+	<string>შეცდომიანი აქტივობა</string>
+	<key>mission.malformedActivity.description</key>
+	<string>აქტივობას %@ აკლია მონაცემები, რომლებიც საჭიროა %@-ს საჩვენებლად.</string>
+	<key>mission.result.newEcosystem</key>
+	<string>ახალი ეკოსისტემა გახსნილია</string>
+	<key>mission.result.title</key>
+	<string>მისია დასრულებულია</string>
+	<key>mission.result.totalAttempts</key>
+	<string>ჯამური მცდელობები</string>
+	<key>mission.row.meta</key>
+	<string>%@ • %lld წთ</string>
+	<key>mission.status.available</key>
+	<string>ხელმისაწვდომია</string>
+	<key>mission.status.completed</key>
+	<string>დასრულებულია</string>
+	<key>mission.status.inProgress</key>
+	<string>მიმდინარეობს</string>
+	<key>mission.status.locked</key>
+	<string>დაბლოკილია</string>
+	<key>mission.title</key>
+	<string>მისია</string>
+	<key>parent.completedMissions.empty.description</key>
+	<string>შესრულებული მისიები აქ გამოჩნდება კვლევის შემდეგ.</string>
+	<key>parent.completedMissions.empty.title</key>
+	<string>შესრულებული მისიები ჯერ არ არის</string>
+	<key>parent.completedMissions.status.completed</key>
+	<string>შესრულებულია</string>
+	<key>parent.completedMissions.title</key>
+	<string>შესრულებული მისიები</string>
+	<key>parent.currentMission.activity</key>
+	<string>აქტივობა %1$lld %2$lld-დან</string>
+	<key>parent.currentMission.attempts</key>
+	<string>სულ მცდელობები: %lld</string>
+	<key>parent.currentMission.status</key>
+	<string>მიმდინარეობს</string>
+	<key>parent.dashboard.title</key>
+	<string>მშობლის დაფა</string>
+	<key>parent.deleteProfile.confirm</key>
+	<string>პროფილის წაშლა</string>
+	<key>parent.deleteProfile.message</key>
+	<string>ეს წაშლის ამ პროფილს და მის შენახულ პროგრესს. სხვა პროფილები არ შეიცვლება.</string>
+	<key>parent.deleteProfile.title</key>
+	<string>წავშალოთ ეს პროფილი?</string>
+	<key>parent.editProfile.title</key>
+	<string>პროფილის შეცვლა</string>
+	<key>parent.empty.description</key>
+	<string>შესრულებული მისიები და სასწავლო თემები აქ მოგვიანებით გამოჩნდება.</string>
+	<key>parent.empty.title</key>
+	<string>პროგრესი ჯერ ხელმისაწვდომი არ არის</string>
+	<key>parent.gate.holdButton</key>
+	<string>შესასვლელად დააჭირე და გეჭიროს</string>
+	<key>parent.gate.holdButton.hint</key>
+	<string>გეჭიროს სამი წამი. ადრე გაშვება შესვლას გააუქმებს.</string>
+	<key>parent.gate.instructions</key>
+	<string>დააჭირე და გეჭიროს მშობლის სივრცეში შესასვლელად.</string>
+	<key>parent.gate.notice</key>
+	<string>ეს შემოწმება ეხმარება შემთხვევითი ბავშვის წვდომის თავიდან აცილებას. ეს უსაფრთხო ავტორიზაცია არ არის.</string>
+	<key>parent.gate.progress.label</key>
+	<string>დაჭერის პროგრესი</string>
+	<key>parent.gate.progress.value</key>
+	<string>%lld პროცენტი</string>
+	<key>parent.gate.title</key>
+	<string>მშობლის სივრცე</string>
+	<key>parent.gate.voiceOverAction</key>
+	<string>მშობლის სივრცეში შესვლა</string>
+	<key>parent.learningTopics.empty.description</key>
+	<string>სასწავლო თემები გამოჩნდება მისიების შესრულების შემდეგ.</string>
+	<key>parent.learningTopics.empty.title</key>
+	<string>თემები ჯერ არ არის შესწავლილი</string>
+	<key>parent.learningTopics.recentlyExplored</key>
+	<string>ახლახან შესწავლილია %lld მისიაში</string>
+	<key>parent.learningTopics.title</key>
+	<string>სასწავლო თემები</string>
+	<key>parent.management.deleteProfile</key>
+	<string>პროფილის წაშლა</string>
+	<key>parent.management.editProfile</key>
+	<string>მეტსახელის, ავატარისა და დონის შეცვლა</string>
+	<key>parent.management.resetProgress</key>
+	<string>პროგრესის განულება</string>
+	<key>parent.management.switchProfile</key>
+	<string>პროფილის შეცვლა</string>
+	<key>parent.management.title</key>
+	<string>პროფილის მართვა</string>
+	<key>parent.noProfile.description</key>
+	<string>აირჩიე ან შექმენი ბავშვის პროფილი მშობლის ინფორმაციის სანახავად.</string>
+	<key>parent.noProfile.title</key>
+	<string>პროფილი არჩეული არ არის</string>
+	<key>parent.progress.animals</key>
+	<string>ცხოველების აღმოჩენები</string>
+	<key>parent.progress.count</key>
+	<string>%1$lld %2$lld-დან</string>
+	<key>parent.progress.missions</key>
+	<string>შესრულებული მისიები</string>
+	<key>parent.progress.overall</key>
+	<string>საერთო პროგრესი: %lld%%</string>
+	<key>parent.progress.overall.label</key>
+	<string>საერთო პროგრესი</string>
+	<key>parent.progress.plants</key>
+	<string>მცენარეების აღმოჩენები</string>
+	<key>parent.progress.title</key>
+	<string>პროგრესის მიმოხილვა</string>
+	<key>parent.resetProgress.confirm</key>
+	<string>პროგრესის განულება</string>
+	<key>parent.resetProgress.message</key>
+	<string>პროფილი დარჩება, მაგრამ მხოლოდ ამ პროფილის მისიის პროგრესი, ჯილდოები და ჟურნალის აღმოჩენები წაიშლება.</string>
+	<key>parent.resetProgress.title</key>
+	<string>განულდეს ამ პროფილის პროგრესი?</string>
+	<key>parent.stat.animals</key>
+	<string>ცხოველები</string>
+	<key>parent.stat.badges</key>
+	<string>ბეჯები</string>
+	<key>parent.stat.completedMissions</key>
+	<string>მისიები</string>
+	<key>parent.stat.plants</key>
+	<string>მცენარეები</string>
+	<key>parent.title</key>
+	<string>მშობელი</string>
+	<key>plant.section.description</key>
+	<string>აღწერა</string>
+	<key>plant.section.ecosystems</key>
+	<string>ეკოსისტემები</string>
+	<key>plant.section.ecosystems.empty</key>
+	<string>ეკოსისტემები ჯერ არ არის ხელმისაწვდომი.</string>
+	<key>plant.section.fact</key>
+	<string>საინტერესო ფაქტი</string>
+	<key>profile.add</key>
+	<string>პროფილის დამატება</string>
+	<key>profile.avatar</key>
+	<string>ავატარი</string>
+	<key>profile.create</key>
+	<string>პროფილის შექმნა</string>
+	<key>profile.create.title</key>
+	<string>პროფილის შექმნა</string>
+	<key>profile.learningLevel</key>
+	<string>სწავლების დონე</string>
+	<key>profile.limit.description</key>
+	<string>შეგიძლია შექმნა მაქსიმუმ ოთხი ბავშვის პროფილი.</string>
+	<key>profile.limit.reached</key>
+	<string>პროფილების ლიმიტი მიღწეულია. შეგიძლია შექმნა მაქსიმუმ ოთხი პროფილი.</string>
+	<key>profile.nickname</key>
+	<string>მეტსახელი</string>
+	<key>profile.nickname.placeholder</key>
+	<string>ნინი</string>
+	<key>profile.selection.description</key>
+	<string>აირჩიე ბავშვის პროფილი, რომ აღმოჩენები და მისიის პროგრესი განცალკევებული იყოს.</string>
+	<key>profile.selection.empty.description</key>
+	<string>თითოეულ ბავშვს საკუთარი მისიები, აღმოჩენები და ბეჯები ექნება.</string>
+	<key>profile.selection.empty.title</key>
+	<string>შექმენი პროფილი</string>
+	<key>profile.selection.title</key>
+	<string>პროფილები</string>
+	<key>settings.about.application</key>
+	<string>აპლიკაცია</string>
+	<key>settings.about.description</key>
+	<string>ბუნების შესწავლის აპის საფუძველი საქართველოს შესახებ სასწავლად.</string>
+	<key>settings.about.version</key>
+	<string>ვერსია</string>
+	<key>settings.accessibility.description</key>
+	<string>დაარეგულირე ტექსტი, კონტრასტი, მოძრაობა და სუბტიტრები, რომ კითხვა და ნავიგაცია გაადვილდეს.</string>
+	<key>settings.action.replayOnboarding</key>
+	<string>გაცნობის თავიდან ყურება</string>
+	<key>settings.action.switchProfile</key>
+	<string>პროფილის შეცვლა</string>
+	<key>settings.language</key>
+	<string>ენა</string>
+	<key>settings.profile.learningLevel</key>
+	<string>სწავლის დონე</string>
+	<key>settings.profile.nickname</key>
+	<string>მეტსახელი</string>
+	<key>settings.section.about</key>
+	<string>შესახებ</string>
+	<key>settings.section.accessibility</key>
+	<string>წვდომადობა</string>
+	<key>settings.section.general</key>
+	<string>ზოგადი</string>
+	<key>settings.section.language</key>
+	<string>ენა</string>
+	<key>settings.section.profile</key>
+	<string>პროფილი</string>
+	<key>settings.title</key>
+	<string>პარამეტრები</string>
+	<key>settings.toggle.highContrast</key>
+	<string>მაღალი კონტრასტი</string>
+	<key>settings.toggle.largerText</key>
+	<string>დიდი ტექსტი</string>
+	<key>settings.toggle.narration</key>
+	<string>თხრობა</string>
+	<key>settings.toggle.reducedMotion</key>
+	<string>შემცირებული მოძრაობა</string>
+	<key>settings.toggle.soundEffects</key>
+	<string>ხმის ეფექტები</string>
+	<key>settings.toggle.subtitles</key>
+	<string>სუბტიტრები</string>
+	<key>tab.explore</key>
+	<string>აღმოაჩინე</string>
+	<key>tab.journal</key>
+	<string>ჟურნალი</string>
+	<key>tab.parent</key>
+	<string>მშობელი</string>
+	<key>tab.settings</key>
+	<string>პარამეტრები</string>
+</dict>
+</plist>

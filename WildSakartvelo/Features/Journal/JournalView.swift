@@ -27,6 +27,7 @@ struct JournalView: View {
                 }
 
                 lockedProgressSection
+                geographySection
                 observationsSection
             }
             .padding(AppSpacing.medium)
@@ -254,6 +255,69 @@ struct JournalView: View {
                         .buttonStyle(.plain)
                     }
                 }
+            }
+        }
+    }
+
+    private var geographySection: some View {
+        VStack(alignment: .leading, spacing: AppSpacing.small) {
+            Text(appState.currentLanguage == .georgian ? "გეოგრაფიის რუკა" : "Geography Map")
+                .font(AppTypography.cardTitleFont(using: accessibilitySettings))
+                .foregroundStyle(AppColors.primaryText)
+
+            if catalogue.regions.isEmpty {
+                AppCard {
+                    Text(appState.currentLanguage == .georgian ? "გეოგრაფიის ჩანაწერები ჯერ არ არის." : "No geography entries yet.")
+                        .font(AppTypography.bodyFont(using: accessibilitySettings))
+                        .foregroundStyle(AppColors.secondaryText)
+                }
+            } else {
+                VStack(spacing: AppSpacing.small) {
+                    ForEach(catalogue.regions.prefix(4)) { region in
+                        NavigationLink {
+                            RegionDetailView(region: region, catalogue: catalogue)
+                        } label: {
+                            geographyRow(region)
+                        }
+                        .buttonStyle(.plain)
+                    }
+
+                    NavigationLink {
+                        GeographyHomeView(catalogue: catalogue)
+                    } label: {
+                        Text(appState.currentLanguage == .georgian ? "მთელი რუკის ნახვა" : "Open Full Map")
+                    }
+                    .buttonStyle(SecondaryButtonStyle())
+                }
+            }
+        }
+    }
+
+    private func geographyRow(_ region: GeorgiaRegion) -> some View {
+        let discovered = appState.userProgress.geographyProgress.discoveredRegionIDs.contains(region.id)
+
+        return AppCard(variant: discovered ? .selected : .locked) {
+            HStack(alignment: .top, spacing: AppSpacing.medium) {
+                Image(systemName: discovered ? "map.fill" : "lock.fill")
+                    .font(.system(size: 22, weight: .semibold))
+                    .foregroundStyle(discovered ? AppColors.water : AppColors.secondaryText)
+                    .frame(width: 30)
+
+                VStack(alignment: .leading, spacing: AppSpacing.extraSmall) {
+                    Text(region.name.displayText(for: appState.currentLanguage))
+                        .font(AppTypography.bodyFont(using: accessibilitySettings))
+                        .foregroundStyle(AppColors.primaryText)
+
+                    Text(region.administrativeCenter.displayText(for: appState.currentLanguage))
+                        .font(AppTypography.captionFont(using: accessibilitySettings))
+                        .foregroundStyle(AppColors.secondaryText)
+                        .lineLimit(2)
+                }
+
+                Spacer()
+
+                Image(systemName: "chevron.right")
+                    .foregroundStyle(AppColors.secondaryText)
             }
         }
     }

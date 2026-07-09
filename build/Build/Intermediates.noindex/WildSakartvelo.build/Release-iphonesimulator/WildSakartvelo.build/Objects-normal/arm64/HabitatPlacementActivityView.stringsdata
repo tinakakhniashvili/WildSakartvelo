@@ -1,0 +1,98 @@
+{
+  "source": "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Features/Missions/HabitatPlacementActivityView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "habitatPlacement.noSelection",
+        "location": {
+          "startingColumn": 140,
+          "startingLine": 64
+        },
+        "value": "No habitat selected"
+      },
+      {
+        "comment": "",
+        "key": "habitatPlacement.picker.title",
+        "location": {
+          "startingColumn": 39,
+          "startingLine": 93
+        },
+        "value": "Habitat for %@"
+      },
+      {
+        "comment": "",
+        "key": "habitatPlacement.accessibility.select",
+        "location": {
+          "startingColumn": 39,
+          "startingLine": 112
+        },
+        "value": "Select habitat for %@"
+      },
+      {
+        "comment": "",
+        "key": "habitatPlacement.picker.placeholder",
+        "location": {
+          "startingColumn": 44,
+          "startingLine": 105
+        },
+        "value": "Choose habitat"
+      },
+      {
+        "comment": "",
+        "key": "habitatPlacement.accessibility.label",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 174
+        },
+        "value": "%@. Habitat: %@."
+      },
+      {
+        "comment": "",
+        "key": "habitatPlacement.emptyZone",
+        "location": {
+          "startingColumn": 44,
+          "startingLine": 151
+        },
+        "value": "No items placed here yet."
+      },
+      {
+        "comment": "",
+        "key": "habitatPlacement.selectedCount",
+        "location": {
+          "startingColumn": 44,
+          "startingLine": 141
+        },
+        "value": "%lld item%@ selected"
+      },
+      {
+        "comment": "",
+        "key": "habitatPlacement.accessibility.emptyZone",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 182
+        },
+        "value": "%@. No items placed here yet."
+      },
+      {
+        "comment": "",
+        "key": "habitatPlacement.accessibility.zone",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 189
+        },
+        "value": "%@. Items placed here: %@."
+      },
+      {
+        "comment": "",
+        "key": "habitatPlacement.noSelection",
+        "location": {
+          "startingColumn": 146,
+          "startingLine": 172
+        },
+        "value": "No habitat selected"
+      }
+    ]
+  },
+  "version": 1
+}

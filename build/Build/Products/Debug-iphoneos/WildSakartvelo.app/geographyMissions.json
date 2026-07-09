@@ -1,0 +1,82 @@
+[
+  {
+    "id": "discover-sakartvelo-shape",
+    "title": { "english": "Discover the Shape of Sakartvelo", "georgian": "აღმოაჩინე საქართველოს ფორმა" },
+    "introduction": { "english": "Look across the map and learn east, west, mountains and coast.", "georgian": "დააკვირდი რუკას და ისწავლე აღმოსავლეთი, დასავლეთი, მთები და სანაპირო." },
+    "regionIDs": ["kakheti", "adjara", "samegrelo-zemo-svaneti"],
+    "activityIDs": ["find-georgia-shape-east", "find-georgia-shape-west"],
+    "difficulty": "beginner",
+    "reward": { "type": "badge", "referenceID": "junior-cartographer", "title": "Junior Cartographer", "localizedTitle": { "english": "Junior Cartographer", "georgian": "პატარა კარტოგრაფი" } },
+    "prerequisiteMissionIDs": []
+  },
+  {
+    "id": "find-tbilisi",
+    "title": { "english": "Find Tbilisi", "georgian": "იპოვე თბილისი" },
+    "introduction": { "english": "Learn where the national capital sits on the map.", "georgian": "ისწავლე, სად მდებარეობს ქვეყნის დედაქალაქი რუკაზე." },
+    "regionIDs": ["tbilisi"],
+    "activityIDs": ["find-tbilisi-capital", "tbilisi-vs-center"],
+    "difficulty": "beginner",
+    "reward": { "type": "badge", "referenceID": "city-finder", "title": "City Finder", "localizedTitle": { "english": "City Finder", "georgian": "ქალაქების მაძიებელი" } },
+    "prerequisiteMissionIDs": []
+  },
+  {
+    "id": "regions-eastern-georgia",
+    "title": { "english": "Regions of Eastern Georgia", "georgian": "აღმოსავლეთ საქართველოს რეგიონები" },
+    "introduction": { "english": "Practice finding eastern regions.", "georgian": "ივარჯიშე აღმოსავლეთის რეგიონების პოვნაში." },
+    "regionIDs": ["kakheti", "kvemo-kartli", "mtskheta-mtianeti"],
+    "activityIDs": ["eastern-find-kakheti", "eastern-find-kvemo"],
+    "difficulty": "intermediate",
+    "reward": { "type": "badge", "referenceID": "eastern-georgia-explorer", "title": "Eastern Georgia Explorer", "localizedTitle": { "english": "Eastern Georgia Explorer", "georgian": "აღმოსავლეთის მკვლევარი" } },
+    "prerequisiteMissionIDs": ["discover-sakartvelo-shape"]
+  },
+  {
+    "id": "regions-western-georgia",
+    "title": { "english": "Regions of Western Georgia", "georgian": "დასავლეთ საქართველოს რეგიონები" },
+    "introduction": { "english": "Find western regions near wetlands, mountains and the coast.", "georgian": "იპოვე დასავლეთის რეგიონები ჭაობებთან, მთებთან და სანაპიროსთან." },
+    "regionIDs": ["imereti", "adjara", "guria", "samegrelo-zemo-svaneti"],
+    "activityIDs": ["western-find-imereti", "western-find-adjara"],
+    "difficulty": "intermediate",
+    "reward": { "type": "badge", "referenceID": "western-georgia-explorer", "title": "Western Georgia Explorer", "localizedTitle": { "english": "Western Georgia Explorer", "georgian": "დასავლეთის მკვლევარი" } },
+    "prerequisiteMissionIDs": ["discover-sakartvelo-shape"]
+  },
+  {
+    "id": "match-regions-centers",
+    "title": { "english": "Match Regions and Administrative Centers", "georgian": "შეადარე რეგიონები და ცენტრები" },
+    "introduction": { "english": "Learn which city is the center of each region.", "georgian": "ისწავლე, რომელი ქალაქია თითოეული რეგიონის ცენტრი." },
+    "regionIDs": ["kakheti", "imereti", "adjara"],
+    "activityIDs": ["center-kakheti", "center-imereti", "center-adjara"],
+    "difficulty": "intermediate",
+    "reward": { "type": "badge", "referenceID": "center-matcher", "title": "Center Matcher", "localizedTitle": { "english": "Center Matcher", "georgian": "ცენტრების მცოდნე" } },
+    "prerequisiteMissionIDs": ["find-tbilisi"]
+  },
+  {
+    "id": "black-sea-and-mountains",
+    "title": { "english": "Find the Black Sea and Major Mountains", "georgian": "იპოვე შავი ზღვა და დიდი მთები" },
+    "introduction": { "english": "Connect geography landmarks with nature habitats.", "georgian": "დააკავშირე გეოგრაფიული ნიშნები ბუნების ჰაბიტატებთან." },
+    "regionIDs": ["adjara", "mtskheta-mtianeti", "samegrelo-zemo-svaneti"],
+    "activityIDs": ["landmark-black-sea", "landmark-caucasus"],
+    "difficulty": "beginner",
+    "reward": { "type": "badge", "referenceID": "mountain-guide", "title": "Mountain Guide", "localizedTitle": { "english": "Mountain Guide", "georgian": "მთის გზამკვლევი" } },
+    "prerequisiteMissionIDs": []
+  },
+  {
+    "id": "georgian-cities-challenge",
+    "title": { "english": "Georgian Cities Challenge", "georgian": "საქართველოს ქალაქების გამოწვევა" },
+    "introduction": { "english": "Practice important city locations.", "georgian": "ივარჯიშე მნიშვნელოვანი ქალაქების ადგილმდებარეობაში." },
+    "regionIDs": ["adjara", "imereti"],
+    "activityIDs": ["city-batumi", "city-kutaisi"],
+    "difficulty": "advanced",
+    "reward": { "type": "badge", "referenceID": "city-finder", "title": "City Finder", "localizedTitle": { "english": "City Finder", "georgian": "ქალაქების მაძიებელი" } },
+    "prerequisiteMissionIDs": ["find-tbilisi"]
+  },
+  {
+    "id": "complete-map-explorer",
+    "title": { "english": "Complete Map Explorer Challenge", "georgian": "დაასრულე რუკის მკვლევრის გამოწვევა" },
+    "introduction": { "english": "Use regions, neighbors, cities and landmarks together.", "georgian": "გამოიყენე რეგიონები, მეზობლები, ქალაქები და ნიშნები ერთად." },
+    "regionIDs": ["imereti", "kakheti", "adjara"],
+    "activityIDs": ["neighbor-imereti", "neighbor-kakheti", "map-master-mixed"],
+    "difficulty": "advanced",
+    "reward": { "type": "badge", "referenceID": "map-master", "title": "Map Master", "localizedTitle": { "english": "Map Master", "georgian": "რუკის ოსტატი" } },
+    "prerequisiteMissionIDs": ["regions-eastern-georgia", "regions-western-georgia", "match-regions-centers"]
+  }
+]

@@ -1,0 +1,43 @@
+{
+  "source": "/Users/lesifuges/Desktop/WildSakartveloStarter/WildSakartvelo/Features/Missions/ClassificationActivityView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "classification.accessibility.category",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 63
+        },
+        "value": "Category %@"
+      },
+      {
+        "comment": "",
+        "key": "classification.picker.title",
+        "location": {
+          "startingColumn": 36,
+          "startingLine": 92
+        },
+        "value": "Habitat for %@"
+      },
+      {
+        "comment": "",
+        "key": "classification.accessibility.select",
+        "location": {
+          "startingColumn": 36,
+          "startingLine": 114
+        },
+        "value": "Select habitat for %@"
+      },
+      {
+        "comment": "",
+        "key": "classification.picker.placeholder",
+        "location": {
+          "startingColumn": 44,
+          "startingLine": 106
+        }
+      }
+    ]
+  },
+  "version": 1
+}

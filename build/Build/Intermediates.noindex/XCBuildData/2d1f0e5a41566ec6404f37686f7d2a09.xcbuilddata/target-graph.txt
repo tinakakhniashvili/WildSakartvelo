@@ -1,0 +1,6 @@
+Target dependency graph (3 targets)
+Target 'WildSakartveloUITests' in project 'WildSakartvelo'
+➜ Explicit dependency on target 'WildSakartvelo' in project 'WildSakartvelo'
+Target 'WildSakartveloTests' in project 'WildSakartvelo'
+➜ Explicit dependency on target 'WildSakartvelo' in project 'WildSakartvelo'
+Target 'WildSakartvelo' in project 'WildSakartvelo' (no dependencies)

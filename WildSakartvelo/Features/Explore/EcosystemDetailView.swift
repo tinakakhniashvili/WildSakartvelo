@@ -14,10 +14,12 @@ struct EcosystemDetailView: View {
         ScrollView {
             VStack(alignment: .leading, spacing: AppSpacing.large) {
                 header
-                counts
+                continueMissionSection
+                missionsSection
                 animalsSection
                 plantsSection
-                missionsSection
+                geographySection
+                environmentalFactSection
             }
             .padding(AppSpacing.medium)
         }
@@ -44,54 +46,100 @@ struct EcosystemDetailView: View {
                 Text(ecosystem.displayDescription(for: appState.currentLanguage))
                     .font(AppTypography.body)
                     .foregroundStyle(AppColors.secondaryText)
+                    .lineLimit(4)
                     .fixedSize(horizontal: false, vertical: true)
             }
         }
     }
 
-    private var counts: some View {
-        AppCard {
-            HStack(spacing: AppSpacing.medium) {
-                countItem(title: String.localized("content.animals", for: appState.currentLanguage), value: viewModel.animals.count)
-                countItem(title: String.localized("content.plants", for: appState.currentLanguage), value: viewModel.plants.count)
-                countItem(title: String.localized("content.missions", for: appState.currentLanguage), value: viewModel.missionTitles.count)
+    @ViewBuilder
+    private var continueMissionSection: some View {
+        if let mission = viewModel.missions.first(where: { mission in
+            appState.userProgress.activeMissionID == mission.id ||
+                appState.userProgress.currentActivityIndexByMission[mission.id] != nil
+        }) {
+            VStack(alignment: .leading, spacing: AppSpacing.small) {
+                sectionTitle(text("Continue Mission", "მისიის გაგრძელება"), symbol: "play.circle.fill")
+
+                NavigationLink {
+                    MissionIntroView(mission: mission, catalogue: catalogue)
+                } label: {
+                    ContinueMissionCard(
+                        mission: mission,
+                        ecosystem: ecosystem,
+                        currentActivityIndex: appState.userProgress.currentActivityIndexByMission[mission.id] ?? 0,
+                        language: appState.currentLanguage
+                    )
+                }
+                .buttonStyle(.plain)
             }
         }
     }
 
-    private func countItem(title: String, value: Int) -> some View {
-        VStack(spacing: AppSpacing.small) {
-            Text("\(value)")
-                .font(AppTypography.screenTitle)
-                .foregroundStyle(ecosystem.theme.accentColor)
+    @ViewBuilder
+    private var geographySection: some View {
+        let linkedRegions = catalogue.regions.filter { $0.ecosystemIDs.contains(ecosystem.id) }
+        if !linkedRegions.isEmpty {
+            VStack(alignment: .leading, spacing: AppSpacing.small) {
+                sectionTitle(text("Geography Connection", "კავშირი რუკასთან"), symbol: "map.fill")
 
-            Text(title)
-                .font(AppTypography.caption)
-                .foregroundStyle(AppColors.secondaryText)
-        }
-        .frame(maxWidth: .infinity)
-    }
-
-    private var animalsSection: some View {
-        VStack(alignment: .leading, spacing: AppSpacing.small) {
-            Text(String.localized("content.animals", for: appState.currentLanguage))
-                .font(AppTypography.cardTitle)
-                .foregroundStyle(AppColors.primaryText)
-
-            AppCard {
-                VStack(alignment: .leading, spacing: AppSpacing.medium) {
-                    if viewModel.animals.isEmpty {
-                        emptySectionText(for: .animals)
-                    } else {
-                        ForEach(viewModel.animals) { animal in
+                AppCard {
+                    VStack(spacing: AppSpacing.small) {
+                        ForEach(linkedRegions) { region in
                             NavigationLink {
-                                AnimalDetailView(animal: animal)
+                                RegionDetailView(region: region, catalogue: catalogue)
                             } label: {
-                                AnimalRowView(animal: animal)
+                                HStack(spacing: AppSpacing.medium) {
+                                    Image(systemName: "map.fill")
+                                        .foregroundStyle(AppColors.water)
+                                    VStack(alignment: .leading, spacing: AppSpacing.extraSmall) {
+                                        Text(region.name.displayText(for: appState.currentLanguage))
+                                            .font(AppTypography.body)
+                                            .foregroundStyle(AppColors.primaryText)
+                                        Text(region.administrativeCenter.displayText(for: appState.currentLanguage))
+                                            .font(AppTypography.caption)
+                                            .foregroundStyle(AppColors.secondaryText)
+                                    }
+                                    Spacer()
+                                    Image(systemName: "chevron.right")
+                                        .foregroundStyle(AppColors.secondaryText)
+                                }
                             }
                             .buttonStyle(.plain)
                         }
                     }
+                }
+            }
+        }
+    }
+
+    private var animalsSection: some View {
+        VStack(alignment: .leading, spacing: AppSpacing.small) {
+            sectionTitle(String.localized("content.animals", for: appState.currentLanguage), symbol: "pawprint.fill")
+
+            if viewModel.animals.isEmpty {
+                AppCard {
+                    emptySectionText(for: .animals)
+                }
+            } else {
+                ScrollView(.horizontal, showsIndicators: false) {
+                    HStack(spacing: AppSpacing.small) {
+                        ForEach(viewModel.animals) { animal in
+                            NavigationLink {
+                                AnimalDetailView(animal: animal)
+                            } label: {
+                                EcosystemContentTile(
+                                    title: animal.displayName(for: appState.currentLanguage),
+                                    subtitle: animal.scientificName,
+                                    imageName: animal.imageName,
+                                    symbol: "pawprint.fill",
+                                    accentColor: ecosystem.theme.accentColor
+                                )
+                            }
+                            .buttonStyle(.plain)
+                        }
+                    }
+                    .padding(.vertical, 2)
                 }
             }
         }
@@ -99,24 +147,31 @@ struct EcosystemDetailView: View {
 
     private var plantsSection: some View {
         VStack(alignment: .leading, spacing: AppSpacing.small) {
-            Text(String.localized("content.plants", for: appState.currentLanguage))
-                .font(AppTypography.cardTitle)
-                .foregroundStyle(AppColors.primaryText)
+            sectionTitle(String.localized("content.plants", for: appState.currentLanguage), symbol: "leaf.fill")
 
-            AppCard {
-                VStack(alignment: .leading, spacing: AppSpacing.medium) {
-                    if viewModel.plants.isEmpty {
-                        emptySectionText(for: .plants)
-                    } else {
+            if viewModel.plants.isEmpty {
+                AppCard {
+                    emptySectionText(for: .plants)
+                }
+            } else {
+                ScrollView(.horizontal, showsIndicators: false) {
+                    HStack(spacing: AppSpacing.small) {
                         ForEach(viewModel.plants) { plant in
                             NavigationLink {
                                 PlantDetailView(plant: plant, catalogue: catalogue)
                             } label: {
-                                PlantRowView(plant: plant)
+                                EcosystemContentTile(
+                                    title: plant.displayName(for: appState.currentLanguage),
+                                    subtitle: text("Plant", "მცენარე"),
+                                    imageName: plant.imageName,
+                                    symbol: "leaf.fill",
+                                    accentColor: AppColors.forest
+                                )
                             }
                             .buttonStyle(.plain)
                         }
                     }
+                    .padding(.vertical, 2)
                 }
             }
         }
@@ -124,9 +179,7 @@ struct EcosystemDetailView: View {
 
     private var missionsSection: some View {
         VStack(alignment: .leading, spacing: AppSpacing.small) {
-            Text(String.localized("content.missions", for: appState.currentLanguage))
-                .font(AppTypography.cardTitle)
-                .foregroundStyle(AppColors.primaryText)
+            sectionTitle(String.localized("content.missions", for: appState.currentLanguage), symbol: "flag.checkered")
 
             if viewModel.missions.isEmpty {
                 AppCard {
@@ -164,6 +217,15 @@ struct EcosystemDetailView: View {
                     }
                 }
             }
+        }
+    }
+
+    private var environmentalFactSection: some View {
+        AppCard(variant: .warning) {
+            Label(ecosystem.displayDescription(for: appState.currentLanguage), systemImage: "leaf.fill")
+                .font(AppTypography.body)
+                .foregroundStyle(AppColors.primaryText)
+                .fixedSize(horizontal: false, vertical: true)
         }
     }
 
@@ -231,6 +293,14 @@ struct EcosystemDetailView: View {
         return .available
     }
 
+    private func sectionTitle(_ title: String, symbol: String) -> some View {
+        KidSectionHeader(title: title, symbol: symbol, color: ecosystem.theme.accentColor)
+    }
+
+    private func text(_ english: String, _ georgian: String) -> String {
+        appState.currentLanguage == .georgian ? georgian : english
+    }
+
     @ViewBuilder
     private var ecosystemImage: some View {
         ContentImageView(
@@ -241,6 +311,42 @@ struct EcosystemDetailView: View {
             accentColor: ecosystem.theme.accentColor,
             accessibilityDescription: ecosystem.displayName(for: appState.currentLanguage)
         )
+    }
+}
+
+private struct EcosystemContentTile: View {
+    let title: String
+    let subtitle: String
+    let imageName: String
+    let symbol: String
+    let accentColor: Color
+
+    var body: some View {
+        AppCard {
+            VStack(alignment: .leading, spacing: AppSpacing.small) {
+                ExploreThumbnail(
+                    imageName: imageName,
+                    fallbackSystemImage: symbol,
+                    accentColor: accentColor,
+                    accessibilityDescription: title,
+                    width: 132,
+                    height: 96
+                )
+
+                Text(title)
+                    .font(AppTypography.cardTitle)
+                    .foregroundStyle(AppColors.primaryText)
+                    .lineLimit(2)
+                    .frame(width: 132, alignment: .leading)
+
+                Text(subtitle)
+                    .font(AppTypography.caption)
+                    .foregroundStyle(AppColors.secondaryText)
+                    .lineLimit(1)
+                    .frame(width: 132, alignment: .leading)
+            }
+        }
+        .frame(width: 164)
     }
 }
 
