@@ -24,6 +24,7 @@ Wild Sakartvelo is an offline-first SwiftUI iOS app for children to explore Geor
 - `WildSakartvelo/Features`: explore, missions, journal, parent, settings, onboarding, downloads
 - `WildSakartvelo/Resources/Content`: bundled JSON content
 - `WildSakartvelo/Resources/Localization`: English and Georgian strings
+- `WildSakartvelo/PrivacyInfo.xcprivacy`: App Store privacy manifest for required-reason APIs
 - `WildSakartveloTests`: unit tests
 - `WildSakartveloUITests`: basic UI tests
 
@@ -64,6 +65,14 @@ If `iPhone 16` is unavailable, use another installed simulator name.
 ## Offline Content
 
 The app bundles essential JSON content locally so missions work without a network connection. Optional ecosystem media can be downloaded later through the Offline Content screen. Downloads are stored outside the app bundle and tracked locally per profile-independent pack state.
+
+## Apple Product Readiness
+
+- privacy manifest declares local `UserDefaults` persistence and disk-space checks for offline packs
+- no tracking domains, analytics SDKs, or collected-data categories are declared
+- universal iPhone and iPad target with portrait-only iPhone and all iPad orientations
+- English and Georgian are registered as project localizations
+- App Store Connect still needs the final bundle identifier, team signing, privacy policy URL, age rating, screenshots, and review metadata
 
 ## Known Limitations
 

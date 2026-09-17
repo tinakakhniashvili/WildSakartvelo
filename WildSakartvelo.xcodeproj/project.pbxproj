@@ -6,6 +6,23 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXContainerItemProxy section */
+		B00000000000000000000011 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0000000000000000000000A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A00000000000000000000005;
+			remoteInfo = WildSakartvelo;
+		};
+		B00000000000000000000021 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0000000000000000000000A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A00000000000000000000005;
+			remoteInfo = WildSakartvelo;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		A00000000000000000000001 /* WildSakartvelo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WildSakartvelo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B00000000000000000000001 /* WildSakartveloTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WildSakartveloTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -29,6 +46,16 @@
 				A00000000000000000000010 /* Exceptions for "WildSakartvelo" folder in "WildSakartvelo" target */,
 			);
 			path = WildSakartvelo;
+			sourceTree = "<group>";
+		};
+		B00000000000000000000003 /* WildSakartveloTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = WildSakartveloTests;
+			sourceTree = "<group>";
+		};
+		B00000000000000000000013 /* WildSakartveloUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = WildSakartveloUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -56,19 +83,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		B00000000000000000000003 /* WildSakartveloTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = WildSakartveloTests;
-			sourceTree = "<group>";
-		};
-		B00000000000000000000013 /* WildSakartveloUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = WildSakartveloUITests;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXGroup section */
 		A00000000000000000000003 = {
@@ -157,23 +171,6 @@
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
-
-/* Begin PBXContainerItemProxy section */
-		B00000000000000000000011 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A0000000000000000000000A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A00000000000000000000005;
-			remoteInfo = WildSakartvelo;
-		};
-		B00000000000000000000021 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A0000000000000000000000A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A00000000000000000000005;
-			remoteInfo = WildSakartvelo;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXProject section */
 		A0000000000000000000000A /* Project object */ = {

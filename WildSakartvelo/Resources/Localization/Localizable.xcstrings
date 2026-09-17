@@ -14,7 +14,21 @@
     "%lld" : {
 
     },
+    "%lld/%lld" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$lld/%2$lld"
+          }
+        }
+      }
+    },
+    "%lld%%" : {
+
+    },
     "action.cancel" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -31,6 +45,7 @@
       }
     },
     "action.close" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -47,6 +62,7 @@
       }
     },
     "action.continue" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -63,6 +79,7 @@
       }
     },
     "action.continueMission" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -79,6 +96,7 @@
       }
     },
     "action.getStarted" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -95,6 +113,7 @@
       }
     },
     "action.next" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -111,6 +130,7 @@
       }
     },
     "action.playAgain" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -127,6 +147,7 @@
       }
     },
     "action.retry" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -160,6 +181,7 @@
       }
     },
     "action.skip" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -176,6 +198,7 @@
       }
     },
     "action.startMission" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -192,6 +215,7 @@
       }
     },
     "action.submit" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -378,6 +402,7 @@
       }
     },
     "app.title" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -438,6 +463,7 @@
       }
     },
     "audio.playNarration" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -601,6 +627,7 @@
       }
     },
     "common.itemUnavailable" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -753,6 +780,7 @@
       }
     },
     "content.animals" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -769,6 +797,7 @@
       }
     },
     "content.missions" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -802,6 +831,7 @@
       }
     },
     "content.plants" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -869,6 +899,7 @@
       }
     },
     "downloads.action.cancel" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -885,6 +916,7 @@
       }
     },
     "downloads.action.delete" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -901,6 +933,7 @@
       }
     },
     "downloads.action.download" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -917,6 +950,7 @@
       }
     },
     "downloads.action.retry" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -933,6 +967,7 @@
       }
     },
     "downloads.action.update" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -949,6 +984,7 @@
       }
     },
     "downloads.delete.message" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -965,6 +1001,7 @@
       }
     },
     "downloads.delete.title" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -981,6 +1018,7 @@
       }
     },
     "downloads.description" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -1077,6 +1115,7 @@
       }
     },
     "downloads.progress.accessibility" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -1093,6 +1132,7 @@
       }
     },
     "downloads.section.packs" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -1109,6 +1149,7 @@
       }
     },
     "downloads.settings.summary" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -1125,6 +1166,7 @@
       }
     },
     "downloads.status.downloaded" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -1141,6 +1183,7 @@
       }
     },
     "downloads.status.downloading" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -1157,6 +1200,7 @@
       }
     },
     "downloads.status.failed" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -1173,6 +1217,7 @@
       }
     },
     "downloads.status.notDownloaded" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -1189,6 +1234,7 @@
       }
     },
     "downloads.status.updateAvailable" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -1205,6 +1251,7 @@
       }
     },
     "downloads.title" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -1236,7 +1283,11 @@
         }
       }
     },
+    "Equipment" : {
+
+    },
     "error.contentLoad.message" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -1270,6 +1321,7 @@
       }
     },
     "error.downloads.save" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -1286,6 +1338,7 @@
       }
     },
     "error.profiles.load" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -1302,6 +1355,7 @@
       }
     },
     "error.profiles.save" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -1318,6 +1372,7 @@
       }
     },
     "error.progress.save" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -1334,6 +1389,7 @@
       }
     },
     "error.settings.save" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -1350,7 +1406,7 @@
       }
     },
     "explore.accessibility.progress" : {
-      "extractionState" : "extracted_with_value",
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -1367,7 +1423,7 @@
       }
     },
     "explore.accessibility.unlocked" : {
-      "extractionState" : "extracted_with_value",
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -1418,6 +1474,7 @@
       }
     },
     "explore.empty.animals" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -1451,6 +1508,7 @@
       }
     },
     "explore.empty.missions" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -1467,6 +1525,7 @@
       }
     },
     "explore.empty.plants" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -1515,6 +1574,9 @@
           }
         }
       }
+    },
+    "Geography Map" : {
+
     },
     "habitatPlacement.accessibility.emptyZone" : {
       "extractionState" : "extracted_with_value",
@@ -2506,6 +2568,7 @@
       }
     },
     "mission.detail.activities" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -2522,6 +2585,7 @@
       }
     },
     "mission.detail.difficulty" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -2538,6 +2602,7 @@
       }
     },
     "mission.detail.estimatedTime" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -2554,6 +2619,7 @@
       }
     },
     "mission.detail.minutes" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -2570,6 +2636,7 @@
       }
     },
     "mission.detail.reward" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -2586,6 +2653,7 @@
       }
     },
     "mission.emptyActivities" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -2602,6 +2670,7 @@
       }
     },
     "mission.locked" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -2617,23 +2686,8 @@
         }
       }
     },
-    "mission.locked.description" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Complete earlier discoveries to unlock this mission."
-          }
-        },
-        "ka" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "დასრულე ადრინდელი აღმოჩენები ამ მისიის გასახსნელად."
-          }
-        }
-      }
-    },
     "mission.locked.completeMission" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -2650,6 +2704,7 @@
       }
     },
     "mission.locked.completeRequired" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -2665,7 +2720,25 @@
         }
       }
     },
+    "mission.locked.description" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Complete earlier discoveries to unlock this mission."
+          }
+        },
+        "ka" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "დასრულე ადრინდელი აღმოჩენები ამ მისიის გასახსნელად."
+          }
+        }
+      }
+    },
     "mission.locked.unavailableEcosystem" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -2682,6 +2755,7 @@
       }
     },
     "mission.locked.unlockEcosystem" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -2698,6 +2772,7 @@
       }
     },
     "mission.malformedActivity" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -2714,6 +2789,7 @@
       }
     },
     "mission.malformedActivity.description" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -2730,6 +2806,7 @@
       }
     },
     "mission.result.newEcosystem" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -2746,6 +2823,7 @@
       }
     },
     "mission.result.title" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -2762,6 +2840,7 @@
       }
     },
     "mission.result.totalAttempts" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -2858,6 +2937,7 @@
       }
     },
     "mission.title" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -2872,6 +2952,21 @@
           }
         }
       }
+    },
+    "No geography entries yet." : {
+
+    },
+    "No observations yet." : {
+
+    },
+    "Observations" : {
+
+    },
+    "Open" : {
+
+    },
+    "Open Full Map" : {
+
     },
     "parent.completedMissions.empty.description" : {
       "extractionState" : "stale",
@@ -3673,6 +3768,7 @@
       }
     },
     "parent.title" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -3757,6 +3853,7 @@
       }
     },
     "profile.add" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -3773,6 +3870,7 @@
       }
     },
     "profile.avatar" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -3789,6 +3887,7 @@
       }
     },
     "profile.create" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -3805,6 +3904,7 @@
       }
     },
     "profile.create.title" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -3821,7 +3921,7 @@
       }
     },
     "profile.lastUsed" : {
-      "extractionState" : "extracted_with_value",
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -3838,6 +3938,7 @@
       }
     },
     "profile.learningLevel" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -3854,6 +3955,7 @@
       }
     },
     "profile.limit.description" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -3870,6 +3972,7 @@
       }
     },
     "profile.limit.reached" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -3886,6 +3989,7 @@
       }
     },
     "profile.nickname" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -3902,6 +4006,7 @@
       }
     },
     "profile.nickname.placeholder" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -3918,6 +4023,7 @@
       }
     },
     "profile.selection.description" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -3934,6 +4040,7 @@
       }
     },
     "profile.selection.empty.description" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -3950,6 +4057,7 @@
       }
     },
     "profile.selection.empty.title" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -3966,6 +4074,7 @@
       }
     },
     "profile.selection.title" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -4103,6 +4212,7 @@
       }
     },
     "settings.about.application" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -4119,6 +4229,7 @@
       }
     },
     "settings.about.description" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -4135,6 +4246,7 @@
       }
     },
     "settings.about.version" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -4151,6 +4263,7 @@
       }
     },
     "settings.accessibility.description" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -4167,6 +4280,7 @@
       }
     },
     "settings.action.replayOnboarding" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -4183,6 +4297,7 @@
       }
     },
     "settings.action.switchProfile" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -4199,6 +4314,7 @@
       }
     },
     "settings.language" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -4215,6 +4331,7 @@
       }
     },
     "settings.profile.learningLevel" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -4231,6 +4348,7 @@
       }
     },
     "settings.profile.nickname" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -4247,6 +4365,7 @@
       }
     },
     "settings.section.about" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -4263,6 +4382,7 @@
       }
     },
     "settings.section.accessibility" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -4279,6 +4399,7 @@
       }
     },
     "settings.section.general" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -4295,6 +4416,7 @@
       }
     },
     "settings.section.language" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -4311,6 +4433,7 @@
       }
     },
     "settings.section.profile" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -4327,6 +4450,7 @@
       }
     },
     "settings.title" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -4343,6 +4467,7 @@
       }
     },
     "settings.toggle.highContrast" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -4359,6 +4484,7 @@
       }
     },
     "settings.toggle.largerText" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -4375,6 +4501,7 @@
       }
     },
     "settings.toggle.narration" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -4391,6 +4518,7 @@
       }
     },
     "settings.toggle.reducedMotion" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -4407,6 +4535,7 @@
       }
     },
     "settings.toggle.soundEffects" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -4423,6 +4552,7 @@
       }
     },
     "settings.toggle.subtitles" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -4505,6 +4635,33 @@
           }
         }
       }
+    },
+    "View Related Content" : {
+
+    },
+    "აღჭურვილობა" : {
+
+    },
+    "გახსნა" : {
+
+    },
+    "გეოგრაფიის რუკა" : {
+
+    },
+    "გეოგრაფიის ჩანაწერები ჯერ არ არის." : {
+
+    },
+    "დაკავშირებული გვერდი" : {
+
+    },
+    "დაკვირვებები" : {
+
+    },
+    "დაკვირვებები ჯერ არ არის." : {
+
+    },
+    "მთელი რუკის ნახვა" : {
+
     }
   },
   "version" : "1.0"
